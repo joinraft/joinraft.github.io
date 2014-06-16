@@ -5,18 +5,21 @@ $(document).foundation();
 
 $(document).ready(function()
 {
+$('#signup_wrapper_thank_you').hide();
+
     $("#signup_btn").click(function()
     {
         var params = {
             'email' : $("#signup_field").val()
         }
 
-        $.post('http://fatcal.com/signup',params).done(function(data){
-            postSuccess();
-        })
-        .fail(function(data){
-            alert("Ooops, something went wrong. Please try again.");
-        });
+        postSuccess();
+        // $.post('http://fatcal.com/signup',params).done(function(data){
+        //     postSuccess();
+        // })
+        // .fail(function(data){
+        //     alert("Ooops, something went wrong. Please try again.");
+        // });
     });
 
     $("#blog").click(function()
@@ -32,6 +35,10 @@ $(document).ready(function()
 
 function postSuccess()
 {
+
+  $('#signup_wrapper').hide();
+  $('#signup_wrapper_thank_you').show();
+
   // $("#signup_thankyou").fadeIn(800);
 
 
