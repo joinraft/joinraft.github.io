@@ -97,6 +97,7 @@ h2
 	margin-bottom:rem-calc(10px);
 	margin-top:rem-calc(0px);
 	font-size:rem-calc(22px);
+	letter-spacing:1px;
 }
 
 #header
@@ -154,7 +155,7 @@ h2
 {
 	// background-color:$raft_white;
 	background-color:transparent;
-	background: url(../assets/images/raft_beta_green.jpg) no-repeat center center fixed; 
+	background: url(../assets/images/raft_beta_green_small.jpg) no-repeat center center fixed; 
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
