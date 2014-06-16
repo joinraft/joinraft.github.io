@@ -8244,7 +8244,35 @@ h2 {
   }
 }
 
-/* line 339, ../scss/app.scss */
+/* line 334, ../scss/app.scss */
+#signup_wrapper_thank_you {
+  border: 2px solid white;
+  margin: 0px;
+  height: 60px;
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+  overflow: hidden;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  border-radius: 30px;
+}
+@media only screen and (min-width: 64.063em) {
+  /* line 334, ../scss/app.scss */
+  #signup_wrapper_thank_you {
+    font-size: 1.125rem;
+    margin-bottom: 1.25rem;
+  }
+}
+/* line 353, ../scss/app.scss */
+#signup_wrapper_thank_you p {
+  padding-top: 0.9375rem;
+  font-weight: 600;
+  font-size: 1rem;
+  text-align: center;
+  height: 100%;
+}
+
+/* line 363, ../scss/app.scss */
 #signup_field {
   font-family: 'Source Sans Pro', sans-serif;
   float: left;
@@ -8261,13 +8289,13 @@ h2 {
   background-color: white;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 339, ../scss/app.scss */
+  /* line 363, ../scss/app.scss */
   #signup_field {
     font-size: 1.125rem;
   }
 }
 
-/* line 364, ../scss/app.scss */
+/* line 388, ../scss/app.scss */
 #signup_btn {
   -webkit-transition: all 0.30s ease-in-out;
   -moz-transition: all 0.30s ease-in-out;
@@ -8286,52 +8314,52 @@ h2 {
   border-radius: 0px;
   box-shadow: 0;
 }
-/* line 386, ../scss/app.scss */
+/* line 410, ../scss/app.scss */
 #signup_btn:hover {
   background-color: #f6931e;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 364, ../scss/app.scss */
+  /* line 388, ../scss/app.scss */
   #signup_btn {
     font-size: 1.125rem;
   }
 }
 
-/* line 396, ../scss/app.scss */
+/* line 420, ../scss/app.scss */
 .center {
   text-align: center;
 }
 
-/* line 401, ../scss/app.scss */
+/* line 425, ../scss/app.scss */
 .section {
   width: 100%;
   padding-top: 1.875rem;
   padding-bottom: 1.875rem;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 401, ../scss/app.scss */
+  /* line 425, ../scss/app.scss */
   .section {
     padding-top: 3.125rem;
     padding-bottom: 3.125rem;
   }
 }
 
-/* line 413, ../scss/app.scss */
+/* line 437, ../scss/app.scss */
 #footer_menu {
   margin: 0 auto;
   text-align: center;
 }
 
-/* line 419, ../scss/app.scss */
+/* line 443, ../scss/app.scss */
 #footer {
   color: white;
   background-color: #0e2632;
 }
-/* line 424, ../scss/app.scss */
+/* line 448, ../scss/app.scss */
 #footer h2 {
   padding-bottom: 1.25rem;
 }
-/* line 429, ../scss/app.scss */
+/* line 453, ../scss/app.scss */
 #footer .footer_btn {
   display: inline-block;
   color: #ababab;
@@ -8340,27 +8368,27 @@ h2 {
   padding: 0.625rem;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 429, ../scss/app.scss */
+  /* line 453, ../scss/app.scss */
   #footer .footer_btn {
     padding: 0.9375rem;
   }
 }
-/* line 443, ../scss/app.scss */
+/* line 467, ../scss/app.scss */
 #footer .footer_btn:hover {
   color: white;
   text-decoration: none;
 }
-/* line 450, ../scss/app.scss */
+/* line 474, ../scss/app.scss */
 #footer a {
   font-weight: 400;
   color: white;
 }
-/* line 455, ../scss/app.scss */
+/* line 479, ../scss/app.scss */
 #footer a:hover {
   text-decoration: underline;
   color: #e6e7e8;
 }
-/* line 463, ../scss/app.scss */
+/* line 487, ../scss/app.scss */
 #footer small {
   color: #ababab;
   font-size: 0.875rem;

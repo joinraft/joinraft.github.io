@@ -324,14 +324,38 @@ h2
 	-moz-border-radius: 30px;
 	border-radius: 30px;
 
-	// @media #{$medium-up} {
-	// 	font-size:rem-calc(18px);
-	// 	margin-bottom:rem-calc(20px);
-	// }
+	@media #{$large-up} {
+		font-size:rem-calc(18px);
+		margin-bottom:rem-calc(20px);
+	}
+}
+
+#signup_wrapper_thank_you
+{
+	border:2px solid $raft_white;
+	margin:0px;
+	height:60px;
+	margin-top:rem-calc(40px);
+	margin-bottom:rem-calc(40px);
+
+	overflow:hidden;
+
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 30px;
 
 	@media #{$large-up} {
 		font-size:rem-calc(18px);
 		margin-bottom:rem-calc(20px);
+	}
+
+	p
+	{
+		padding-top:rem-calc(15px);
+		font-weight:600;
+		font-size:rem-calc(16px);
+		text-align:center;
+		height: 100%;
 	}
 }
 
