@@ -11,7 +11,7 @@ $(document).ready(function()
             'email' : $("#signup_field").val()
         }
 
-        $.post('/signup',params).done(function(data){
+        $.post('http://www.fatcal.com/signup',params).done(function(data){
             postSuccess();
         })
         .fail(function(data){
