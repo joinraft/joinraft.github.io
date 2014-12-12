@@ -4,9 +4,10 @@
   Foundation.libs.accordion = {
     name : 'accordion',
 
-    version : '5.2.3',
+    version : '5.4.7',
 
     settings : {
+      content_class: 'content',
       active_class: 'active',
       multi_expand: false,
       toggleable: true,
@@ -24,22 +25,26 @@
       .off('.fndtn.accordion')
       .on('click.fndtn.accordion', '[' + this.attr_name() + '] > dd > a', function (e) {
         var accordion = S(this).closest('[' + self.attr_name() + ']'),
-            target = S('#' + this.href.split('#')[1]),
-            siblings = S('dd > .content', accordion),
-            aunts = $('dd', accordion),
             groupSelector = self.attr_name() + '=' + accordion.attr(self.attr_name()),
             settings = accordion.data(self.attr_name(true) + '-init'),
-            active_content = S('dd > .content.' + settings.active_class, accordion);
+            target = S('#' + this.href.split('#')[1]),
+            aunts = $('> dd', accordion),
+            siblings = aunts.children('.'+settings.content_class),
+            active_content = siblings.filter('.' + settings.active_class);
         e.preventDefault();
 
         if (accordion.attr(self.attr_name())) {
-          siblings = siblings.add('[' + groupSelector + '] dd > .content');
+          siblings = siblings.add('[' + groupSelector + '] dd > .'+settings.content_class);
           aunts = aunts.add('[' + groupSelector + '] dd');
         }
 
         if (settings.toggleable && target.is(active_content)) {
           target.parent('dd').toggleClass(settings.active_class, false);
-          return target.toggleClass(settings.active_class, false);
+          target.toggleClass(settings.active_class, false);
+          settings.callback(target);
+          target.triggerHandler('toggled', [accordion]);
+          accordion.triggerHandler('toggled', [target]);
+          return;
         }
 
         if (!settings.multi_expand) {
@@ -49,6 +54,8 @@
 
         target.addClass(settings.active_class).parent().addClass(settings.active_class);
         settings.callback(target);
+        target.triggerHandler('toggled', [accordion]);
+        accordion.triggerHandler('toggled', [target]);
       });
     },
 
