@@ -9064,7 +9064,7 @@ th.hide-for-touch {
 }
 /* line 42, ../scss/raft.scss */
 html, body {
-  font-family: 'Avenir-Roman', sans-serif;
+  font-family: 'Avenir-Book', sans-serif;
   margin: 0;
   padding: 0;
   height: 100%;
@@ -9079,15 +9079,15 @@ html, body {
 
 /* line 57, ../scss/raft.scss */
 p, li {
-  font-size: 0.9375rem;
+  font-size: 0.875rem;
 }
 
 /* line 62, ../scss/raft.scss */
 h1 {
-  font-size: 1.25rem;
+  font-size: 1.0625rem;
 }
 
 /* line 67, ../scss/raft.scss */
 h2 {
-  font-size: 1.5625rem;
+  font-size: 1.0625rem;
 }
