@@ -49,19 +49,19 @@ html, body {
 	background-color:$raft_light_gray;
 }
 
-p, li
+p
 {
 	font-family: 'Open Sans', sans-serif;
 	font-size:rem-calc(14px);
 	font-weight:300;
-	margin-bottom: rem-calc(30px);
+	margin-bottom: rem-calc(40px);
 
 	strong
 	{
 		font-size: rem-calc(20px);
-		font-weight:500;	
+		font-weight:400;	
 		letter-spacing:1.3px;
-		line-height:rem-calc(30px);
+		line-height:rem-calc(34px);
 	}
 
 	small
@@ -104,11 +104,11 @@ h2
 {
 	color:$raft_white;
 	font-family: 'Open Sans', sans-serif;
-	font-weight:500;
-	margin-bottom:rem-calc(20px);
+	font-weight:300;
+	margin-bottom:rem-calc(30px);
 	margin-top:rem-calc(30px);
 	font-size:rem-calc(40px);
-	letter-spacing:1px;
+	letter-spacing:1.2px;
 }
 
 h3
@@ -174,9 +174,10 @@ h3
 
 #appstore
 {
+	cursor: pointer;
+
 	width: 200px;
 	height:59px;
-
 
 	background-repeat:no-repeat;
 
@@ -185,6 +186,8 @@ h3
 
 	background:url('../assets/images/appstore_badge.svg');
 	background-size:200px 59px;
+
+	margin-bottom: rem-calc(30px);
 }
 
 #wrapper
@@ -213,7 +216,7 @@ h3
 {
 	margin-top: rem-calc(15px);
 	width:294px;
-	height: 430px;
+	height: 460px;
 	overflow:hidden;
 	display:block;
 
@@ -298,18 +301,7 @@ h3
 
 	background-color: $raftFriends;
 
-	margin-top:rem-calc(30px);
-	padding:rem-calc(15px);
-
-	@media #{$medium-up} {
-		margin-top:rem-calc(40px);
-		
-	}
-
-	@media #{$large-up} {
-		padding:rem-calc(0px);
-		margin-top:rem-calc(0px);
-	}
+	padding-top:rem-calc(80px);
 
 	text-align: center;
 }
@@ -335,18 +327,16 @@ h3
 
 	background-color:transparent;
 	color:#FFFFFF;
-
 	width: 40%;
-
 	padding: 10px;
-
 	letter-spacing:1.2px;
-
 	font-size:rem-calc(24px);
+	font-weight: 500;
 
 	&:hover
 	{
-		background-color:$raft_orange;
+		background-color:#FFFFFF;
+		color: $raftFriends;
 	}
 }
 
@@ -367,63 +357,115 @@ h3
 	}
 }
 
-#footer_menu
-{
-	margin:0 auto;
-	text-align:center;
-}
-
 #footer
 {
 	color: $raftUserDark;
 	background-color:$raftUser;
 
+	padding-top: rem-calc(70px);
+	padding-bottom: rem-calc(40px);
+
+	#footer_menu
+	{
+		margin:0 auto;
+		text-align:center;
+	}
+
 	.footer_btn
 	{
 		display: inline-block;
-		
-		color:$raft_medium_gray;
-		font-weight:600;
 		cursor:pointer;
+	}
 
-		padding:rem-calc(10px);
+	#fb_button
+	{
+		margin-right: 30px;
 
-		@media #{$medium-up} {
-			padding:rem-calc(15px);
+		background-repeat:no-repeat;
+
+		width:43px;
+		height:44px;
+		
+		background:url('../assets/images/buttons/fb@2x.png');
+		background-size:43px 44px;
+
+		&:hover
+		{
+			background:url('../assets/images/buttons/fb_highlighted@2x.png');
+			background-size:43px 44px;
+		}
+	}
+	
+	#twitter_button
+	{
+		margin-right: 30px;
+
+		background-repeat:no-repeat;
+
+		width:46px;
+		height:38px;
+		
+		background:url('../assets/images/buttons/twitter@2x.png');
+		background-size:46px 38px;
+
+		&:hover
+		{
+			background:url('../assets/images/buttons/twitter_highlighted@2x.png');
+			background-size:46px 38px;
+		}
+	}
+	
+	#insta_button
+	{
+		margin-right: 30px;
+
+		background-repeat:no-repeat;
+
+		width:43px;
+		height:44px;
+		
+		background:url('../assets/images/buttons/instagram@2x.png');
+		background-size:43px 44px;
+
+		&:hover
+		{
+			background:url('../assets/images/buttons/instagram_highlighted@2x.png');
+			background-size:43px 44px;
+		}
+	}
+	
+	#blog_button
+	{
+		background-repeat:no-repeat;
+
+		width:28px;
+		height:47px;
+		
+		background:url('../assets/images/buttons/blog@2x.png');
+		background-size:28px 47px;
+
+		&:hover
+		{
+			background-repeat:no-repeat;
+
+			background:url('../assets/images/buttons/blog_highlighted@2x.png');
+			background-size:28px 47px;
+		}
+	}
+
+	a
+	{
+		color: $raftUserDark;
+		text-decoration: underline;
+
+		&:active
+		{
+			color: $raftUserDark;
 		}
 
 		&:hover
 		{
-			color:$raft_white;
-			text-decoration: none;
+			color:#FFFFFF;
 		}
 	}
-
-	// a
-	// {
-	// 	font-weight: 400;
-	// 	color: $raft_white;
-
-	// 	&:hover
-	// 	{
-	// 		text-decoration: underline;
-	// 		color:$raft_light_gray;
-	// 	}
-	// }
-
-
-	// small
-	// {
-	// 	color: $raft_medium_gray;
-	// 	font-size: rem-calc(14px);
-	// }
-
-	// p, li
-	// {
-	// 	font-family: 'Open Sans', sans-serif;
-	// 	font-size:rem-calc(18px);
-	// 	line-height:rem-calc(25px);
-	// 	font-weight:300;
-	// }
-
 }
