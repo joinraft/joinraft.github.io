@@ -212,37 +212,35 @@ h2
 
 #device
 {
-	height:350px;
+	width:294px;
 	overflow:hidden;
 	display:block;
 
-	@media #{$medium-up} {
-		height:400px;
-		overflow:hidden;
-		display:block;
-	}
+	// @media #{$medium-up} {
+	// 	height:400px;
+	// 	overflow:hidden;
+	// 	display:block;
+	// }
 
-	@media #{$large-up} {
-		height:600px;
-		overflow:hidden;
-		display:block;
-		width:90%;
-	}
+	// @media #{$large-up} {
+	// 	height:600px;
+	// 	overflow:hidden;
+	// 	display:block;
+	// 	width:90%;
+	// }
 }
 
 .logo
 {
-	// display:inline-block;
-	
 	background-repeat:no-repeat;
 
-	width:250px;
-	height:250px;
+	width:193px;
+	height:146px;
 	
 	margin:0 auto;
 
-	background:url('../assets/images/raft_web_logo.png');
-	background-size:250px 250px;
+	background:url('../assets/images/center_logo@2x.png');
+	background-size:193px 146px;
 
 	margin-bottom:rem-calc(20px);
 	margin-top:rem-calc(30px);
