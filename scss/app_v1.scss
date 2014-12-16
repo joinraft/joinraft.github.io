@@ -59,18 +59,19 @@ p
 	strong
 	{
 		font-size: rem-calc(16px);
-		font-weight:400;	
+		font-weight:500;	
 		letter-spacing:1.3px;
 		// line-height:rem-calc(34px);
 
 		@media #{$medium-up} {
-			font-size: rem-calc(20px);
+			font-weight:400;
+			font-size: rem-calc(18px);
 		}
 	}
 
 	small
 	{
-		font-size:rem-calc(10px);
+		font-size:rem-calc(12px);
 		font-weight:500;
 		letter-spacing:1.2px;
 
@@ -92,7 +93,7 @@ h1
 	font-weight:300;
 	color:$raft_white;
 
-	font-size:rem-calc(36px);
+	font-size:rem-calc(32px);
 	margin-bottom:rem-calc(20px);
 
 	text-align: center;
@@ -147,13 +148,14 @@ h3
 	font-family: 'Open Sans', sans-serif;
 	font-weight:300;
 	text-align: center;
-	margin-bottom:rem-calc(20px);
+	margin-bottom:rem-calc(30px);
 	font-size:rem-calc(22px);
 	letter-spacing:0.4px;
 
 	@media #{$medium-up} {
 		text-align: center;
 		font-size:rem-calc(24px);
+		margin-bottom:rem-calc(30px);
 	}
 
 	@media #{$large-up} {
@@ -219,7 +221,8 @@ h3
 
 	cursor: pointer;
 
-	margin: 0 auto;
+	margin-left: auto;
+	margin-right: auto;
 
 	width: 200px;
 	height:59px;
@@ -235,7 +238,8 @@ h3
 	margin-bottom: rem-calc(30px);
 
 	@media #{$medium-up} {
-		float: left;
+		margin-left: auto;
+		margin-right: auto;
 	}
 
 	@media #{$large-up} {
@@ -280,7 +284,8 @@ h3
 
 #device
 {
-	margin: 0 auto;
+	margin-left: auto;
+	margin-right: auto;
 	margin-top: rem-calc(20px);
 	width:294px;
 	height: 460px;
@@ -288,7 +293,9 @@ h3
 	display:block;
 
 	@media #{$medium-up} {
-		float: left;
+		float: clear;
+		margin-left: auto;
+		margin-right: auto;
 	}
 
 	@media #{$large-up} {
@@ -308,10 +315,14 @@ h3
 	background:url('../assets/images/center_logo@2x.png');
 	background-size:193px 146px;
 
-	margin-bottom:rem-calc(30px);
 	margin-top:rem-calc(30px);
+	margin-bottom:rem-calc(20px);
 
 	@media #{$medium-up} {
+		margin-bottom:rem-calc(30px);
+		margin-top:rem-calc(60px);
+	}
+	@media #{$large-up} {
 		margin-bottom:rem-calc(50px);
 		margin-top:rem-calc(60px);
 	}
@@ -362,14 +373,14 @@ h3
 
 #signup
 {
-	height: 400px;
+	// height: 400px;
 	background-color: $raftFriends;
 	padding-top:rem-calc(30px);
 	text-align: center;
 
 	@media #{$medium-up} {
-		padding-top:rem-calc(60px);
-		height: 500px;
+		padding-top:rem-calc(50px);
+		// height: 500px;
 	}
 }
 
@@ -437,11 +448,11 @@ input.button
 	}
 
 	@media #{$medium-up} {
-		//width: rem-calc(140px);
+		font-size:rem-calc(24px);
 	}
 
 	@media #{$large-up} {
-		//width: rem-calc(140px);
+		font-size:rem-calc(24px);
 	}
 }
 
@@ -509,8 +520,19 @@ input.button
 	color: $raftUserDark;
 	background-color:$raftUser;
 
-	padding-top: rem-calc(70px);
-	padding-bottom: rem-calc(40px);
+	padding-top: rem-calc(50px);
+	padding-bottom: rem-calc(20px);
+
+	@media #{$medium-up} {
+		padding-top: rem-calc(70px);
+		padding-bottom: rem-calc(40px);
+	}
+
+	@media #{$large-up} {
+		padding-top: rem-calc(70px);
+		padding-bottom: rem-calc(40px);
+	}
+
 
 	#footer_menu
 	{
