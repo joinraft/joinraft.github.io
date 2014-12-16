@@ -9076,35 +9076,60 @@ html, body {
 /* line 53, ../scss/app_v1.scss */
 p, li {
   font-family: 'Open Sans', sans-serif;
-  font-size: 1.0625rem;
-  line-height: 1.625rem;
+  font-size: 0.875rem;
   font-weight: 300;
+  margin-bottom: 1.875rem;
 }
 /* line 60, ../scss/app_v1.scss */
 p strong, li strong {
-  font-weight: 600;
+  font-size: 1.25rem;
+  font-weight: 500;
+  letter-spacing: 1.3px;
+  line-height: 1.875rem;
+}
+/* line 68, ../scss/app_v1.scss */
+p small, li small {
+  font-size: 0.875rem;
+  font-weight: 500;
+  letter-spacing: 1.2px;
+}
+/* line 74, ../scss/app_v1.scss */
+p small a, li small a {
   font-style: normal;
+  text-decoration: underline;
 }
 
-/* line 67, ../scss/app_v1.scss */
+/* line 82, ../scss/app_v1.scss */
 h1 {
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 2.75rem;
   color: white;
+  margin-bottom: 1.25rem;
 }
 
-/* line 90, ../scss/app_v1.scss */
+/* line 104, ../scss/app_v1.scss */
 h2 {
   color: white;
-  font-weight: 600;
-  padding-top: 0px;
-  margin-top: 0px;
-  margin-bottom: 0.625rem;
-  margin-top: 0;
-  font-size: 1.375rem;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 500;
+  margin-bottom: 1.25rem;
+  margin-top: 1.875rem;
+  font-size: 2.5rem;
   letter-spacing: 1px;
 }
 
-/* line 103, ../scss/app_v1.scss */
+/* line 115, ../scss/app_v1.scss */
+h3 {
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  margin-bottom: 1.875rem;
+  font-size: 1.5rem;
+  letter-spacing: 0px;
+}
+
+/* line 125, ../scss/app_v1.scss */
 #header {
   background-color: white;
   font-weight: 300;
@@ -9112,12 +9137,12 @@ h2 {
   color: #e6e7e8;
 }
 
-/* line 111, ../scss/app_v1.scss */
+/* line 133, ../scss/app_v1.scss */
 #header_menu {
-  margin-bottom: 1.875rem;
+  margin-bottom: 0.625rem;
 }
 
-/* line 116, ../scss/app_v1.scss */
+/* line 138, ../scss/app_v1.scss */
 #menu_logo {
   float: left;
   padding-top: 1.875rem;
@@ -9130,7 +9155,7 @@ h2 {
   background-size: 100px 89px;
 }
 
-/* line 133, ../scss/app_v1.scss */
+/* line 155, ../scss/app_v1.scss */
 .menu_btn {
   float: right;
   padding-top: 0.625rem;
@@ -9139,12 +9164,12 @@ h2 {
   cursor: pointer;
   font-weight: 400;
 }
-/* line 142, ../scss/app_v1.scss */
+/* line 164, ../scss/app_v1.scss */
 .menu_btn:hover {
   text-decoration: underline;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 133, ../scss/app_v1.scss */
+  /* line 155, ../scss/app_v1.scss */
   .menu_btn {
     padding-top: 1.25rem;
     padding-bottom: 1.25rem;
@@ -9152,73 +9177,59 @@ h2 {
   }
 }
 
-/* line 154, ../scss/app_v1.scss */
+/* line 176, ../scss/app_v1.scss */
 #appstore {
   width: 200px;
   height: 59px;
+  background-repeat: no-repeat;
+  width: 200px;
+  height: 59px;
+  background: url("../assets/images/appstore_badge.svg");
+  background-size: 200px 59px;
 }
 
-/* line 160, ../scss/app_v1.scss */
+/* line 191, ../scss/app_v1.scss */
 #wrapper {
   color: white;
   background-color: #15b6b5;
 }
 
 /* SECTIONS */
-/* line 175, ../scss/app_v1.scss */
-#intro {
-  padding-top: 0.9375rem;
-  padding-bottom: 0;
-}
-
-/* line 181, ../scss/app_v1.scss */
+/* line 199, ../scss/app_v1.scss */
 #info {
-  padding-top: 2.5rem;
+  padding-top: 1.25rem;
   padding-bottom: 0;
+  background-color: white;
+  background-color: transparent;
+  background: url(../assets/images/raft_beach_blurred.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
-/* line 187, ../scss/app_v1.scss */
-#business {
-  padding-top: 3.75rem;
-  padding-bottom: 2.5rem;
-  background-color: #e6e7e8;
-  color: #324166;
-}
-/* line 195, ../scss/app_v1.scss */
-#business h2 {
-  color: #324166;
-}
-/* line 200, ../scss/app_v1.scss */
-#business a {
-  font-weight: 400;
-  color: #324166;
-}
-/* line 205, ../scss/app_v1.scss */
-#business a:hover {
-  text-decoration: underline;
-  color: #324166;
-}
-
-/* line 214, ../scss/app_v1.scss */
+/* line 213, ../scss/app_v1.scss */
 #device {
+  margin-top: 0.9375rem;
   width: 294px;
+  height: 430px;
   overflow: hidden;
   display: block;
 }
 
-/* line 234, ../scss/app_v1.scss */
-.logo {
+/* line 235, ../scss/app_v1.scss */
+#logo {
   background-repeat: no-repeat;
   width: 193px;
   height: 146px;
   margin: 0 auto;
   background: url("../assets/images/center_logo@2x.png");
   background-size: 193px 146px;
-  margin-bottom: 1.25rem;
-  margin-top: 1.875rem;
+  margin-bottom: 1.875rem;
+  margin-top: 0;
 }
 
-/* line 250, ../scss/app_v1.scss */
+/* line 251, ../scss/app_v1.scss */
 .collage {
   background-repeat: no-repeat;
   width: 250px;
@@ -9228,7 +9239,7 @@ h2 {
   background-size: 250px 250px;
 }
 
-/* line 265, ../scss/app_v1.scss */
+/* line 266, ../scss/app_v1.scss */
 .text_logo {
   background-repeat: no-repeat;
   margin: 0 auto;
@@ -9238,7 +9249,7 @@ h2 {
   background-size: 200px 166px;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 265, ../scss/app_v1.scss */
+  /* line 266, ../scss/app_v1.scss */
   .text_logo {
     width: 250px;
     height: 207px;
@@ -9247,162 +9258,88 @@ h2 {
   }
 }
 
-/* line 302, ../scss/app_v1.scss */
-#signup_section {
+/* line 290, ../scss/app_v1.scss */
+#demo {
+  background-color: #f36454;
+  height: 500px;
+}
+
+/* line 296, ../scss/app_v1.scss */
+#signup {
+  height: 500px;
+  background-color: #f8cd5a;
   margin-top: 1.875rem;
   padding: 0.9375rem;
+  text-align: center;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 302, ../scss/app_v1.scss */
-  #signup_section {
+  /* line 296, ../scss/app_v1.scss */
+  #signup {
     margin-top: 2.5rem;
   }
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 302, ../scss/app_v1.scss */
-  #signup_section {
+  /* line 296, ../scss/app_v1.scss */
+  #signup {
     padding: 0;
     margin-top: 0;
   }
 }
 
-/* line 318, ../scss/app_v1.scss */
-#signup_wrapper {
-  border: 2px solid white;
-  padding: 0px;
-  margin: 0px;
-  height: 60px;
-  margin-top: 2.5rem;
-  margin-bottom: 2.5rem;
-  overflow: hidden;
-  -webkit-border-radius: 30px;
-  -moz-border-radius: 30px;
-  border-radius: 30px;
-}
-@media only screen and (min-width: 64.063em) {
-  /* line 318, ../scss/app_v1.scss */
-  #signup_wrapper {
-    font-size: 1.125rem;
-    margin-bottom: 1.25rem;
-  }
-}
-
-/* line 339, ../scss/app_v1.scss */
-#signup_wrapper_thank_you {
-  border: 2px solid white;
-  margin: 0px;
-  height: 60px;
-  margin-top: 2.5rem;
-  margin-bottom: 2.5rem;
-  overflow: hidden;
-  -webkit-border-radius: 30px;
-  -moz-border-radius: 30px;
-  border-radius: 30px;
-}
-@media only screen and (min-width: 64.063em) {
-  /* line 339, ../scss/app_v1.scss */
-  #signup_wrapper_thank_you {
-    font-size: 1.125rem;
-    margin-bottom: 1.25rem;
-  }
-}
-/* line 358, ../scss/app_v1.scss */
-#signup_wrapper_thank_you p {
-  padding-top: 0.9375rem;
-  font-weight: 600;
-  font-size: 1rem;
-  text-align: center;
-  height: 100%;
-}
-
-/* line 368, ../scss/app_v1.scss */
-#signup_field {
-  font-family: 'Source Sans Pro', sans-serif;
-  float: left;
-  width: 70%;
-  height: 100%;
-  color: #324166;
-  font-weight: 600;
-  font-size: 1.125rem;
-  text-align: center;
-  border: none;
-  border-radius: 0px;
-  box-shadow: none;
-  outline: none;
-  background-color: white;
-}
-@media only screen and (min-width: 40.063em) {
-  /* line 368, ../scss/app_v1.scss */
-  #signup_field {
-    font-size: 1.125rem;
-  }
-}
-
-/* line 393, ../scss/app_v1.scss */
+/* line 319, ../scss/app_v1.scss */
 #signup_btn {
-  -webkit-transition: all 0.30s ease-in-out;
-  -moz-transition: all 0.30s ease-in-out;
-  -ms-transition: all 0.30s ease-in-out;
-  -o-transition: all 0.30s ease-in-out;
-  font-family: 'Source Sans Pro', sans-serif;
-  float: right;
-  width: 30%;
-  background-color: transparent;
-  color: white;
-  font-weight: 600;
-  font-size: 1.125rem;
-  padding-left: 0.3125rem;
-  padding-right: 0.3125rem;
-  border: none;
-  border-radius: 0px;
+  margin: 0 auto;
+  cursor: pointer;
+  -webkit-transition: all 0.20s ease-in-out;
+  -moz-transition: all 0.20s ease-in-out;
+  -ms-transition: all 0.20s ease-in-out;
+  -o-transition: all 0.20s ease-in-out;
+  border: 2px solid #FFFFFF;
+  border-radius: 6px;
   box-shadow: 0;
+  background-color: transparent;
+  color: #FFFFFF;
+  width: 40%;
+  padding: 10px;
+  letter-spacing: 1.2px;
+  font-size: 1.5rem;
 }
-/* line 415, ../scss/app_v1.scss */
+/* line 348, ../scss/app_v1.scss */
 #signup_btn:hover {
   background-color: #f6931e;
 }
-@media only screen and (min-width: 40.063em) {
-  /* line 393, ../scss/app_v1.scss */
-  #signup_btn {
-    font-size: 1.125rem;
-  }
-}
 
-/* line 425, ../scss/app_v1.scss */
+/* line 354, ../scss/app_v1.scss */
 .center {
   text-align: center;
 }
 
-/* line 430, ../scss/app_v1.scss */
+/* line 359, ../scss/app_v1.scss */
 .section {
   width: 100%;
   padding-top: 1.875rem;
   padding-bottom: 1.875rem;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 430, ../scss/app_v1.scss */
+  /* line 359, ../scss/app_v1.scss */
   .section {
     padding-top: 3.125rem;
     padding-bottom: 3.125rem;
   }
 }
 
-/* line 442, ../scss/app_v1.scss */
+/* line 371, ../scss/app_v1.scss */
 #footer_menu {
   margin: 0 auto;
   text-align: center;
 }
 
-/* line 448, ../scss/app_v1.scss */
+/* line 377, ../scss/app_v1.scss */
 #footer {
-  color: white;
-  background-color: #0e2632;
+  color: #0d8f8e;
+  background-color: #15b6b5;
 }
-/* line 453, ../scss/app_v1.scss */
-#footer h2 {
-  padding-bottom: 1.25rem;
-}
-/* line 458, ../scss/app_v1.scss */
+/* line 382, ../scss/app_v1.scss */
 #footer .footer_btn {
   display: inline-block;
   color: #ababab;
@@ -9411,28 +9348,13 @@ h2 {
   padding: 0.625rem;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 458, ../scss/app_v1.scss */
+  /* line 382, ../scss/app_v1.scss */
   #footer .footer_btn {
     padding: 0.9375rem;
   }
 }
-/* line 472, ../scss/app_v1.scss */
+/* line 396, ../scss/app_v1.scss */
 #footer .footer_btn:hover {
   color: white;
   text-decoration: none;
-}
-/* line 479, ../scss/app_v1.scss */
-#footer a {
-  font-weight: 400;
-  color: white;
-}
-/* line 484, ../scss/app_v1.scss */
-#footer a:hover {
-  text-decoration: underline;
-  color: #e6e7e8;
-}
-/* line 492, ../scss/app_v1.scss */
-#footer small {
-  color: #ababab;
-  font-size: 0.875rem;
 }
