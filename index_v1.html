@@ -44,13 +44,11 @@
   <body>
     <div id="wrapper">
       <div class="section" id="info">
-        <div class="row" id="header_menu">
+<!--         <div class="row" id="header_menu">
           <div class="large-12 large-pull-1 columns center">
-              <!-- <div id="menu_logo"></div> -->
               <div class="menu_btn" id="blog">Blog</div>
-              <!-- <div class="menu_btn" id="twitter">Twitter</div> -->
           </div>
-        </div>
+        </div> -->
         <div class="row">
           <div id="logo">
 
@@ -79,21 +77,20 @@
       <div class="section" id="signup">
         <div class="row">
           <div class="large-8 large-offset-2 small-10 small-offset-1 columns center">
-            <h2>Sweden only*</h2>
-            <p><strong>*FOR STARTERS - SIGN UP TO RECEIVE UPDATES ON OUR JOURNEY TOWARDS GLOBAL RELEASE</strong></p>
+            <h2>Sweden only - To start with*</h2>
+            <p><strong>*SIGN UP TO RECEIVE UPDATES ON OUR JOURNEY TOWARDS A GLOBAL RELEASE</strong></p>
             <!-- <div id="signup_btn">SIGN UP</div> -->
             <div id="signup_form">
               <!-- Begin MailChimp Signup Form -->
 
               <div id="mc_embed_signup">
                 <form action="//joinraft.us9.list-manage.com/subscribe/post?u=35c75d3d855e386fd605d38c8&amp;id=fe5787f6e6" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-                    <div id="mc_embed_signup_scroll">
-                  
-                  <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="E-mail address" required>
+                  <div id="mc_embed_signup_scroll">
+                    <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="E-mail address" required>
                     <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
                     <div style="position: absolute; left: -5000px;"><input type="text" name="b_35c75d3d855e386fd605d38c8_fe5787f6e6" tabindex="-1" value=""></div>
-                    <div class="clear"><input type="submit" value="SIGN UP" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
-                    </div>
+                    <div class="clear"><input type="submit" value="SIGN UP" name="subscribe" id="mc-embedded-subscribe" class="button" onsubmit="return validateForm()"></div>
+                  </div>
                 </form>
               </div>
               <!--End mc_embed_signup-->
@@ -144,11 +141,6 @@ $("#appstore").click(function(){
   alert("Coming soon...");  
 });
 
-$("#signup_btn").click(function(){
-    ga('send', 'event', 'button', 'click', 'Start Sign up');
-    //TODO - ADD SEND SIGN UP TO MAIL CHIMP CODE
-});
-
 $("#fb_button").click(function(){
   ga('send', 'event', 'button', 'click', 'Facebook button');
   window.location = "https://www.facebook.com/pages/Raft-Your-social-calendar/518627451612215";
@@ -168,5 +160,11 @@ $("#blog_button").click(function(){
   ga('send', 'event', 'button', 'click', 'Blog button');
   window.location = "http://joinraft.tumblr.com";
 });
+
+function validateForm()
+{
+  ga('send', 'event', 'button', 'click', 'Sign up');
+  return true;
+}
 
 </script>
