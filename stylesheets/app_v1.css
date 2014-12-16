@@ -9103,12 +9103,20 @@ p small a {
 h1 {
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
-  font-size: 2.75rem;
   color: white;
+  font-size: 2.25rem;
   margin-bottom: 1.25rem;
 }
+@media only screen and (min-width: 40.063em) {
+  /* line 82, ../scss/app_v1.scss */
+  h1 {
+    text-align: left;
+    font-size: 2.75rem;
+    margin-bottom: 1.25rem;
+  }
+}
 
-/* line 104, ../scss/app_v1.scss */
+/* line 115, ../scss/app_v1.scss */
 h2 {
   color: white;
   font-family: 'Open Sans', sans-serif;
@@ -9119,17 +9127,17 @@ h2 {
   letter-spacing: 1.2px;
 }
 
-/* line 115, ../scss/app_v1.scss */
+/* line 126, ../scss/app_v1.scss */
 h3 {
   color: white;
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
-  margin-bottom: 1.875rem;
+  margin-bottom: 2.5rem;
   font-size: 1.5rem;
-  letter-spacing: 0px;
+  letter-spacing: 0.4px;
 }
 
-/* line 125, ../scss/app_v1.scss */
+/* line 136, ../scss/app_v1.scss */
 #header {
   background-color: white;
   font-weight: 300;
@@ -9137,12 +9145,12 @@ h3 {
   color: #e6e7e8;
 }
 
-/* line 133, ../scss/app_v1.scss */
+/* line 144, ../scss/app_v1.scss */
 #header_menu {
   margin-bottom: 0.625rem;
 }
 
-/* line 138, ../scss/app_v1.scss */
+/* line 149, ../scss/app_v1.scss */
 #menu_logo {
   float: left;
   padding-top: 1.875rem;
@@ -9155,7 +9163,7 @@ h3 {
   background-size: 100px 89px;
 }
 
-/* line 155, ../scss/app_v1.scss */
+/* line 166, ../scss/app_v1.scss */
 .menu_btn {
   float: right;
   padding-top: 0.625rem;
@@ -9164,12 +9172,12 @@ h3 {
   cursor: pointer;
   font-weight: 400;
 }
-/* line 164, ../scss/app_v1.scss */
+/* line 175, ../scss/app_v1.scss */
 .menu_btn:hover {
   text-decoration: underline;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 155, ../scss/app_v1.scss */
+  /* line 166, ../scss/app_v1.scss */
   .menu_btn {
     padding-top: 1.25rem;
     padding-bottom: 1.25rem;
@@ -9177,7 +9185,7 @@ h3 {
   }
 }
 
-/* line 176, ../scss/app_v1.scss */
+/* line 187, ../scss/app_v1.scss */
 #appstore {
   cursor: pointer;
   width: 200px;
@@ -9190,14 +9198,14 @@ h3 {
   margin-bottom: 1.875rem;
 }
 
-/* line 194, ../scss/app_v1.scss */
+/* line 205, ../scss/app_v1.scss */
 #wrapper {
   color: white;
   background-color: #15b6b5;
 }
 
 /* SECTIONS */
-/* line 202, ../scss/app_v1.scss */
+/* line 213, ../scss/app_v1.scss */
 #info {
   padding-top: 1.25rem;
   padding-bottom: 0;
@@ -9210,16 +9218,16 @@ h3 {
   background-size: cover;
 }
 
-/* line 216, ../scss/app_v1.scss */
+/* line 227, ../scss/app_v1.scss */
 #device {
-  margin-top: 0.9375rem;
+  margin-top: 1.25rem;
   width: 294px;
   height: 460px;
   overflow: hidden;
   display: block;
 }
 
-/* line 238, ../scss/app_v1.scss */
+/* line 249, ../scss/app_v1.scss */
 #logo {
   background-repeat: no-repeat;
   width: 193px;
@@ -9227,11 +9235,11 @@ h3 {
   margin: 0 auto;
   background: url("../assets/images/center_logo@2x.png");
   background-size: 193px 146px;
-  margin-bottom: 1.875rem;
+  margin-bottom: 3.125rem;
   margin-top: 0;
 }
 
-/* line 254, ../scss/app_v1.scss */
+/* line 265, ../scss/app_v1.scss */
 .collage {
   background-repeat: no-repeat;
   width: 250px;
@@ -9241,7 +9249,7 @@ h3 {
   background-size: 250px 250px;
 }
 
-/* line 269, ../scss/app_v1.scss */
+/* line 280, ../scss/app_v1.scss */
 .text_logo {
   background-repeat: no-repeat;
   margin: 0 auto;
@@ -9251,7 +9259,7 @@ h3 {
   background-size: 200px 166px;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 269, ../scss/app_v1.scss */
+  /* line 280, ../scss/app_v1.scss */
   .text_logo {
     width: 250px;
     height: 207px;
@@ -9260,13 +9268,13 @@ h3 {
   }
 }
 
-/* line 293, ../scss/app_v1.scss */
+/* line 304, ../scss/app_v1.scss */
 #demo {
   background-color: #f36454;
   height: 500px;
 }
 
-/* line 299, ../scss/app_v1.scss */
+/* line 310, ../scss/app_v1.scss */
 #signup {
   height: 500px;
   background-color: #f8cd5a;
@@ -9274,7 +9282,7 @@ h3 {
   text-align: center;
 }
 
-/* line 311, ../scss/app_v1.scss */
+/* line 322, ../scss/app_v1.scss */
 #signup_btn {
   margin: 0 auto;
   cursor: pointer;
@@ -9293,49 +9301,49 @@ h3 {
   font-size: 1.5rem;
   font-weight: 500;
 }
-/* line 337, ../scss/app_v1.scss */
+/* line 348, ../scss/app_v1.scss */
 #signup_btn:hover {
   background-color: #FFFFFF;
   color: #f8cd5a;
 }
 
-/* line 344, ../scss/app_v1.scss */
+/* line 355, ../scss/app_v1.scss */
 .center {
   text-align: center;
 }
 
-/* line 349, ../scss/app_v1.scss */
+/* line 360, ../scss/app_v1.scss */
 .section {
   width: 100%;
   padding-top: 1.875rem;
   padding-bottom: 1.875rem;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 349, ../scss/app_v1.scss */
+  /* line 360, ../scss/app_v1.scss */
   .section {
     padding-top: 3.125rem;
     padding-bottom: 3.125rem;
   }
 }
 
-/* line 361, ../scss/app_v1.scss */
+/* line 372, ../scss/app_v1.scss */
 #footer {
   color: #0d8f8e;
   background-color: #15b6b5;
   padding-top: 4.375rem;
   padding-bottom: 2.5rem;
 }
-/* line 369, ../scss/app_v1.scss */
+/* line 380, ../scss/app_v1.scss */
 #footer #footer_menu {
   margin: 0 auto;
   text-align: center;
 }
-/* line 375, ../scss/app_v1.scss */
+/* line 386, ../scss/app_v1.scss */
 #footer .footer_btn {
   display: inline-block;
   cursor: pointer;
 }
-/* line 381, ../scss/app_v1.scss */
+/* line 392, ../scss/app_v1.scss */
 #footer #fb_button {
   margin-right: 30px;
   background-repeat: no-repeat;
@@ -9344,12 +9352,12 @@ h3 {
   background: url("../assets/images/buttons/fb@2x.png");
   background-size: 43px 44px;
 }
-/* line 393, ../scss/app_v1.scss */
+/* line 404, ../scss/app_v1.scss */
 #footer #fb_button:hover {
   background: url("../assets/images/buttons/fb_highlighted@2x.png");
   background-size: 43px 44px;
 }
-/* line 400, ../scss/app_v1.scss */
+/* line 411, ../scss/app_v1.scss */
 #footer #twitter_button {
   margin-right: 30px;
   background-repeat: no-repeat;
@@ -9358,12 +9366,12 @@ h3 {
   background: url("../assets/images/buttons/twitter@2x.png");
   background-size: 46px 38px;
 }
-/* line 412, ../scss/app_v1.scss */
+/* line 423, ../scss/app_v1.scss */
 #footer #twitter_button:hover {
   background: url("../assets/images/buttons/twitter_highlighted@2x.png");
   background-size: 46px 38px;
 }
-/* line 419, ../scss/app_v1.scss */
+/* line 430, ../scss/app_v1.scss */
 #footer #insta_button {
   margin-right: 30px;
   background-repeat: no-repeat;
@@ -9372,12 +9380,12 @@ h3 {
   background: url("../assets/images/buttons/instagram@2x.png");
   background-size: 43px 44px;
 }
-/* line 431, ../scss/app_v1.scss */
+/* line 442, ../scss/app_v1.scss */
 #footer #insta_button:hover {
   background: url("../assets/images/buttons/instagram_highlighted@2x.png");
   background-size: 43px 44px;
 }
-/* line 438, ../scss/app_v1.scss */
+/* line 449, ../scss/app_v1.scss */
 #footer #blog_button {
   background-repeat: no-repeat;
   width: 28px;
@@ -9385,22 +9393,22 @@ h3 {
   background: url("../assets/images/buttons/blog@2x.png");
   background-size: 28px 47px;
 }
-/* line 448, ../scss/app_v1.scss */
+/* line 459, ../scss/app_v1.scss */
 #footer #blog_button:hover {
   background-repeat: no-repeat;
   background: url("../assets/images/buttons/blog_highlighted@2x.png");
   background-size: 28px 47px;
 }
-/* line 457, ../scss/app_v1.scss */
+/* line 468, ../scss/app_v1.scss */
 #footer a {
   color: #0d8f8e;
   text-decoration: underline;
 }
-/* line 462, ../scss/app_v1.scss */
+/* line 473, ../scss/app_v1.scss */
 #footer a:active {
   color: #0d8f8e;
 }
-/* line 467, ../scss/app_v1.scss */
+/* line 478, ../scss/app_v1.scss */
 #footer a:hover {
   color: #FFFFFF;
 }

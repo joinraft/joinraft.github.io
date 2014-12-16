@@ -82,9 +82,20 @@ h1
 {
 	font-family: 'Open Sans', sans-serif;
 	font-weight:300;
-	font-size:rem-calc(44px);
 	color:$raft_white;
+
+	font-size:rem-calc(36px);
 	margin-bottom:rem-calc(20px);
+
+
+
+	@media #{$medium-up} {
+		text-align: left;
+		font-size:rem-calc(44px);
+		margin-bottom:rem-calc(20px);
+	}
+
+
 	// margin-top:rem-calc(20px);
 
 	// @media #{$medium-up} {
@@ -116,9 +127,9 @@ h3
 	color:$raft_white;
 	font-family: 'Open Sans', sans-serif;
 	font-weight:300;
-	margin-bottom:rem-calc(30px);
+	margin-bottom:rem-calc(40px);
 	font-size:rem-calc(24px);
-	letter-spacing:0px;
+	letter-spacing:0.4px;
 }
 
 #header
@@ -214,7 +225,7 @@ h3
 
 #device
 {
-	margin-top: rem-calc(15px);
+	margin-top: rem-calc(20px);
 	width:294px;
 	height: 460px;
 	overflow:hidden;
@@ -246,7 +257,7 @@ h3
 	background:url('../assets/images/center_logo@2x.png');
 	background-size:193px 146px;
 
-	margin-bottom:rem-calc(30px);
+	margin-bottom:rem-calc(50px);
 	margin-top:rem-calc(0px);
 }
 
