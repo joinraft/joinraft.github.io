@@ -9123,7 +9123,7 @@ h1 {
   /* line 90, ../scss/app_v1.scss */
   h1 {
     text-align: center;
-    font-size: 2.875rem;
+    font-size: 2.5rem;
     margin-bottom: 1.25rem;
   }
 }
@@ -9131,7 +9131,7 @@ h1 {
   /* line 90, ../scss/app_v1.scss */
   h1 {
     text-align: left;
-    font-size: 2.875rem;
+    font-size: 2.75rem;
     margin-bottom: 1.25rem;
   }
 }
@@ -9141,15 +9141,16 @@ h2 {
   color: white;
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
-  margin-bottom: 1.875rem;
+  margin-bottom: 1.25rem;
   margin-top: 0.625rem;
-  font-size: 1.625rem;
+  font-size: 2rem;
   letter-spacing: 1.2px;
 }
 @media only screen and (min-width: 40.063em) {
   /* line 129, ../scss/app_v1.scss */
   h2 {
     font-size: 2.5rem;
+    margin-bottom: 1.875rem;
   }
 }
 
@@ -9158,29 +9159,27 @@ h3 {
   color: white;
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
-  margin-bottom: 2.5rem;
+  text-align: center;
+  margin-bottom: 1.25rem;
   font-size: 1.375rem;
   letter-spacing: 0.4px;
-  text-align: center;
 }
 @media only screen and (min-width: 40.063em) {
   /* line 145, ../scss/app_v1.scss */
   h3 {
     text-align: center;
-    font-size: 1.625rem;
-    margin-bottom: 2.5rem;
+    font-size: 1.5rem;
   }
 }
 @media only screen and (min-width: 64.063em) {
   /* line 145, ../scss/app_v1.scss */
   h3 {
-    text-align: center;
-    font-size: 1.625rem;
-    margin-bottom: 2.5rem;
+    text-align: left;
+    font-size: 1.5rem;
   }
 }
 
-/* line 168, ../scss/app_v1.scss */
+/* line 166, ../scss/app_v1.scss */
 #header {
   background-color: white;
   font-weight: 300;
@@ -9188,12 +9187,12 @@ h3 {
   color: #e6e7e8;
 }
 
-/* line 176, ../scss/app_v1.scss */
+/* line 174, ../scss/app_v1.scss */
 #header_menu {
   margin-bottom: 0.625rem;
 }
 
-/* line 181, ../scss/app_v1.scss */
+/* line 179, ../scss/app_v1.scss */
 #menu_logo {
   float: left;
   padding-top: 1.875rem;
@@ -9206,7 +9205,7 @@ h3 {
   background-size: 100px 89px;
 }
 
-/* line 198, ../scss/app_v1.scss */
+/* line 196, ../scss/app_v1.scss */
 .menu_btn {
   float: right;
   padding-top: 0.625rem;
@@ -9215,12 +9214,12 @@ h3 {
   cursor: pointer;
   font-weight: 400;
 }
-/* line 207, ../scss/app_v1.scss */
+/* line 205, ../scss/app_v1.scss */
 .menu_btn:hover {
   text-decoration: underline;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 198, ../scss/app_v1.scss */
+  /* line 196, ../scss/app_v1.scss */
   .menu_btn {
     padding-top: 1.25rem;
     padding-bottom: 1.25rem;
@@ -9228,7 +9227,7 @@ h3 {
   }
 }
 
-/* line 219, ../scss/app_v1.scss */
+/* line 217, ../scss/app_v1.scss */
 #appstore {
   display: hidden;
   cursor: pointer;
@@ -9243,20 +9242,26 @@ h3 {
   margin-bottom: 1.875rem;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 219, ../scss/app_v1.scss */
+  /* line 217, ../scss/app_v1.scss */
   #appstore {
-    text-align: left;
+    float: left;
+  }
+}
+@media only screen and (min-width: 64.063em) {
+  /* line 217, ../scss/app_v1.scss */
+  #appstore {
+    float: left;
   }
 }
 
-/* line 245, ../scss/app_v1.scss */
+/* line 247, ../scss/app_v1.scss */
 #wrapper {
   color: white;
   background-color: #15b6b5;
 }
 
 /* SECTIONS */
-/* line 253, ../scss/app_v1.scss */
+/* line 255, ../scss/app_v1.scss */
 #info {
   padding-top: 1.25rem;
   padding-bottom: 0;
@@ -9269,7 +9274,24 @@ h3 {
   background-size: cover;
 }
 
-/* line 267, ../scss/app_v1.scss */
+/* line 269, ../scss/app_v1.scss */
+#device_container {
+  text-align: center;
+}
+@media only screen and (min-width: 40.063em) {
+  /* line 269, ../scss/app_v1.scss */
+  #device_container {
+    text-align: center;
+  }
+}
+@media only screen and (min-width: 64.063em) {
+  /* line 269, ../scss/app_v1.scss */
+  #device_container {
+    text-align: left;
+  }
+}
+
+/* line 282, ../scss/app_v1.scss */
 #device {
   margin: 0 auto;
   margin-top: 1.25rem;
@@ -9278,8 +9300,20 @@ h3 {
   overflow: hidden;
   display: block;
 }
+@media only screen and (min-width: 40.063em) {
+  /* line 282, ../scss/app_v1.scss */
+  #device {
+    float: left;
+  }
+}
+@media only screen and (min-width: 64.063em) {
+  /* line 282, ../scss/app_v1.scss */
+  #device {
+    float: left;
+  }
+}
 
-/* line 286, ../scss/app_v1.scss */
+/* line 300, ../scss/app_v1.scss */
 #logo {
   background-repeat: no-repeat;
   width: 193px;
@@ -9291,69 +9325,41 @@ h3 {
   margin-top: 1.875rem;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 286, ../scss/app_v1.scss */
+  /* line 300, ../scss/app_v1.scss */
   #logo {
     margin-bottom: 3.125rem;
     margin-top: 3.75rem;
   }
 }
 
-/* line 307, ../scss/app_v1.scss */
-.collage {
-  background-repeat: no-repeat;
-  width: 250px;
-  height: 250px;
-  margin: 0 auto;
-  background: url("../assets/images/raft_web_logo.png");
-  background-size: 250px 250px;
-}
-
-/* line 322, ../scss/app_v1.scss */
-.text_logo {
-  background-repeat: no-repeat;
-  margin: 0 auto;
-  width: 200px;
-  height: 166px;
-  background: url("../assets/images/text_logo_small.png");
-  background-size: 200px 166px;
-}
-@media only screen and (min-width: 40.063em) {
-  /* line 322, ../scss/app_v1.scss */
-  .text_logo {
-    width: 250px;
-    height: 207px;
-    background: url("../assets/images/text_logo_big_r.png");
-    background-size: 250px 207px;
-  }
-}
-
-/* line 346, ../scss/app_v1.scss */
+/* line 358, ../scss/app_v1.scss */
 #demo {
   background-color: #f36454;
   height: 500px;
 }
 
-/* line 352, ../scss/app_v1.scss */
+/* line 364, ../scss/app_v1.scss */
 #signup {
-  height: 500px;
+  height: 400px;
   background-color: #f8cd5a;
   padding-top: 1.875rem;
   text-align: center;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 352, ../scss/app_v1.scss */
+  /* line 364, ../scss/app_v1.scss */
   #signup {
     padding-top: 3.75rem;
+    height: 500px;
   }
 }
 
-/* line 363, ../scss/app_v1.scss */
+/* line 376, ../scss/app_v1.scss */
 #mc_embed_signup {
   background-color: transparent;
   clear: left;
 }
 
-/* line 370, ../scss/app_v1.scss */
+/* line 383, ../scss/app_v1.scss */
 #mce-EMAIL {
   -webkit-appearance: none;
   outline: none;
@@ -9368,7 +9374,7 @@ h3 {
   margin-bottom: 2.5rem;
 }
 
-/* line 393, ../scss/app_v1.scss */
+/* line 406, ../scss/app_v1.scss */
 input.button {
   margin: 0 auto;
   cursor: pointer;
@@ -9384,43 +9390,18 @@ input.button {
   box-shadow: 0;
   background-color: transparent;
   color: #FFFFFF;
-  width: 40%;
   padding: 10px;
   letter-spacing: 1.2px;
+  padding-left: 3.75rem;
+  padding-right: 3.75rem;
 }
-/* line 417, ../scss/app_v1.scss */
+/* line 434, ../scss/app_v1.scss */
 input.button:hover {
   background-color: #FFFFFF;
   color: #f8cd5a;
 }
 
-/* line 424, ../scss/app_v1.scss */
-#signup_btn {
-  margin: 0 auto;
-  cursor: pointer;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 1.5rem;
-  font-weight: 500;
-  -webkit-transition: all 0.20s ease-in-out;
-  -moz-transition: all 0.20s ease-in-out;
-  -ms-transition: all 0.20s ease-in-out;
-  -o-transition: all 0.20s ease-in-out;
-  border: 2px solid #FFFFFF;
-  border-radius: 6px;
-  box-shadow: 0;
-  background-color: transparent;
-  color: #FFFFFF;
-  width: 40%;
-  padding: 10px;
-  letter-spacing: 1.2px;
-}
-/* line 448, ../scss/app_v1.scss */
-#signup_btn:hover {
-  background-color: #FFFFFF;
-  color: #f8cd5a;
-}
-
-/* line 455, ../scss/app_v1.scss */
+/* line 480, ../scss/app_v1.scss */
 #signup_form {
   webkit-transition: all 0.30s ease-in-out;
   -moz-transition: all 0.30s ease-in-out;
@@ -9429,43 +9410,43 @@ input.button:hover {
   overflow: hidden;
 }
 
-/* line 466, ../scss/app_v1.scss */
+/* line 491, ../scss/app_v1.scss */
 .center {
   text-align: center;
 }
 
-/* line 471, ../scss/app_v1.scss */
+/* line 496, ../scss/app_v1.scss */
 .section {
   width: 100%;
   padding-top: 1.875rem;
   padding-bottom: 1.875rem;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 471, ../scss/app_v1.scss */
+  /* line 496, ../scss/app_v1.scss */
   .section {
     padding-top: 3.125rem;
     padding-bottom: 3.125rem;
   }
 }
 
-/* line 483, ../scss/app_v1.scss */
+/* line 508, ../scss/app_v1.scss */
 #footer {
   color: #0d8f8e;
   background-color: #15b6b5;
   padding-top: 4.375rem;
   padding-bottom: 2.5rem;
 }
-/* line 491, ../scss/app_v1.scss */
+/* line 516, ../scss/app_v1.scss */
 #footer #footer_menu {
   margin: 0 auto;
   text-align: center;
 }
-/* line 497, ../scss/app_v1.scss */
+/* line 522, ../scss/app_v1.scss */
 #footer .footer_btn {
   display: inline-block;
   cursor: pointer;
 }
-/* line 503, ../scss/app_v1.scss */
+/* line 528, ../scss/app_v1.scss */
 #footer #fb_button {
   margin-right: 30px;
   background-repeat: no-repeat;
@@ -9474,12 +9455,12 @@ input.button:hover {
   background: url("../assets/images/buttons/fb@2x.png");
   background-size: 43px 44px;
 }
-/* line 515, ../scss/app_v1.scss */
+/* line 540, ../scss/app_v1.scss */
 #footer #fb_button:hover {
   background: url("../assets/images/buttons/fb_highlighted@2x.png");
   background-size: 43px 44px;
 }
-/* line 522, ../scss/app_v1.scss */
+/* line 547, ../scss/app_v1.scss */
 #footer #twitter_button {
   margin-right: 30px;
   background-repeat: no-repeat;
@@ -9488,12 +9469,12 @@ input.button:hover {
   background: url("../assets/images/buttons/twitter@2x.png");
   background-size: 46px 38px;
 }
-/* line 534, ../scss/app_v1.scss */
+/* line 559, ../scss/app_v1.scss */
 #footer #twitter_button:hover {
   background: url("../assets/images/buttons/twitter_highlighted@2x.png");
   background-size: 46px 38px;
 }
-/* line 541, ../scss/app_v1.scss */
+/* line 566, ../scss/app_v1.scss */
 #footer #insta_button {
   background-repeat: no-repeat;
   width: 43px;
@@ -9501,12 +9482,12 @@ input.button:hover {
   background: url("../assets/images/buttons/instagram@2x.png");
   background-size: 43px 44px;
 }
-/* line 553, ../scss/app_v1.scss */
+/* line 578, ../scss/app_v1.scss */
 #footer #insta_button:hover {
   background: url("../assets/images/buttons/instagram_highlighted@2x.png");
   background-size: 43px 44px;
 }
-/* line 560, ../scss/app_v1.scss */
+/* line 585, ../scss/app_v1.scss */
 #footer #blog_button {
   background-repeat: no-repeat;
   width: 28px;
@@ -9514,22 +9495,22 @@ input.button:hover {
   background: url("../assets/images/buttons/blog@2x.png");
   background-size: 28px 47px;
 }
-/* line 570, ../scss/app_v1.scss */
+/* line 595, ../scss/app_v1.scss */
 #footer #blog_button:hover {
   background-repeat: no-repeat;
   background: url("../assets/images/buttons/blog_highlighted@2x.png");
   background-size: 28px 47px;
 }
-/* line 579, ../scss/app_v1.scss */
+/* line 604, ../scss/app_v1.scss */
 #footer a {
   color: #0d8f8e;
   text-decoration: underline;
 }
-/* line 584, ../scss/app_v1.scss */
+/* line 609, ../scss/app_v1.scss */
 #footer a:active {
   color: #0d8f8e;
 }
-/* line 589, ../scss/app_v1.scss */
+/* line 614, ../scss/app_v1.scss */
 #footer a:hover {
   color: #FFFFFF;
 }
