@@ -17,6 +17,9 @@
     <!-- Fonts -->
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,400,300,700' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Nunito:400,300,700' rel='stylesheet' type='text/css'>
+
+    <!-- <link href="//cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css"> -->
+
     <script src="bower_components/modernizr/modernizr.js"></script>
 
     <script>
@@ -54,9 +57,9 @@
               <h3>The easiest way to plan, share and look forward to things together with your partner and friends.</h3>
               <div id="appstore"></div>
           </div>
-          <div class="large-5 large-offset-0 medium-5 small-10 small-offset-1 center columns">
+          <div class="large-5 large-offset-0 large-pull-1 medium-5 medium-pull-1 small-10 small-offset-1 center columns">
             <div id="device">
-              <img src="assets/images/promo_screen.png"/>
+              <img src="assets/images/promo_screen@2x.png"/>
             </div>
           </div>
         </div>
@@ -72,22 +75,34 @@
           <div class="large-8 large-offset-2 small-10 small-offset-1 columns center">
             <h2>Sweden only*</h2>
             <p><strong>*FOR STARTERS - SIGN UP TO RECEIVE UPDATES ON OUR JOURNEY TOWARDS GLOBAL RELEASE</strong></p>
-            <div id="signup_btn">SIGN UP</div>
+            <!-- <div id="signup_btn">SIGN UP</div> -->
+            <div id="signup_form">
+              <!-- Begin MailChimp Signup Form -->
+              <link href="//cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
+              <style type="text/css">
+
+                /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+                   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+              </style>
+              <div id="mc_embed_signup">
+                <form action="//joinraft.us9.list-manage.com/subscribe/post?u=35c75d3d855e386fd605d38c8&amp;id=fe5787f6e6" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                    <div id="mc_embed_signup_scroll">
+                  
+                  <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="E-mail address" required>
+                    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                    <div style="position: absolute; left: -5000px;"><input type="text" name="b_35c75d3d855e386fd605d38c8_fe5787f6e6" tabindex="-1" value=""></div>
+                    <div class="clear"><input type="submit" value="SIGN UP" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+                    </div>
+                </form>
+              </div>
+              <!--End mc_embed_signup-->
+            </div>
           </div>
         </div>
         <div class="row">
           <h3></h3>
         </div>
       </div>
-
-<!--       <div class="section" id="business">
-        <div class="row">
-          <div class="large-8 large-offset-2 medium-8 medium-offset-2 small-10 small-offset-1 columns center">
-            <h2>BUSINESS OR BRAND OWNER?</h2>
-            <p>Interested in exploring new ways to reach your customers and fans with information about upcoming games, concerts or events?<br/>Contact us at <a href="#">business@joinraft.com</a></p>
-          </div>
-        </div>
-      </div> -->
 
       <div class="section" id="footer">
         <div class="row">
@@ -124,11 +139,33 @@
 <script type="text/javascript">
 
 $("#appstore").click(function(){
-  alert("Coming soon...");
+  ga('send', 'event', 'button', 'click', 'App Store button');
+  alert("Coming soon...");  
 });
 
 $("#signup_btn").click(function(){
-  require(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us9.list-manage.com","uuid":"35c75d3d855e386fd605d38c8","lid":"fe5787f6e6"}) })
+    ga('send', 'event', 'button', 'click', 'Start Sign up');
+    //TODO - ADD SEND SIGN UP TO MAIL CHIMP CODE
+});
+
+$("#fb_button").click(function(){
+  ga('send', 'event', 'button', 'click', 'Facebook button');
+  window.location = "https://www.facebook.com/pages/Raft-Your-social-calendar/518627451612215";
+});
+
+$("#twitter_button").click(function(){
+  ga('send', 'event', 'button', 'click', 'Twitter button');
+  window.location = "http://www.twitter.com/joinraft";
+});
+
+$("#insta_button").click(function(){
+  ga('send', 'event', 'button', 'click', 'Instagram button');
+  window.location = "http://www.instagram.com/joinraft";
+});
+
+$("#blog_button").click(function(){
+  ga('send', 'event', 'button', 'click', 'Blog button');
+  window.location = "http://joinraft.tumblr.com";
 });
 
 </script>
