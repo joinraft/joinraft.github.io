@@ -9097,14 +9097,14 @@ p strong {
 /* line 73, ../scss/app_v1.scss */
 p small {
   font-family: 'Avenir-Heavy', 'Open Sans', sans-serif;
-  font-size: 0.75rem;
+  font-size: 0.875rem;
   font-weight: 500;
   letter-spacing: 1.2px;
 }
 @media only screen and (min-width: 40.063em) {
   /* line 73, ../scss/app_v1.scss */
   p small {
-    font-size: 0.875rem;
+    font-size: 1rem;
   }
 }
 /* line 84, ../scss/app_v1.scss */
@@ -9118,7 +9118,7 @@ h1 {
   font-family: 'Avenir-Light', 'Open Sans', sans-serif;
   font-weight: 300;
   color: #FFFFFF;
-  font-size: 1.875rem;
+  font-size: 2rem;
   margin-bottom: 1.25rem;
   text-align: center;
 }
