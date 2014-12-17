@@ -130,7 +130,7 @@ h2
 
 	@media #{$medium-up} {
 		font-size:rem-calc(40px);
-		margin-bottom:rem-calc(30px);
+		margin-bottom:rem-calc(20px);
 	}
 }
 
@@ -296,9 +296,28 @@ h3
 {
 	padding-top:rem-calc(30px);
 	padding-bottom:rem-calc(0px);
-	background-color:$raftUserDark;
+	// background-color:$raftUserDark;
+
+	background-color:$raftUser;
+	background-color:transparent;
+	background: url(../assets/images/raft_beach_blurred_mobile.png) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+
 
 	@media #{$medium-up} {
+		background-color:$raftUser;
+		background-color:transparent;
+		background: url(../assets/images/raft_beach_blurred_tablet.png) no-repeat center center fixed; 
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+	}
+
+	@media #{$large-up} {
 		background-color:$raftUser;
 		background-color:transparent;
 		background: url(../assets/images/raft_beach_blurred.png) no-repeat center center fixed; 
@@ -590,7 +609,11 @@ input.button
 
 	#fb_button
 	{
-		margin-right: 30px;
+		margin-right: 20px;
+
+		@media #{$medium-up} {
+			margin-right: 30px;
+		}
 
 		background-repeat:no-repeat;
 
@@ -609,7 +632,11 @@ input.button
 	
 	#twitter_button
 	{
-		margin-right: 30px;
+		margin-right: 20px;
+
+		@media #{$medium-up} {
+			margin-right: 30px;
+		}
 
 		background-repeat:no-repeat;
 
@@ -628,7 +655,11 @@ input.button
 	
 	#insta_button
 	{
-		margin-right: 30px;
+		margin-right: 20px;
+
+		@media #{$medium-up} {
+			margin-right: 30px;
+		}
 
 		background-repeat:no-repeat;
 
@@ -649,7 +680,11 @@ input.button
 	{
 		background-repeat:no-repeat;
 
-		margin-right: 15px;
+		margin-right: 5px;
+
+		@media #{$medium-up} {
+			margin-right: 15px;
+		}
 
 		width:28px;
 		height:47px;
