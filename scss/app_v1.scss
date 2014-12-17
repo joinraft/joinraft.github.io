@@ -156,24 +156,17 @@ h3
 	}
 }
 
-#header
-{
-	background-color:$raft_white;
-	font-weight:300;
-	width:100%;
-	color:$raft_light_gray;
-}
-
 #header_menu
 {
-	display: hidden;
+	display: none;
+
 	margin-bottom:rem-calc(10px);
 
 	@media #{$medium-up} {
-		display: block;
+		display: none;
 	}
 
-	@media #{$medium-up} {
+	@media #{$large-up} {
 		display: block;
 	}
 }
@@ -247,15 +240,15 @@ h3
 	background:url('../assets/images/appstore_badge.svg');
 	background-size:250px 74px;
 
-	margin-bottom: rem-calc(30px);
-
 	@media #{$medium-up} {
+		margin-bottom: rem-calc(20px);
 		float: none;
 		margin-left: auto;
 		margin-right: auto;
 	}
 
 	@media #{$large-up} {
+		margin-bottom: rem-calc(20px);
 		float: left;
 	}
 }
@@ -331,26 +324,42 @@ h3
 
 #device
 {
+	// <img src="assets/images/promo_screen_1_large@2x.png"/>
+
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: rem-calc(20px);
-	width:300px;
-	height:422px;
+	margin-top: rem-calc(10px);
+	width:296px;
+	height:470px;
 	overflow:hidden;
 	display:block;
 
+	background-repeat:no-repeat;
+	background:url('../assets/images/promo_screen_1_small@2x.png');
+	background-size:296px 470px;
+	
 	@media #{$medium-up} {
+		margin-top: rem-calc(20px);
 		float: clear;
 		margin-left: auto;
 		margin-right: auto;
-		width:432px;
-		height:607px;
+		width:498px;
+		height:470px;
+
+		background-repeat:no-repeat;
+		background:url('../assets/images/promo_screen_1@2x.png');
+		background-size:498px 470px;
 	}
 
 	@media #{$large-up} {
+		margin-top: rem-calc(20px);
 		float: right;	
-		width:432px;
+		width:431px;
 		height:607px;
+
+		background-repeat:no-repeat;
+		background:url('../assets/images/promo_screen_1_large@2x.png');
+		background-size:431px 607px;
 	}
 }
 
@@ -383,8 +392,8 @@ h3
 
 	@media #{$medium-up} {
 		margin-top: rem-calc(10px);
-		width:180px;
-		height:280px;
+		width:100%;
+		height:100%;
 	}
 
 	@media #{$large-up} {
