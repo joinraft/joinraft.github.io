@@ -40,7 +40,7 @@
 //   "foundation/components/visibility";
 
 html, body {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Avenir', 'Open Sans', sans-serif;
     margin: 0;
     padding: 0;
     height: 100%;
@@ -51,13 +51,14 @@ html, body {
 
 p
 {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Avenir', 'Open Sans', sans-serif;
 	font-size:rem-calc(14px);
 	font-weight:300;
 	margin-bottom: rem-calc(30px);
 
 	strong
 	{
+		font-family: 'Avenir-Heavy', 'Open Sans', sans-serif;
 		font-size: rem-calc(16px);
 		font-weight:500;	
 		letter-spacing:1.3px;
@@ -71,7 +72,8 @@ p
 
 	small
 	{
-		font-size:rem-calc(14px);
+		font-family: 'Avenir-Heavy', 'Open Sans', sans-serif;
+		font-size:rem-calc(12px);
 		font-weight:500;
 		letter-spacing:1.2px;
 
@@ -89,7 +91,7 @@ p
 
 h1
 {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Avenir-Light', 'Open Sans', sans-serif;
 	font-weight:300;
 	color:$raft_white;
 
@@ -97,6 +99,12 @@ h1
 	margin-bottom:rem-calc(20px);
 
 	text-align: center;
+
+	strong
+	{
+		font-family: 'Avenir-Heavy', 'Open Sans', sans-serif;
+		font-weight:500;
+	}
 
 	@media #{$medium-up} {
 		text-align: center;
@@ -129,7 +137,7 @@ h1
 h2
 {
 	color:$raft_white;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Avenir-Heavy', 'Open Sans', sans-serif;
 	font-weight:300;
 	margin-bottom:rem-calc(20px);
 	margin-top:rem-calc(10px);
@@ -145,7 +153,7 @@ h2
 h3
 {
 	color:$raft_white;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Avenir-Light', 'Open Sans', sans-serif;
 	font-weight:300;
 	text-align: center;
 	margin-bottom:rem-calc(30px);
@@ -286,10 +294,8 @@ h3
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: rem-calc(20px);
-	width:420px;
-	// width:294px;
-	// height: 460px;
-	height: 620px;
+	width:280px;
+	height:420px;
 	overflow:hidden;
 	display:block;
 
@@ -297,10 +303,15 @@ h3
 		float: clear;
 		margin-left: auto;
 		margin-right: auto;
+		width:420px;
+		height: 620px;
 	}
 
 	@media #{$large-up} {
 		float: right;	
+		width:420px;
+		height: 620px;
+
 	}
 }
 
@@ -330,7 +341,7 @@ h3
 	}
 	@media #{$large-up} {
 		margin-bottom:rem-calc(70px);
-		margin-top:rem-calc(20px);
+		margin-top:rem-calc(40px);
 	}
 }
 
@@ -401,7 +412,7 @@ h3
 	-webkit-appearance: none;
 	outline: none;
 
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Avenir-Book', 'Open Sans', sans-serif;
 	font-size:rem-calc(22px);
 	font-weight:300;
 
@@ -424,7 +435,7 @@ input.button
 	margin: 0 auto;
 	cursor: pointer;
 
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Avenir-Heavy', 'Open Sans', sans-serif;
 	font-size:rem-calc(24px);
 	font-weight:600;
 
