@@ -141,7 +141,7 @@ h2
 	font-weight:300;
 	margin-bottom:rem-calc(20px);
 	margin-top:rem-calc(10px);
-	font-size:rem-calc(32px);
+	font-size:rem-calc(30px);
 	letter-spacing:1.2px;
 
 	@media #{$medium-up} {
@@ -235,9 +235,14 @@ h3
 	// }
 }
 
+#appstore_section
+{
+	display: none;
+}
+
 #appstore
 {
-	display: hidden;
+	display: none;
 
 	cursor: pointer;
 
@@ -307,14 +312,17 @@ h3
 {
 	padding-top:rem-calc(30px);
 	padding-bottom:rem-calc(0px);
+	background-color:$raftUser;
 
-	background-color:$raft_white;
-	background-color:transparent;
-	background: url(../assets/images/raft_beach_blurred.png) no-repeat center center fixed; 
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
+	@media #{$medium-up} {
+		background-color:$raftUser;
+		background-color:transparent;
+		background: url(../assets/images/raft_beach_blurred.png) no-repeat center center fixed; 
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+	}
 }
 
 #device_container
@@ -376,14 +384,48 @@ h3
 	height:450px;
 	overflow:hidden;
 	display:block;
+	// margin-bottom: rem-calc(30px);
 
 	@media #{$medium-up} {
 		margin-top: rem-calc(10px);
+			// margin-bottom: rem-calc(0px);
 	}
 
 	@media #{$large-up} {
 		margin-top: rem-calc(10px);
+			// margin-bottom: rem-calc(0px);
 	}
+}
+
+#promo_2
+{
+	margin-bottom: rem-calc(20px);
+
+	@media #{$medium-up} {
+			margin-bottom: rem-calc(0px);
+	}
+
+	@media #{$large-up} {
+			margin-bottom: rem-calc(0px);
+	}
+}
+
+#promo_3
+{
+	margin-bottom: rem-calc(20px);
+
+	@media #{$medium-up} {
+			margin-bottom: rem-calc(0px);
+	}
+
+	@media #{$large-up} {
+			margin-bottom: rem-calc(0px);
+	}
+}
+
+#promo_4
+{
+	margin-bottom: rem-calc(0px);
 }
 
 #demo
