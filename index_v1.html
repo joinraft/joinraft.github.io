@@ -37,8 +37,7 @@
       <div class="section" id="info">
         <div class="row" id="header_menu">
           <div class="large-12 columns center">
-              <!-- <div class="menu_btn" id="menu_logo">Blog</div> -->
-              <div class="menu_btn" id="download">Download App</div>
+              <div class="menu_btn" id="download_button">Download App</div>
               <!-- <div class="menu_btn" id="press_kit">Press kit</div> -->
           </div>
         </div>
@@ -55,7 +54,7 @@
               <div id="appstore_container">
                 <div id="appstore"></div>
                 <div style="clear:both;"></div>
-                <p><strong>PS. ONLY IN SWEDEN*</strong></p>
+                <p><strong>P.S. SWEDEN ONLY*</strong></p>
               </div>
           </div>
 
@@ -160,10 +159,15 @@
 
 $("#appstore").click(function(){
   ga('send', 'event', 'button', 'click', 'App Store button');
-  window.open("http://itunes.apple.com/app/id949819247");
+  // window.open("http://itunes.apple.com/app/id949819247");
+  alert("Coming soon");
 });
 
-
+$("#download_button").click(function(){
+  ga('send', 'event', 'button', 'click', 'Download button');
+  // window.open("http://itunes.apple.com/app/id949819247");
+  alert("Coming soon");
+});
 
 $("#fb_button").click(function(){
   ga('send', 'event', 'button', 'click', 'Facebook button');
