@@ -303,7 +303,7 @@ h3
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: rem-calc(20px);
-	width:280px;
+	width:294px;
 	height:420px;
 	overflow:hidden;
 	display:block;
@@ -312,16 +312,27 @@ h3
 		float: clear;
 		margin-left: auto;
 		margin-right: auto;
-		width:420px;
+		width:400px;
 		height: 620px;
 	}
 
 	@media #{$large-up} {
 		float: right;	
-		width:420px;
+		width:400px;
 		height: 620px;
 
 	}
+}
+
+.promo
+{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: rem-calc(20px);
+	width:294px;
+	height:440px;
+	overflow:hidden;
+	display:block;
 }
 
 #logo
@@ -354,59 +365,22 @@ h3
 	}
 }
 
-// .collage
-// {
-// 	background-repeat:no-repeat;
-
-// 	width:250px;
-// 	height:250px;
-	
-// 	margin:0 auto;
-
-// 	background:url('../assets/images/raft_web_logo.png');
-// 	background-size:250px 250px;
-// }
-
-// .text_logo
-// {
-// 	background-repeat:no-repeat;
-// 	margin:0 auto;
-
-// 	width:200px;
-// 	height:166px;
-
-// 	background:url('../assets/images/text_logo_small.png');
-// 	background-size:200px 166px;
-
-// 	@media #{$medium-up} {
-// 		width:250px;
-// 		height:207px;
-
-// 		background:url('../assets/images/text_logo_big_r.png');
-// 		background-size:250px 207px;
-// 	}
-
-// 	@media #{$large-up} {
-
-// 	}
-// }
 
 #demo
 {
-	background-color: $raftPartner;
-	height: 500px;
+	background-color: $raftFriends;
+	padding-bottom:rem-calc(0px);
 }
 
 #signup
 {
-	// height: 400px;
-	background-color: $raftFriends;
+	background-color: $raftPartner;
 	padding-top:rem-calc(30px);
+	margin-bottom:rem-calc(0px);
 	text-align: center;
 
 	@media #{$medium-up} {
 		padding-top:rem-calc(50px);
-		// height: 500px;
 	}
 }
 
@@ -422,7 +396,7 @@ h3
 	outline: none;
 
 	font-family: 'Avenir-Book', 'Open Sans', sans-serif;
-	font-size:rem-calc(22px);
+	font-size:rem-calc(18px);
 	font-weight:300;
 
 	border:none;
@@ -435,7 +409,7 @@ h3
 	margin-bottom: rem-calc(40px);
 
 	@media #{$medium-up} {
-
+		font-size:rem-calc(22px);
 	}
 }
 
