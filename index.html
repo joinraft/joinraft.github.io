@@ -4,25 +4,21 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Raft - Your social calendar</title>
-    <link rel="stylesheet" href="stylesheets/app.css" />  
+    <link rel="stylesheet" href="stylesheets/app_v1.css" />  
 
     <!-- Meta -->
     <meta property="og:title" content="Raft"/>
-    <meta property="og:description" content="Finally a better way to plan your life. Raft is a micro community for planning time and it's designed to make it more fun to plan and look forward to things together with those closest to you."/>
+    <meta property="og:description" content="The easiest way to plan, share and look forward to things together with your partner and friends."/>
     <meta property="og:url" content="http://www.joinraft.com"/>
     <meta property="og:site_name" content="Raft"/>
     <meta property="og:type" content="website"/>
     <meta property="og:image" content="http://www.joinraft.com/assets/images/fb_470x250.png" />
 
     <!-- Fonts -->
-    <!-- <link href='http://fonts.googleapis.com/css?family=Fauna+One' rel='stylesheet' type='text/css'> -->
-    <!-- <link href='http://fonts.googleapis.com/css?family=Sintony:400,700' rel='stylesheet' type='text/css'> -->
-    <!-- <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,300italic,400italic,700,700italic' rel='stylesheet' type='text/css'> -->
-    
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,400,300,700' rel='stylesheet' type='text/css'>
-    <link href='//fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,900' rel='stylesheet' type='text/css'>
-  
+
     <script src="bower_components/modernizr/modernizr.js"></script>
+
     <script>
      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -32,87 +28,122 @@
      ga('create', 'UA-54812689-1', 'auto');
      ga('send', 'pageview');
 
-    </script>  
+    </script> 
+
+    <script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script>
   </head>
   <body>
     <div id="wrapper">
-
-      <div class="section" id="intro">
-        <div class="row" id="header_menu">
-          <div class="large-12 columns">
-              <!-- <div id="menu_logo"></div> -->
-              <div class="menu_btn" id="blog">Blog</div>
-              <div class="menu_btn" id="twitter">Twitter</div>
-          </div>
-        </div>
-        <div class="row centered">
-          <div class="large-10 small-10 small-offset-1 columns center">
-            <div class="text_logo"></div>
-            <h1>Your social calendar</h1>
-          </div>
-        </div>
-      </div>
-
       <div class="section" id="info">
-        <div class="row">
-          <div class="large-6 large-offset-0 medium-6 medium-offset-3 small-10 small-offset-1 center columns">
-            <div id="device"><img src="assets/images/device.png"/></div>
+        <div class="row" id="header_menu">
+          <div class="large-12 columns center">
+              <div class="menu_btn" id="download_button">Download App</div>
+              <!-- <div class="menu_btn" id="press_kit">Press kit</div> -->
           </div>
-          <div class="large-6 large-offset-0 large-pull-0 medium-8 medium-pull-2 small-12 small-offset-0 columns" id="signup_section">
-            <h2>ABOUT RAFT</h2>
-            <p>Raft is a micro community for planning time. It is designed to make it more fun to plan and look forward to things together with those closest to you.</p>
-            <h2>GET THE BETA</h2>
-            <ul>
-              <li>Do you like to try new things and have an iPhone?</li>
-              <li>Have you been looking for a better way to plan your life with your partner and friends?</li>
-            </ul>
-            <p><strong>..then sign up and we’ll send you an invite.</strong></p>
-            
-            <div class="row collapse" id="signup_wrapper">
-              <input type="text" class="" id="signup_field" placeholder="EMAIL ADDRESS">
-              <div id="signup_btn" class="button">SIGN UP</div>
-              <!-- <div id="signup_thankyou" style="block:none;">Thank you!</div> -->
+        </div>
+        <div class="row">
+          <div id="logo">
+
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="large-6 large-offset-0 large-pull-0 medium-10 medium-offset-1 small-12 small-offset-0 columns">
+              <h1>Your <strong>social</strong> calendar</h1>
+              <h3>The easiest way to plan, share and look forward to things together with your partner and friends.</h3>
+              <div id="appstore_container">
+                <div id="appstore"></div>
+                <div style="clear:both;"></div>
+                <p><strong>P.S. SWEDEN ONLY*</strong></p>
+              </div>
+          </div>
+
+          <div class="large-6 large-offset-0 large-pull-0 medium-12 medium-pull-0 medium-offset-0 small-12 small-offset-0 center columns">
+            <div id="device_container">
+              <div id="device"></div>
             </div>
-            <div class="row collapse" id="signup_wrapper_thank_you">
-              <p>THANKS, YOU'LL HEAR FROM US SOON</p>
+            <div id="small_appstore_button">
+
             </div>
           </div>
         </div>
       </div>
 
-      <div class="section" id="business">
+      <div class="section" id="demo">
+        <div class="row">         
+            <h2>The basics</h2> <!-- <strong>Social</strong> events -  -->
+            <div class="large-4 medium-4 small-12 center columns">
+              <div class="promo_container">
+                <p><strong>ADD AN EVENT..</strong></p>
+                <div class="promo" id="promo_2">
+                  <img src="assets/images/promo_screen_2@2x.png"/>
+                </div>
+              </div>
+            </div>
+
+            <div class="large-4 medium-4 small-12 center columns">
+              <div class="promo_container">
+                <p><strong>INVITE & SHARE</strong></p>
+                <div class="promo" id="promo_3">
+                  <img src="assets/images/promo_screen_3@2x.png"/>
+                </div>
+              </div>
+            </div>
+            <div class="large-4 medium-4 small-12 center columns">
+              <div class="promo_container">
+                <p><strong>..PLAN TOGETHER</strong></p>
+                <div class="promo" id="promo_4">
+                  <img src="assets/images/promo_screen_4@2x.png"/>
+                </div>
+                </div>
+            </div>
+        </div>
+      </div>
+
+      <div class="section" id="signup">
         <div class="row">
-          <div class="large-8 large-offset-2 medium-8 medium-offset-2 small-10 small-offset-1 columns center">
-            <h2>BUSINESS OR BRAND OWNER?</h2>
-            <p>Interested in exploring new ways to reach your customers and fans with information about upcoming games, concerts or events?<br/>Contact us at <a href="#">business@joinraft.com</a></p>
+          <div class="large-8 large-offset-2 medium-10 medium-offset-1 small-12 small-offset-0 columns center">
+            <h2>*Not in Sweden or on iOS?</h2>
+            <p><strong>SIGN UP TO RECEIVE UPDATES ON OUR JOURNEY TOWARDS GLOBAL LAUNCH AND ADDITIONAL PLATFORMS.</strong></p>
+            <!-- <div id="signup_btn">SIGN UP</div> -->
+            <div id="signup_form">
+              <!-- Begin MailChimp Signup Form -->
+
+              <div id="mc_embed_signup">
+                <form action="//joinraft.us9.list-manage.com/subscribe/post?u=35c75d3d855e386fd605d38c8&amp;id=fe5787f6e6" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                  <div id="mc_embed_signup_scroll">
+                    <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Fill in your e-mail" required>
+                    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                    <div style="position: absolute; left: -5000px;"><input type="text" name="b_35c75d3d855e386fd605d38c8_fe5787f6e6" tabindex="-1" value=""></div>
+                    <div class="clear"><input type="submit" value="SUBSCRIBE" name="subscribe" id="mc-embedded-subscribe" class="button" onsubmit="return validateForm()"></div>
+                  </div>
+                </form>
+              </div>
+              <!--End mc_embed_signup-->
+            </div>
           </div>
+        </div>
+        <div class="row">
+          <h3></h3>
         </div>
       </div>
 
       <div class="section" id="footer">
         <div class="row">
-          <div class="large-12 columns center">
-            <h2>CONTACT</h2>
-            <p>Got any thoughts or ideas? Get in touch!</p>
-          </div>
-        </div>
-        <div class="row">
-          <div class="large-12 large-offset-0 medium-8 medium-offset-2 columns center">          
+          <div class="large-8 large-offset-2 columns center">          
             <div id="footer_menu">
-              <a href="mailto:hello@joinraft.com" target="_blank" class="footer_btn" id="email_btn">EMAIL</a>
-              <a href="http://www.instagram.com/joinraft" target="_blank" class="footer_btn" id="instagram_btn">INSTAGRAM</a>
-              <a href="http://www.twitter.com/joinraft" target="_blank" class="footer_btn" id="twitter_btn">TWITTER</a>
+              <ul>
+                <li class="footer_btn" id="fb_button"></li>
+                <li class="footer_btn" id="twitter_button"></li>
+                <li class="footer_btn" id="insta_button"></li>
+                <li class="footer_btn" id="blog_button"></li>
+              </ul>
             </div>
           </div>
         </div>
         <div class="row">
-          <div class="large-12 columns center">
-            <hr/>
-          </div>
-        </div>
-        <div class="row">
-          <div class="large-12 columns center">
-            <p><small>Raft is built in Stockholm, Sweden by Join&nbsp;Raft&nbsp;AB.</small></p>
+          <div class="small-10 small-offset-1 columns center">
+            <p><small>RAFT IS MADE IN STOCKHOLM, SWEDEN BY <a href="mailto:hello@joinraft.com">JOIN RAFT AB</a></small></p>
         </div>
       </div>
     </div>
@@ -123,5 +154,45 @@
   </body>
 </html>
 
+
 <script type="text/javascript">
+
+$("#appstore").click(function(){
+  ga('send', 'event', 'button', 'click', 'App Store button');
+  // window.open("http://itunes.apple.com/app/id949819247");
+  alert("Coming soon");
+});
+
+$("#download_button").click(function(){
+  ga('send', 'event', 'button', 'click', 'Download button');
+  // window.open("http://itunes.apple.com/app/id949819247");
+  alert("Coming soon");
+});
+
+$("#fb_button").click(function(){
+  ga('send', 'event', 'button', 'click', 'Facebook button');
+  window.open("https://www.facebook.com/pages/Raft-Your-social-calendar/518627451612215");
+});
+
+$("#twitter_button").click(function(){
+  ga('send', 'event', 'button', 'click', 'Twitter button');
+  window.open("http://www.twitter.com/joinraft");
+});
+
+$("#insta_button").click(function(){
+  ga('send', 'event', 'button', 'click', 'Instagram button');
+  window.open("http://www.instagram.com/joinraft");
+});
+
+$("#blog_button").click(function(){
+  ga('send', 'event', 'button', 'click', 'Blog button');
+  window.open("http://joinraft.tumblr.com");
+});
+
+function validateForm()
+{
+  ga('send', 'event', 'button', 'click', 'Sign up');
+  return true;
+}
+
 </script>
