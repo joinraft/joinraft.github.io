@@ -126,7 +126,7 @@ h2
 	margin-bottom:rem-calc(20px);
 	margin-top:rem-calc(10px);
 	font-size:rem-calc(30px);
-	letter-spacing:1.2px;
+	letter-spacing:1.0px;
 
 	@media #{$medium-up} {
 		font-size:rem-calc(40px);
@@ -343,15 +343,14 @@ h3
 		float: clear;
 		margin-left: auto;
 		margin-right: auto;
-	width:432px;
-	height:607px;
+		width:432px;
+		height:607px;
 	}
 
 	@media #{$large-up} {
 		float: right;	
-	width:432px;
-	height:607px;
-
+		width:432px;
+		height:607px;
 	}
 }
 
@@ -373,7 +372,7 @@ h3
 	-ms-transition: all 0.30s ease-in-out;
 	-o-transition: all 0.30s ease-in-out;
 
-	padding-top: 10px;
+	padding-top: 0px;
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: rem-calc(0px);
@@ -384,16 +383,20 @@ h3
 
 	@media #{$medium-up} {
 		margin-top: rem-calc(10px);
+		width:180px;
+		height:280px;
 	}
 
 	@media #{$large-up} {
 		margin-top: rem-calc(10px);
+		width:294px;
+		height:460px;
 	}
 
-	&:hover
-	{
-		padding-top: 0px;
-	}
+	// &:hover
+	// {
+	// 	padding-top: 0px;
+	// }
 }
 
 #promo_2
