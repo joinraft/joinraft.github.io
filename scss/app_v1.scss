@@ -107,8 +107,8 @@ h1
 
 	@media #{$medium-up} {
 		text-align: center;
-		font-size:rem-calc(40px);
-		margin-bottom:rem-calc(20px);
+		font-size:rem-calc(44px);
+		margin-bottom:rem-calc(15px);
 	}
 
 	@media #{$large-up} {
@@ -141,7 +141,7 @@ h3
 	font-weight:300;
 	text-align: center;
 	margin-bottom:rem-calc(30px);
-	font-size:rem-calc(22px);
+	font-size:rem-calc(24px);
 	letter-spacing:0.4px;
 
 	@media #{$medium-up} {
@@ -231,22 +231,28 @@ h3
 
 	margin-left: auto;
 	margin-right: auto;
-
-	background-repeat:no-repeat;
-
-	width:250px;
-	height:74px;
-
-	background:url('../assets/images/appstore_badge.svg');
-	background-size:250px 74px;
-
 	margin-bottom: rem-calc(10px);
+	
+	width:200px;
+	height:60px;
+	
+	background-repeat:no-repeat;
+	background:url('../assets/images/appstore_badge.svg');
+	background-size:200px 60px;
+
 
 	@media #{$medium-up} {
 		margin-bottom: rem-calc(20px);
 		float: none;
 		margin-left: auto;
 		margin-right: auto;
+
+		width:250px;
+		height:74px;
+		
+		background-repeat:no-repeat;
+		background:url('../assets/images/appstore_badge.svg');
+		background-size:250px 74px;
 	}
 
 	@media #{$large-up} {
@@ -345,11 +351,9 @@ h3
 
 #device
 {
-	// <img src="assets/images/promo_screen_1_large@2x.png"/>
-
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: rem-calc(10px);
+	margin-top: rem-calc(0px);
 	width:280px;
 	height:460px;
 	overflow:hidden;
@@ -360,7 +364,7 @@ h3
 	background-size:280px 460px;
 	
 	@media #{$medium-up} {
-		margin-top: rem-calc(20px);
+		margin-top: rem-calc(0px);
 		float: clear;
 		margin-left: auto;
 		margin-right: auto;
