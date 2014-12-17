@@ -9097,14 +9097,14 @@ p strong {
 /* line 73, ../scss/app_v1.scss */
 p small {
   font-family: 'Avenir-Heavy', 'Open Sans', sans-serif;
-  font-size: 0.875rem;
+  font-size: 1rem;
   font-weight: 500;
   letter-spacing: 1.2px;
 }
 @media only screen and (min-width: 40.063em) {
   /* line 73, ../scss/app_v1.scss */
   p small {
-    font-size: 1rem;
+    font-size: 0.875rem;
   }
 }
 /* line 84, ../scss/app_v1.scss */
@@ -9118,7 +9118,7 @@ h1 {
   font-family: 'Avenir-Light', 'Open Sans', sans-serif;
   font-weight: 300;
   color: #FFFFFF;
-  font-size: 2rem;
+  font-size: 1.875rem;
   margin-bottom: 1.25rem;
   text-align: center;
 }
@@ -9539,16 +9539,17 @@ h3 {
   box-shadow: none;
   padding: 1.25rem;
   height: 3.75rem;
-  margin-bottom: 2.5rem;
+  margin-bottom: 1.25rem;
 }
 @media only screen and (min-width: 40.063em) {
   /* line 497, ../scss/app_v1.scss */
   #mce-EMAIL {
     font-size: 1.375rem;
+    margin-bottom: 2.5rem;
   }
 }
 
-/* line 520, ../scss/app_v1.scss */
+/* line 521, ../scss/app_v1.scss */
 input.button {
   margin: 0 auto;
   cursor: pointer;
@@ -9566,8 +9567,7 @@ input.button {
   color: #FFFFFF;
   padding: 10px;
   letter-spacing: 1.2px;
-  padding-left: 3.75rem;
-  padding-right: 3.75rem;
+  width: 100%;
 }
 /* line 546, ../scss/app_v1.scss */
 input.button:hover {
@@ -9575,19 +9575,25 @@ input.button:hover {
   color: #f36454;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 520, ../scss/app_v1.scss */
+  /* line 521, ../scss/app_v1.scss */
   input.button {
     font-size: 1.5rem;
+    width: auto;
+    padding-left: 3.75rem;
+    padding-right: 3.75rem;
   }
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 520, ../scss/app_v1.scss */
+  /* line 521, ../scss/app_v1.scss */
   input.button {
     font-size: 1.5rem;
+    width: auto;
+    padding-left: 3.75rem;
+    padding-right: 3.75rem;
   }
 }
 
-/* line 561, ../scss/app_v1.scss */
+/* line 567, ../scss/app_v1.scss */
 #signup_form {
   webkit-transition: all 0.30s ease-in-out;
   -moz-transition: all 0.30s ease-in-out;
@@ -9596,26 +9602,26 @@ input.button:hover {
   overflow: hidden;
 }
 
-/* line 571, ../scss/app_v1.scss */
+/* line 577, ../scss/app_v1.scss */
 .center {
   text-align: center;
 }
 
-/* line 576, ../scss/app_v1.scss */
+/* line 582, ../scss/app_v1.scss */
 .section {
   width: 100%;
   padding-top: 1.875rem;
   padding-bottom: 1.875rem;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 576, ../scss/app_v1.scss */
+  /* line 582, ../scss/app_v1.scss */
   .section {
     padding-top: 3.125rem;
     padding-bottom: 3.125rem;
   }
 }
 
-/* line 588, ../scss/app_v1.scss */
+/* line 594, ../scss/app_v1.scss */
 #footer {
   color: #0d8f8e;
   background-color: #15b6b5;
@@ -9623,30 +9629,30 @@ input.button:hover {
   padding-bottom: 1.25rem;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 588, ../scss/app_v1.scss */
+  /* line 594, ../scss/app_v1.scss */
   #footer {
     padding-top: 4.375rem;
     padding-bottom: 2.5rem;
   }
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 588, ../scss/app_v1.scss */
+  /* line 594, ../scss/app_v1.scss */
   #footer {
     padding-top: 4.375rem;
     padding-bottom: 2.5rem;
   }
 }
-/* line 607, ../scss/app_v1.scss */
+/* line 613, ../scss/app_v1.scss */
 #footer #footer_menu {
   margin: 0 auto;
   text-align: center;
 }
-/* line 613, ../scss/app_v1.scss */
+/* line 619, ../scss/app_v1.scss */
 #footer .footer_btn {
   display: inline-block;
   cursor: pointer;
 }
-/* line 619, ../scss/app_v1.scss */
+/* line 625, ../scss/app_v1.scss */
 #footer #fb_button {
   margin-right: 20px;
   background-repeat: no-repeat;
@@ -9656,17 +9662,17 @@ input.button:hover {
   background-size: 43px 44px;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 619, ../scss/app_v1.scss */
+  /* line 625, ../scss/app_v1.scss */
   #footer #fb_button {
     margin-right: 30px;
   }
 }
-/* line 635, ../scss/app_v1.scss */
+/* line 641, ../scss/app_v1.scss */
 #footer #fb_button:hover {
   background: url("../assets/images/buttons/fb_highlighted@2x.png");
   background-size: 43px 44px;
 }
-/* line 642, ../scss/app_v1.scss */
+/* line 648, ../scss/app_v1.scss */
 #footer #twitter_button {
   margin-right: 20px;
   background-repeat: no-repeat;
@@ -9676,17 +9682,17 @@ input.button:hover {
   background-size: 46px 38px;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 642, ../scss/app_v1.scss */
+  /* line 648, ../scss/app_v1.scss */
   #footer #twitter_button {
     margin-right: 30px;
   }
 }
-/* line 658, ../scss/app_v1.scss */
+/* line 664, ../scss/app_v1.scss */
 #footer #twitter_button:hover {
   background: url("../assets/images/buttons/twitter_highlighted@2x.png");
   background-size: 46px 38px;
 }
-/* line 665, ../scss/app_v1.scss */
+/* line 671, ../scss/app_v1.scss */
 #footer #insta_button {
   margin-right: 20px;
   background-repeat: no-repeat;
@@ -9696,17 +9702,17 @@ input.button:hover {
   background-size: 43px 44px;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 665, ../scss/app_v1.scss */
+  /* line 671, ../scss/app_v1.scss */
   #footer #insta_button {
     margin-right: 30px;
   }
 }
-/* line 681, ../scss/app_v1.scss */
+/* line 687, ../scss/app_v1.scss */
 #footer #insta_button:hover {
   background: url("../assets/images/buttons/instagram_highlighted@2x.png");
   background-size: 43px 44px;
 }
-/* line 688, ../scss/app_v1.scss */
+/* line 694, ../scss/app_v1.scss */
 #footer #blog_button {
   background-repeat: no-repeat;
   margin-right: 5px;
@@ -9716,27 +9722,27 @@ input.button:hover {
   background-size: 28px 47px;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 688, ../scss/app_v1.scss */
+  /* line 694, ../scss/app_v1.scss */
   #footer #blog_button {
     margin-right: 15px;
   }
 }
-/* line 704, ../scss/app_v1.scss */
+/* line 710, ../scss/app_v1.scss */
 #footer #blog_button:hover {
   background-repeat: no-repeat;
   background: url("../assets/images/buttons/blog_highlighted@2x.png");
   background-size: 28px 47px;
 }
-/* line 713, ../scss/app_v1.scss */
+/* line 719, ../scss/app_v1.scss */
 #footer a {
   color: #0d8f8e;
   text-decoration: underline;
 }
-/* line 718, ../scss/app_v1.scss */
+/* line 724, ../scss/app_v1.scss */
 #footer a:active {
   color: #0d8f8e;
 }
-/* line 723, ../scss/app_v1.scss */
+/* line 729, ../scss/app_v1.scss */
 #footer a:hover {
   color: #FFFFFF;
 }
