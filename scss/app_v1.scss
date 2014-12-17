@@ -95,7 +95,7 @@ h1
 	font-weight:300;
 	color:$raft_white;
 
-	font-size:rem-calc(32px);
+	font-size:rem-calc(30px);
 	margin-bottom:rem-calc(20px);
 
 	text-align: center;
@@ -182,7 +182,16 @@ h3
 
 #header_menu
 {
+	display: hidden;
 	margin-bottom:rem-calc(10px);
+
+	@media #{$medium-up} {
+		display: block;
+	}
+
+	@media #{$medium-up} {
+		display: block;
+	}
 }
 
 #menu_logo
