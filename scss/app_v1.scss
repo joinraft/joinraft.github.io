@@ -197,18 +197,19 @@ h3
 #menu_logo
 {
 	float:left;
-	padding-top:rem-calc(30px);
-	padding-bottom:rem-calc(10px);
+	padding-left:rem-calc(0px);
+	// padding-top:rem-calc(30px);
+	// padding-bottom:rem-calc(10px);
 
-	background-repeat:no-repeat;
+	// background-repeat:no-repeat;
 
-	width:100px;
-	height:89px;
+	// width:100px;
+	// height:89px;
 	
-	margin:0 auto;
+	// margin:0 auto;
 
-	background:url('../assets/images/raft_text_small.png');
-	background-size:100px 89px;
+	// background:url('../assets/images/raft_text_small.png');
+	// background-size:100px 89px;
 }
 
 .menu_btn
@@ -216,7 +217,7 @@ h3
 	float:right;
 	padding-top:rem-calc(10px);
 	padding-bottom:rem-calc(10px);
-	padding-left:rem-calc(20px);
+	padding-left:rem-calc(30px);
 	cursor:pointer;
 	font-size: rem-calc(18px);
 	font-weight:400;
@@ -245,11 +246,11 @@ h3
 
 	background-repeat:no-repeat;
 
-	width:220px;
-	height:69px;
+	width:250px;
+	height:74px;
 
 	background:url('../assets/images/appstore_badge.svg');
-	background-size:220px 69px;
+	background-size:250px 74px;
 
 	margin-bottom: rem-calc(30px);
 
@@ -267,6 +268,37 @@ h3
 {
 	color:$raft_white;
 	background-color: $raftUser;
+}
+
+
+#logo
+{
+	background-repeat:no-repeat;
+
+	width:193px;
+	height:146px;
+	
+// width: 200px;
+// height: 200px;
+
+	margin:0 auto;
+
+	background:url('../assets/images/center_logo@2x.png');
+	background-size:193px 146px;
+
+	// background-size: 200px 200px;
+
+	margin-top:rem-calc(30px);
+	margin-bottom:rem-calc(20px);
+
+	@media #{$medium-up} {
+		margin-bottom:rem-calc(30px);
+		margin-top:rem-calc(60px);
+	}
+	@media #{$large-up} {
+		margin-bottom:rem-calc(70px);
+		margin-top:rem-calc(40px);
+	}
 }
 
 /* SECTIONS */
@@ -303,8 +335,8 @@ h3
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: rem-calc(20px);
-	width:294px;
-	height:420px;
+	width:300px;
+	height:422px;
 	overflow:hidden;
 	display:block;
 
@@ -312,15 +344,26 @@ h3
 		float: clear;
 		margin-left: auto;
 		margin-right: auto;
-		width:400px;
-		height: 620px;
+	width:432px;
+	height:607px;
 	}
 
 	@media #{$large-up} {
 		float: right;	
-		width:400px;
-		height: 620px;
+	width:432px;
+	height:607px;
 
+	}
+}
+
+.promo_container
+{
+	text-align: center;
+
+	p
+	{
+		text-align: center;
+		margin-bottom: rem-calc(20px);
 	}
 }
 
@@ -328,46 +371,24 @@ h3
 {
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: rem-calc(20px);
+	margin-top: rem-calc(0px);
 	width:294px;
-	height:440px;
+	height:450px;
 	overflow:hidden;
 	display:block;
-}
-
-#logo
-{
-	background-repeat:no-repeat;
-
-	width:193px;
-	height:146px;
-	
-// width: 200px;
-// height: 200px;
-
-	margin:0 auto;
-
-	background:url('../assets/images/center_logo@2x.png');
-	background-size:193px 146px;
-
-	// background-size: 200px 200px;
-
-	margin-top:rem-calc(30px);
-	margin-bottom:rem-calc(20px);
 
 	@media #{$medium-up} {
-		margin-bottom:rem-calc(30px);
-		margin-top:rem-calc(60px);
+		margin-top: rem-calc(10px);
 	}
+
 	@media #{$large-up} {
-		margin-bottom:rem-calc(70px);
-		margin-top:rem-calc(40px);
+		margin-top: rem-calc(10px);
 	}
 }
-
 
 #demo
 {
+	text-align: center;
 	background-color: $raftFriends;
 	padding-bottom:rem-calc(0px);
 }
@@ -586,7 +607,7 @@ input.button
 	
 	#insta_button
 	{
-		// margin-right: 30px
+		margin-right: 30px;
 
 		background-repeat:no-repeat;
 
