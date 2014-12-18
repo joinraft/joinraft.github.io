@@ -9539,14 +9539,18 @@ h3 {
 #signup p {
   margin-bottom: 30px;
 }
-
 /* line 510, ../scss/app_v1.scss */
+#signup a {
+  text-decoration: none;
+}
+
+/* line 515, ../scss/app_v1.scss */
 #mc_embed_signup {
   background-color: transparent;
   clear: left;
 }
 
-/* line 517, ../scss/app_v1.scss */
+/* line 522, ../scss/app_v1.scss */
 #mce-EMAIL {
   -webkit-appearance: none;
   outline: none;
@@ -9561,14 +9565,14 @@ h3 {
   margin-bottom: 1.25rem;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 517, ../scss/app_v1.scss */
+  /* line 522, ../scss/app_v1.scss */
   #mce-EMAIL {
     font-size: 1.375rem;
     margin-bottom: 1.25rem;
   }
 }
 
-/* line 541, ../scss/app_v1.scss */
+/* line 546, ../scss/app_v1.scss */
 input.button {
   margin: 0 auto;
   cursor: pointer;
@@ -9588,13 +9592,13 @@ input.button {
   letter-spacing: 1.2px;
   width: 100%;
 }
-/* line 566, ../scss/app_v1.scss */
+/* line 571, ../scss/app_v1.scss */
 input.button:hover {
   background-color: #FFFFFF;
   color: #f36454;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 541, ../scss/app_v1.scss */
+  /* line 546, ../scss/app_v1.scss */
   input.button {
     font-size: 1.5rem;
     width: auto;
@@ -9603,7 +9607,7 @@ input.button:hover {
   }
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 541, ../scss/app_v1.scss */
+  /* line 546, ../scss/app_v1.scss */
   input.button {
     font-size: 1.5rem;
     width: auto;
@@ -9612,7 +9616,7 @@ input.button:hover {
   }
 }
 
-/* line 587, ../scss/app_v1.scss */
+/* line 592, ../scss/app_v1.scss */
 #signup_form {
   webkit-transition: all 0.30s ease-in-out;
   -moz-transition: all 0.30s ease-in-out;
@@ -9621,26 +9625,26 @@ input.button:hover {
   overflow: hidden;
 }
 
-/* line 597, ../scss/app_v1.scss */
+/* line 602, ../scss/app_v1.scss */
 .center {
   text-align: center;
 }
 
-/* line 602, ../scss/app_v1.scss */
+/* line 607, ../scss/app_v1.scss */
 .section {
   width: 100%;
   padding-top: 1.875rem;
   padding-bottom: 1.875rem;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 602, ../scss/app_v1.scss */
+  /* line 607, ../scss/app_v1.scss */
   .section {
     padding-top: 3.125rem;
     padding-bottom: 3.125rem;
   }
 }
 
-/* line 614, ../scss/app_v1.scss */
+/* line 619, ../scss/app_v1.scss */
 #footer {
   color: #0d8f8e;
   background-color: #15b6b5;
@@ -9648,30 +9652,30 @@ input.button:hover {
   padding-bottom: 1.25rem;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 614, ../scss/app_v1.scss */
+  /* line 619, ../scss/app_v1.scss */
   #footer {
     padding-top: 3.75rem;
     padding-bottom: 1.875rem;
   }
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 614, ../scss/app_v1.scss */
+  /* line 619, ../scss/app_v1.scss */
   #footer {
     padding-top: 3.75rem;
     padding-bottom: 1.875rem;
   }
 }
-/* line 633, ../scss/app_v1.scss */
+/* line 638, ../scss/app_v1.scss */
 #footer #footer_menu {
   margin: 0 auto;
   text-align: center;
 }
-/* line 639, ../scss/app_v1.scss */
+/* line 644, ../scss/app_v1.scss */
 #footer .footer_btn {
   display: inline-block;
   cursor: pointer;
 }
-/* line 645, ../scss/app_v1.scss */
+/* line 650, ../scss/app_v1.scss */
 #footer #fb_button {
   margin-right: 20px;
   background-repeat: no-repeat;
@@ -9681,17 +9685,17 @@ input.button:hover {
   background-size: 43px 44px;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 645, ../scss/app_v1.scss */
+  /* line 650, ../scss/app_v1.scss */
   #footer #fb_button {
     margin-right: 30px;
   }
 }
-/* line 661, ../scss/app_v1.scss */
+/* line 666, ../scss/app_v1.scss */
 #footer #fb_button:hover {
   background: url("../assets/images/buttons/fb_highlighted@2x.png");
   background-size: 43px 44px;
 }
-/* line 668, ../scss/app_v1.scss */
+/* line 673, ../scss/app_v1.scss */
 #footer #twitter_button {
   margin-right: 20px;
   background-repeat: no-repeat;
@@ -9701,17 +9705,17 @@ input.button:hover {
   background-size: 46px 38px;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 668, ../scss/app_v1.scss */
+  /* line 673, ../scss/app_v1.scss */
   #footer #twitter_button {
     margin-right: 30px;
   }
 }
-/* line 684, ../scss/app_v1.scss */
+/* line 689, ../scss/app_v1.scss */
 #footer #twitter_button:hover {
   background: url("../assets/images/buttons/twitter_highlighted@2x.png");
   background-size: 46px 38px;
 }
-/* line 691, ../scss/app_v1.scss */
+/* line 696, ../scss/app_v1.scss */
 #footer #insta_button {
   margin-right: 20px;
   background-repeat: no-repeat;
@@ -9721,17 +9725,17 @@ input.button:hover {
   background-size: 43px 44px;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 691, ../scss/app_v1.scss */
+  /* line 696, ../scss/app_v1.scss */
   #footer #insta_button {
     margin-right: 30px;
   }
 }
-/* line 707, ../scss/app_v1.scss */
+/* line 712, ../scss/app_v1.scss */
 #footer #insta_button:hover {
   background: url("../assets/images/buttons/instagram_highlighted@2x.png");
   background-size: 43px 44px;
 }
-/* line 714, ../scss/app_v1.scss */
+/* line 719, ../scss/app_v1.scss */
 #footer #blog_button {
   background-repeat: no-repeat;
   margin-right: 5px;
@@ -9741,27 +9745,27 @@ input.button:hover {
   background-size: 28px 47px;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 714, ../scss/app_v1.scss */
+  /* line 719, ../scss/app_v1.scss */
   #footer #blog_button {
     margin-right: 15px;
   }
 }
-/* line 730, ../scss/app_v1.scss */
+/* line 735, ../scss/app_v1.scss */
 #footer #blog_button:hover {
   background-repeat: no-repeat;
   background: url("../assets/images/buttons/blog_highlighted@2x.png");
   background-size: 28px 47px;
 }
-/* line 739, ../scss/app_v1.scss */
+/* line 744, ../scss/app_v1.scss */
 #footer a {
   color: #0d8f8e;
   text-decoration: underline;
 }
-/* line 744, ../scss/app_v1.scss */
+/* line 749, ../scss/app_v1.scss */
 #footer a:active {
   color: #0d8f8e;
 }
-/* line 749, ../scss/app_v1.scss */
+/* line 754, ../scss/app_v1.scss */
 #footer a:hover {
   color: #FFFFFF;
 }
