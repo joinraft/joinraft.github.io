@@ -149,18 +149,20 @@ h3
 	margin-top:rem-calc(0px);
 	margin-bottom:rem-calc(30px);
 	font-size:rem-calc(24px);
-	letter-spacing:0.4px;
+	letter-spacing:0px;
 
 	@media #{$medium-up} {
 		text-align: center;
 		font-size:rem-calc(24px);
-		margin-bottom:rem-calc(50px);
+		margin-bottom:rem-calc(40px);
+		letter-spacing:0.4px;
 	}
 
 	@media #{$large-up} {
 		text-align: left;
 		font-size:rem-calc(26px);
 		margin-bottom:rem-calc(40px);
+		letter-spacing:0.4px;
 	}
 }
 
@@ -621,13 +623,13 @@ input.button
 	padding-bottom: rem-calc(20px);
 
 	@media #{$medium-up} {
-		padding-top: rem-calc(70px);
-		padding-bottom: rem-calc(40px);
+		padding-top: rem-calc(60px);
+		padding-bottom: rem-calc(30px);
 	}
 
 	@media #{$large-up} {
-		padding-top: rem-calc(70px);
-		padding-bottom: rem-calc(40px);
+		padding-top: rem-calc(60px);
+		padding-bottom: rem-calc(30px);
 	}
 
 
