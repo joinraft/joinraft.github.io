@@ -9265,7 +9265,7 @@ h3 {
   width: 200px;
   height: 60px;
   background-repeat: no-repeat;
-  background: url("../assets/images/appstore_badge_coming_soon.svg");
+  background: url("../assets/images/appstore_badge.svg");
   background-size: 200px 60px;
 }
 @media only screen and (min-width: 40.063em) {
@@ -9278,7 +9278,7 @@ h3 {
     width: 250px;
     height: 74px;
     background-repeat: no-repeat;
-    background: url("../assets/images/appstore_badge_coming_soon.svg");
+    background: url("../assets/images/appstore_badge.svg");
     background-size: 250px 74px;
   }
 }
