@@ -1,0 +1,29 @@
+body
+{
+    background-color:transparent;
+	padding: 20px;
+	color: #424243;
+    font-family:Avenir-Roman;
+    font-size:14px;
+}
+
+p
+{
+
+}
+
+h1
+{
+	font-size: 24px;
+}
+
+h2
+{
+	font-size: 16px;	
+}
+
+a
+{
+	font-family: Avenir-Medium;
+    color: #15B6B5;
+}
