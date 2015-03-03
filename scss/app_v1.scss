@@ -638,9 +638,11 @@ input.button
 		padding-bottom: rem-calc(30px);
 	}
 
-	.fb-like
+	.likeWrapper
 	{
-		margin-bottom: 20px;
+		background-color:$raftFriends;
+		margin-bottom:rem-calc(20px);
+		height: rem-calc(40px);
 	}
 
 	#footer_menu
