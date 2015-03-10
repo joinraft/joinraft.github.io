@@ -1,0 +1,39 @@
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width" />
+    <style type="text/css">
+      body
+      {
+        background-color: #15B6B5;
+      }
+    </style>
+  </head>
+  <body>
+  <script type="text/javascript" src="bower_components/jquery/dist/jquery.js"></script>
+  <script type="text/javascript">
+
+
+// To avoid the "protocol not supported" alert, fail must open another app.
+var appstorefail = "http://www.facebook.com/joinraft";
+
+function applink(fail){
+    return function(){
+        var clickedAt = +new Date;
+        // During tests on 3g/3gs this timeout fires immediately if less than 500ms.
+        setTimeout(function(){
+            // To avoid failing on return to MobileSafari, ensure freshness!
+            if (+new Date - clickedAt < 2000){
+                window.location = fail;
+            }
+        }, 500);    
+    };
+}
+
+$(document).ready(function(){
+  window.location = "fb://profile/518627451612215";
+  applink(appstorefail)();
+});
+
+</script>
+</body>
+</html>
