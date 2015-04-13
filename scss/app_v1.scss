@@ -90,7 +90,7 @@ p
 
 h1
 {
-	font-family: 'Avenir-Light', 'Open Sans', sans-serif;
+	font-family: 'AvenirNext-Bold', 'Open Sans', sans-serif;
 	font-weight:300;
 	color:#FFFFFF;
 
@@ -99,11 +99,11 @@ h1
 
 	text-align: center;
 
-	strong
-	{
-		font-family: 'Avenir-Heavy', 'Open Sans', sans-serif;
-		font-weight:500;
-	}
+	// strong
+	// {
+	// 	font-family: 'Avenir-Heavy', 'Open Sans', sans-serif;
+	// 	font-weight:500;
+	// }
 
 	@media #{$medium-up} {
 		text-align: center;
@@ -121,7 +121,7 @@ h1
 h2
 {
 	color:#FFFFFF;
-	font-family: 'Avenir-Heavy', 'Open Sans', sans-serif;
+	font-family: 'AvenirNext-Bold', 'Open Sans', sans-serif;
 	font-weight:500;
 	// margin-bottom:rem-calc(10px);
 	// margin-top:rem-calc(10px);
@@ -129,7 +129,7 @@ h2
 	letter-spacing:1.0px;
 
 	@media #{$medium-up} {
-		font-size:rem-calc(40px);
+		font-size:rem-calc(38px);
 		// margin-bottom:rem-calc(10px);
 	}
 

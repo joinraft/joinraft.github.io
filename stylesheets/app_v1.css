@@ -23463,17 +23463,12 @@ p small a {
 
 /* line 91, ../scss/app_v1.scss */
 h1 {
-  font-family: 'Avenir-Light', 'Open Sans', sans-serif;
+  font-family: 'AvenirNext-Bold', 'Open Sans', sans-serif;
   font-weight: 300;
   color: #FFFFFF;
   font-size: 1.875rem;
   margin-bottom: 0.3125rem;
   text-align: center;
-}
-/* line 102, ../scss/app_v1.scss */
-h1 strong {
-  font-family: 'Avenir-Heavy', 'Open Sans', sans-serif;
-  font-weight: 500;
 }
 @media only screen and (min-width: 40.063em) {
   /* line 91, ../scss/app_v1.scss */
@@ -23495,7 +23490,7 @@ h1 strong {
 /* line 121, ../scss/app_v1.scss */
 h2 {
   color: #FFFFFF;
-  font-family: 'Avenir-Heavy', 'Open Sans', sans-serif;
+  font-family: 'AvenirNext-Bold', 'Open Sans', sans-serif;
   font-weight: 500;
   font-size: 1.625rem;
   letter-spacing: 1.0px;
@@ -23503,7 +23498,7 @@ h2 {
 @media only screen and (min-width: 40.063em) {
   /* line 121, ../scss/app_v1.scss */
   h2 {
-    font-size: 2.5rem;
+    font-size: 2.375rem;
   }
 }
 /* line 136, ../scss/app_v1.scss */
