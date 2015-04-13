@@ -485,7 +485,7 @@ h3
 	}
 
 	text-align: center;
-	background-color: $raft_blue_dark;
+	background-color: $raftPartner;
 	padding-bottom:rem-calc(0px);
 }
 
@@ -575,7 +575,7 @@ input.button
 	&:hover
 	{
 		background-color:#FFFFFF;
-		color: $raftPartner;
+		color: $raftFriends;
 	}
 
 	@media #{$medium-up} {
