@@ -123,14 +123,16 @@ h2
 	color:#FFFFFF;
 	font-family: 'AvenirNext-Bold', 'Open Sans', sans-serif;
 	font-weight:500;
-	// margin-bottom:rem-calc(10px);
-	// margin-top:rem-calc(10px);
+
 	font-size:rem-calc(26px);
 	letter-spacing:1.0px;
 
 	@media #{$medium-up} {
+		font-size:rem-calc(34px);
+	}
+
+	@media #{$large-up} {
 		font-size:rem-calc(36px);
-		// margin-bottom:rem-calc(10px);
 	}
 
 	a
