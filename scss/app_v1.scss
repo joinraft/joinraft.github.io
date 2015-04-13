@@ -315,7 +315,7 @@ h3
 
 	background-color:$raftUser;
 	background-color:transparent;
-	background: url(../assets/images/raft_beach_blurred_mobile.png) no-repeat center center fixed; 
+	background: url(../assets/images/raft_deck_blurred_mobile.png) no-repeat center center fixed; 
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -333,7 +333,7 @@ h3
 	@media #{$medium-up} {
 		background-color:$raftUser;
 		background-color:transparent;
-		background: url(../assets/images/raft_beach_blurred_tablet.png) no-repeat center center fixed; 
+		background: url(../assets/images/raft_deck_blurred_tablet.png) no-repeat center center fixed; 
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
 		-o-background-size: cover;
@@ -343,7 +343,7 @@ h3
 	@media #{$large-up} {
 		background-color:$raftUser;
 		background-color:transparent;
-		background: url(../assets/images/raft_beach_blurred.png) no-repeat center center fixed; 
+		background: url(../assets/images/raft_deck_blurred.png) no-repeat center center fixed; 
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
 		-o-background-size: cover;
