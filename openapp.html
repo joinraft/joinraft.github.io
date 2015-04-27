@@ -36,8 +36,9 @@ $(document).ready(function(){
   
   if (IS_IPAD || IS_IPHONE) {
     var deeplink = getQueryVariable("deeplink");
-    window.location = "raft://";
-    applink(appstorefail)();    
+    window.location = "raft://" + deeplink;
+    alert ("raft://" + deeplink);
+    // applink(appstorefail)();    
   }
   else{
     window.location = appstorefail;
