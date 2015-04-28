@@ -23860,7 +23860,7 @@ h3 {
 #demo {
   display: none;
   text-align: center;
-  background-color: #F36454;
+  background-color: #F8CD5A;
   padding-bottom: 0;
 }
 @media only screen and (min-width: 40.063em) {
@@ -23872,7 +23872,7 @@ h3 {
 
 /* line 492, ../scss/app_v1.scss */
 #signup {
-  background-color: #F8CD5A;
+  background-color: #F36454;
   padding-top: 2.5rem;
   padding-bottom: 3.125rem;
   text-align: center;
@@ -23894,7 +23894,7 @@ h3 {
 }
 /* line 513, ../scss/app_v1.scss */
 #signup a:hover {
-  color: #F8CD5A;
+  color: #F36454;
 }
 
 /* line 520, ../scss/app_v1.scss */
@@ -23948,7 +23948,7 @@ input.button {
 /* line 575, ../scss/app_v1.scss */
 input.button:hover {
   background-color: #FFFFFF;
-  color: #F8CD5A;
+  color: #F36454;
 }
 @media only screen and (min-width: 40.063em) {
   /* line 550, ../scss/app_v1.scss */

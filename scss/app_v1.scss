@@ -485,13 +485,13 @@ h3
 	}
 
 	text-align: center;
-	background-color: $raftPartner;
+	background-color: $raftFriends;
 	padding-bottom:rem-calc(0px);
 }
 
 #signup
 {
-	background-color: $raftFriends;
+	background-color: $raftPartner;
 	padding-top:rem-calc(40px);
 	padding-bottom:rem-calc(50px);
 	text-align: center;
@@ -512,7 +512,7 @@ h3
 
 		&:hover
 		{
-			color: $raftFriends;
+			color: $raftPartner;
 		}
 	}
 }
@@ -575,7 +575,7 @@ input.button
 	&:hover
 	{
 		background-color:#FFFFFF;
-		color: $raftFriends;
+		color: $raftPartner;
 	}
 
 	@media #{$medium-up} {
