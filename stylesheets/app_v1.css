@@ -23745,7 +23745,7 @@ h3 {
   overflow: hidden;
   display: block;
   background-repeat: no-repeat;
-  background: url("../assets/images/promo_screen_1_small@2x.png");
+  background: url("../assets/images/promo_screen_new_1_small@2x.png");
   background-size: 280px 460px;
 }
 @media only screen and (min-width: 40.063em) {
@@ -23758,7 +23758,7 @@ h3 {
     width: 498px;
     height: 470px;
     background-repeat: no-repeat;
-    background: url("../assets/images/promo_screen_1@2x.png");
+    background: url("../assets/images/promo_screen_new_1@2x.png");
     background-size: 498px 470px;
   }
 }
@@ -23770,7 +23770,7 @@ h3 {
     width: 431px;
     height: 607px;
     background-repeat: no-repeat;
-    background: url("../assets/images/promo_screen_1_large@2x.png");
+    background: url("../assets/images/promo_screen_new_1_large@2x.png");
     background-size: 431px 607px;
   }
 }
