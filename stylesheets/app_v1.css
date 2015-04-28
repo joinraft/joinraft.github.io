@@ -23461,7 +23461,7 @@ p small a {
   text-decoration: underline;
 }
 /* line 89, ../scss/app_v1.scss */
-p small .appleInfo {
+p small.appleInfo {
   letter-spacing: 0.8;
   font-family: 'Avenir-Roman', 'Open Sans', sans-serif;
   font-size: 0.625rem;
@@ -23470,7 +23470,7 @@ p small .appleInfo {
 }
 @media only screen and (min-width: 40.063em) {
   /* line 89, ../scss/app_v1.scss */
-  p small .appleInfo {
+  p small.appleInfo {
     font-size: 0.75rem;
   }
 }
