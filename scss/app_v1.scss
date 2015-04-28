@@ -85,20 +85,20 @@ p
 			font-style: normal;
 			text-decoration: underline;
 		}
+	}
+}
 
-		&.appleInfo
-		{
-			letter-spacing: 0.8;
+.appleInfo
+{
+	line-height: 80%;
+	letter-spacing: 0px;
 
-			font-family: 'Avenir-Roman', 'Open Sans', sans-serif;
-			font-size:rem-calc(10px);
-			font-weight: normal;
-			letter-spacing:1.2px;
+	font-family: 'Avenir-Roman', 'Open Sans', sans-serif;
+	font-size:rem-calc(12px);
+	font-weight: normal;
 
-			@media #{$medium-up} {
-				font-size:rem-calc(12px);
-			}
-		}
+	@media #{$medium-up} {
+		font-size:rem-calc(14px);
 	}
 }
 
@@ -503,7 +503,7 @@ h3
 	padding-bottom:rem-calc(0px);
 
 	h2{
-		margin-bottom: 10px;
+		margin-bottom: 20px;
 	}
 }
 

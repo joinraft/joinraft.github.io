@@ -23460,18 +23460,19 @@ p small a {
   font-style: normal;
   text-decoration: underline;
 }
-/* line 89, ../scss/app_v1.scss */
-p small.appleInfo {
-  letter-spacing: 0.8;
+
+/* line 91, ../scss/app_v1.scss */
+.appleInfo {
+  line-height: 80%;
+  letter-spacing: 0px;
   font-family: 'Avenir-Roman', 'Open Sans', sans-serif;
-  font-size: 0.625rem;
+  font-size: 0.75rem;
   font-weight: normal;
-  letter-spacing: 1.2px;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 89, ../scss/app_v1.scss */
-  p small.appleInfo {
-    font-size: 0.75rem;
+  /* line 91, ../scss/app_v1.scss */
+  .appleInfo {
+    font-size: 0.875rem;
   }
 }
 
@@ -23885,7 +23886,7 @@ h3 {
 }
 /* line 505, ../scss/app_v1.scss */
 #demo h2 {
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 /* line 510, ../scss/app_v1.scss */
