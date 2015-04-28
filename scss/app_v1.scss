@@ -85,6 +85,20 @@ p
 			font-style: normal;
 			text-decoration: underline;
 		}
+
+		.appleInfo
+		{
+			letter-spacing: 0.8;
+
+			font-family: 'Avenir-Roman', 'Open Sans', sans-serif;
+			font-size:rem-calc(10px);
+			font-weight: normal;
+			letter-spacing:1.2px;
+
+			@media #{$medium-up} {
+				font-size:rem-calc(12px);
+			}
+		}
 	}
 }
 

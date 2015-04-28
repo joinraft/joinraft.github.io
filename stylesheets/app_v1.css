@@ -23460,8 +23460,22 @@ p small a {
   font-style: normal;
   text-decoration: underline;
 }
+/* line 89, ../scss/app_v1.scss */
+p small .appleInfo {
+  letter-spacing: 0.8;
+  font-family: 'Avenir-Roman', 'Open Sans', sans-serif;
+  font-size: 0.625rem;
+  font-weight: normal;
+  letter-spacing: 1.2px;
+}
+@media only screen and (min-width: 40.063em) {
+  /* line 89, ../scss/app_v1.scss */
+  p small .appleInfo {
+    font-size: 0.75rem;
+  }
+}
 
-/* line 91, ../scss/app_v1.scss */
+/* line 105, ../scss/app_v1.scss */
 h1 {
   font-family: 'AvenirNext-DemiBold', 'Open Sans', sans-serif;
   font-weight: 300;
@@ -23471,7 +23485,7 @@ h1 {
   text-align: center;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 91, ../scss/app_v1.scss */
+  /* line 105, ../scss/app_v1.scss */
   h1 {
     text-align: center;
     font-size: 2.75rem;
@@ -23479,7 +23493,7 @@ h1 {
   }
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 91, ../scss/app_v1.scss */
+  /* line 105, ../scss/app_v1.scss */
   h1 {
     text-align: left;
     font-size: 2.875rem;
@@ -23487,7 +23501,7 @@ h1 {
   }
 }
 
-/* line 121, ../scss/app_v1.scss */
+/* line 135, ../scss/app_v1.scss */
 h2 {
   color: #FFFFFF;
   font-family: 'AvenirNext-Bold', 'Open Sans', sans-serif;
@@ -23496,24 +23510,24 @@ h2 {
   letter-spacing: 1.0px;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 121, ../scss/app_v1.scss */
+  /* line 135, ../scss/app_v1.scss */
   h2 {
     font-size: 2.125rem;
   }
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 121, ../scss/app_v1.scss */
+  /* line 135, ../scss/app_v1.scss */
   h2 {
     font-size: 2.25rem;
   }
 }
-/* line 138, ../scss/app_v1.scss */
+/* line 152, ../scss/app_v1.scss */
 h2 a {
   text-decoration: underline;
   color: #FFFFFF;
 }
 
-/* line 145, ../scss/app_v1.scss */
+/* line 159, ../scss/app_v1.scss */
 h3 {
   color: #FFFFFF;
   font-family: 'Avenir-Light', 'Open Sans', sans-serif;
@@ -23525,7 +23539,7 @@ h3 {
   letter-spacing: 0.5px;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 145, ../scss/app_v1.scss */
+  /* line 159, ../scss/app_v1.scss */
   h3 {
     text-align: center;
     font-size: 1.5rem;
@@ -23534,7 +23548,7 @@ h3 {
   }
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 145, ../scss/app_v1.scss */
+  /* line 159, ../scss/app_v1.scss */
   h3 {
     text-align: left;
     font-size: 1.625rem;
@@ -23543,31 +23557,31 @@ h3 {
   }
 }
 
-/* line 171, ../scss/app_v1.scss */
+/* line 185, ../scss/app_v1.scss */
 #header_menu {
   display: none;
   margin-bottom: 0.625rem;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 171, ../scss/app_v1.scss */
+  /* line 185, ../scss/app_v1.scss */
   #header_menu {
     display: none;
   }
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 171, ../scss/app_v1.scss */
+  /* line 185, ../scss/app_v1.scss */
   #header_menu {
     display: block;
   }
 }
 
-/* line 186, ../scss/app_v1.scss */
+/* line 200, ../scss/app_v1.scss */
 #menu_logo {
   float: left;
   padding-left: 0;
 }
 
-/* line 192, ../scss/app_v1.scss */
+/* line 206, ../scss/app_v1.scss */
 .menu_btn {
   float: right;
   padding-top: 0.625rem;
@@ -23578,12 +23592,12 @@ h3 {
   font-weight: 400;
   letter-spacing: 0.3px;
 }
-/* line 203, ../scss/app_v1.scss */
+/* line 217, ../scss/app_v1.scss */
 .menu_btn:hover {
   text-decoration: underline;
 }
 
-/* line 215, ../scss/app_v1.scss */
+/* line 229, ../scss/app_v1.scss */
 #appstore_container {
   margin-top: 0.625rem;
   display: block;
@@ -23591,21 +23605,21 @@ h3 {
   text-align: center;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 215, ../scss/app_v1.scss */
+  /* line 229, ../scss/app_v1.scss */
   #appstore_container {
     display: block;
     text-align: center;
   }
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 215, ../scss/app_v1.scss */
+  /* line 229, ../scss/app_v1.scss */
   #appstore_container {
     display: block;
     text-align: left;
   }
 }
 
-/* line 241, ../scss/app_v1.scss */
+/* line 255, ../scss/app_v1.scss */
 #appstore {
   cursor: pointer;
   margin-left: auto;
@@ -23618,7 +23632,7 @@ h3 {
   background-size: 200px 60px;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 241, ../scss/app_v1.scss */
+  /* line 255, ../scss/app_v1.scss */
   #appstore {
     margin-bottom: 0.625rem;
     float: none;
@@ -23632,20 +23646,20 @@ h3 {
   }
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 241, ../scss/app_v1.scss */
+  /* line 255, ../scss/app_v1.scss */
   #appstore {
     margin-bottom: 0.9375rem;
     float: left;
   }
 }
 
-/* line 277, ../scss/app_v1.scss */
+/* line 291, ../scss/app_v1.scss */
 #wrapper {
   color: #FFFFFF;
   background-color: #15B6B5;
 }
 
-/* line 284, ../scss/app_v1.scss */
+/* line 298, ../scss/app_v1.scss */
 #logo {
   background-repeat: no-repeat;
   margin-left: auto;
@@ -23658,14 +23672,14 @@ h3 {
   background-size: 193px 146px;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 284, ../scss/app_v1.scss */
+  /* line 298, ../scss/app_v1.scss */
   #logo {
     margin-bottom: 1.25rem;
     margin-top: 3.125rem;
   }
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 284, ../scss/app_v1.scss */
+  /* line 298, ../scss/app_v1.scss */
   #logo {
     margin-bottom: 4.375rem;
     margin-top: 2.5rem;
@@ -23673,7 +23687,7 @@ h3 {
 }
 
 /* SECTIONS */
-/* line 312, ../scss/app_v1.scss */
+/* line 326, ../scss/app_v1.scss */
 #info {
   padding-top: 1.875rem;
   padding-bottom: 0;
@@ -23685,7 +23699,7 @@ h3 {
   -o-background-size: cover;
   background-size: cover;
 }
-/* line 326, ../scss/app_v1.scss */
+/* line 340, ../scss/app_v1.scss */
 #info p {
   font-family: 'Avenir-Heavy', 'Open Sans', sans-serif;
   font-size: 0.875rem;
@@ -23694,7 +23708,7 @@ h3 {
   margin-bottom: 1.25rem;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 312, ../scss/app_v1.scss */
+  /* line 326, ../scss/app_v1.scss */
   #info {
     background-color: #15B6B5;
     background-color: transparent;
@@ -23706,7 +23720,7 @@ h3 {
   }
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 312, ../scss/app_v1.scss */
+  /* line 326, ../scss/app_v1.scss */
   #info {
     background-color: #15B6B5;
     background-color: transparent;
@@ -23718,24 +23732,24 @@ h3 {
   }
 }
 
-/* line 356, ../scss/app_v1.scss */
+/* line 370, ../scss/app_v1.scss */
 #device_container {
   text-align: center;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 356, ../scss/app_v1.scss */
+  /* line 370, ../scss/app_v1.scss */
   #device_container {
     text-align: center;
   }
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 356, ../scss/app_v1.scss */
+  /* line 370, ../scss/app_v1.scss */
   #device_container {
     text-align: right;
   }
 }
 
-/* line 369, ../scss/app_v1.scss */
+/* line 383, ../scss/app_v1.scss */
 #device {
   margin-left: auto;
   margin-right: auto;
@@ -23749,7 +23763,7 @@ h3 {
   background-size: 280px 460px;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 369, ../scss/app_v1.scss */
+  /* line 383, ../scss/app_v1.scss */
   #device {
     margin-top: 0;
     float: clear;
@@ -23763,7 +23777,7 @@ h3 {
   }
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 369, ../scss/app_v1.scss */
+  /* line 383, ../scss/app_v1.scss */
   #device {
     margin-top: 1.25rem;
     float: right;
@@ -23775,17 +23789,17 @@ h3 {
   }
 }
 
-/* line 408, ../scss/app_v1.scss */
+/* line 422, ../scss/app_v1.scss */
 .promo_container {
   text-align: center;
 }
-/* line 412, ../scss/app_v1.scss */
+/* line 426, ../scss/app_v1.scss */
 .promo_container p {
   text-align: center;
   margin-bottom: 1.875rem;
 }
 
-/* line 419, ../scss/app_v1.scss */
+/* line 433, ../scss/app_v1.scss */
 .promo {
   webkit-transition: all 0.30s ease-in-out;
   -moz-transition: all 0.30s ease-in-out;
@@ -23801,7 +23815,7 @@ h3 {
   display: block;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 419, ../scss/app_v1.scss */
+  /* line 433, ../scss/app_v1.scss */
   .promo {
     margin-top: 0.9375rem;
     width: 100%;
@@ -23809,7 +23823,7 @@ h3 {
   }
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 419, ../scss/app_v1.scss */
+  /* line 433, ../scss/app_v1.scss */
   .promo {
     margin-top: 0.9375rem;
     width: 294px;
@@ -23817,46 +23831,46 @@ h3 {
   }
 }
 
-/* line 448, ../scss/app_v1.scss */
+/* line 462, ../scss/app_v1.scss */
 #promo_2 {
   margin-bottom: 1.25rem;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 448, ../scss/app_v1.scss */
+  /* line 462, ../scss/app_v1.scss */
   #promo_2 {
     margin-bottom: 0;
   }
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 448, ../scss/app_v1.scss */
+  /* line 462, ../scss/app_v1.scss */
   #promo_2 {
     margin-bottom: 0;
   }
 }
 
-/* line 461, ../scss/app_v1.scss */
+/* line 475, ../scss/app_v1.scss */
 #promo_3 {
   margin-bottom: 1.25rem;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 461, ../scss/app_v1.scss */
+  /* line 475, ../scss/app_v1.scss */
   #promo_3 {
     margin-bottom: 0;
   }
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 461, ../scss/app_v1.scss */
+  /* line 475, ../scss/app_v1.scss */
   #promo_3 {
     margin-bottom: 0;
   }
 }
 
-/* line 474, ../scss/app_v1.scss */
+/* line 488, ../scss/app_v1.scss */
 #promo_4 {
   margin-bottom: 0;
 }
 
-/* line 479, ../scss/app_v1.scss */
+/* line 493, ../scss/app_v1.scss */
 #demo {
   display: none;
   text-align: center;
@@ -23864,13 +23878,13 @@ h3 {
   padding-bottom: 0;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 479, ../scss/app_v1.scss */
+  /* line 493, ../scss/app_v1.scss */
   #demo {
     display: block;
   }
 }
 
-/* line 492, ../scss/app_v1.scss */
+/* line 506, ../scss/app_v1.scss */
 #signup {
   background-color: #F36454;
   padding-top: 2.5rem;
@@ -23878,32 +23892,32 @@ h3 {
   text-align: center;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 492, ../scss/app_v1.scss */
+  /* line 506, ../scss/app_v1.scss */
   #signup {
     padding-top: 3.125rem;
     padding-bottom: 4.375rem;
   }
 }
-/* line 504, ../scss/app_v1.scss */
+/* line 518, ../scss/app_v1.scss */
 #signup p {
   margin-bottom: 20px;
 }
-/* line 509, ../scss/app_v1.scss */
+/* line 523, ../scss/app_v1.scss */
 #signup a {
   text-decoration: none;
 }
-/* line 513, ../scss/app_v1.scss */
+/* line 527, ../scss/app_v1.scss */
 #signup a:hover {
   color: #F36454;
 }
 
-/* line 520, ../scss/app_v1.scss */
+/* line 534, ../scss/app_v1.scss */
 #mc_embed_signup {
   background-color: transparent;
   clear: left;
 }
 
-/* line 526, ../scss/app_v1.scss */
+/* line 540, ../scss/app_v1.scss */
 #mce-EMAIL {
   -webkit-appearance: none;
   outline: none;
@@ -23918,14 +23932,14 @@ h3 {
   margin-bottom: 1.25rem;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 526, ../scss/app_v1.scss */
+  /* line 540, ../scss/app_v1.scss */
   #mce-EMAIL {
     font-size: 1.375rem;
     margin-bottom: 1.25rem;
   }
 }
 
-/* line 550, ../scss/app_v1.scss */
+/* line 564, ../scss/app_v1.scss */
 input.button {
   margin: 0 auto;
   cursor: pointer;
@@ -23945,13 +23959,13 @@ input.button {
   letter-spacing: 1.2px;
   width: 100%;
 }
-/* line 575, ../scss/app_v1.scss */
+/* line 589, ../scss/app_v1.scss */
 input.button:hover {
   background-color: #FFFFFF;
   color: #F36454;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 550, ../scss/app_v1.scss */
+  /* line 564, ../scss/app_v1.scss */
   input.button {
     font-size: 1.5rem;
     width: auto;
@@ -23960,7 +23974,7 @@ input.button:hover {
   }
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 550, ../scss/app_v1.scss */
+  /* line 564, ../scss/app_v1.scss */
   input.button {
     font-size: 1.5rem;
     width: auto;
@@ -23969,7 +23983,7 @@ input.button:hover {
   }
 }
 
-/* line 596, ../scss/app_v1.scss */
+/* line 610, ../scss/app_v1.scss */
 #signup_form {
   webkit-transition: all 0.30s ease-in-out;
   -moz-transition: all 0.30s ease-in-out;
@@ -23978,26 +23992,26 @@ input.button:hover {
   overflow: hidden;
 }
 
-/* line 606, ../scss/app_v1.scss */
+/* line 620, ../scss/app_v1.scss */
 .center {
   text-align: center;
 }
 
-/* line 611, ../scss/app_v1.scss */
+/* line 625, ../scss/app_v1.scss */
 .section {
   width: 100%;
   padding-top: 1.875rem;
   padding-bottom: 1.875rem;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 611, ../scss/app_v1.scss */
+  /* line 625, ../scss/app_v1.scss */
   .section {
     padding-top: 3.125rem;
     padding-bottom: 3.125rem;
   }
 }
 
-/* line 623, ../scss/app_v1.scss */
+/* line 637, ../scss/app_v1.scss */
 #footer {
   color: #0D8F8E;
   background-color: #15B6B5;
@@ -24005,35 +24019,35 @@ input.button:hover {
   padding-bottom: 1.25rem;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 623, ../scss/app_v1.scss */
+  /* line 637, ../scss/app_v1.scss */
   #footer {
     padding-top: 3.75rem;
     padding-bottom: 1.875rem;
   }
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 623, ../scss/app_v1.scss */
+  /* line 637, ../scss/app_v1.scss */
   #footer {
     padding-top: 3.75rem;
     padding-bottom: 1.875rem;
   }
 }
-/* line 641, ../scss/app_v1.scss */
+/* line 655, ../scss/app_v1.scss */
 #footer .likeWrapper {
   margin-bottom: 1.25rem;
   height: 1.875rem;
 }
-/* line 647, ../scss/app_v1.scss */
+/* line 661, ../scss/app_v1.scss */
 #footer #footer_menu {
   margin: 0 auto;
   text-align: center;
 }
-/* line 653, ../scss/app_v1.scss */
+/* line 667, ../scss/app_v1.scss */
 #footer .footer_btn {
   display: inline-block;
   cursor: pointer;
 }
-/* line 659, ../scss/app_v1.scss */
+/* line 673, ../scss/app_v1.scss */
 #footer #fb_button {
   margin-right: 20px;
   background-repeat: no-repeat;
@@ -24043,17 +24057,17 @@ input.button:hover {
   background-size: 43px 44px;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 659, ../scss/app_v1.scss */
+  /* line 673, ../scss/app_v1.scss */
   #footer #fb_button {
     margin-right: 30px;
   }
 }
-/* line 675, ../scss/app_v1.scss */
+/* line 689, ../scss/app_v1.scss */
 #footer #fb_button:hover {
   background: url("../assets/images/buttons/fb_highlighted@2x.png");
   background-size: 43px 44px;
 }
-/* line 682, ../scss/app_v1.scss */
+/* line 696, ../scss/app_v1.scss */
 #footer #twitter_button {
   margin-right: 20px;
   background-repeat: no-repeat;
@@ -24063,17 +24077,17 @@ input.button:hover {
   background-size: 46px 38px;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 682, ../scss/app_v1.scss */
+  /* line 696, ../scss/app_v1.scss */
   #footer #twitter_button {
     margin-right: 30px;
   }
 }
-/* line 698, ../scss/app_v1.scss */
+/* line 712, ../scss/app_v1.scss */
 #footer #twitter_button:hover {
   background: url("../assets/images/buttons/twitter_highlighted@2x.png");
   background-size: 46px 38px;
 }
-/* line 705, ../scss/app_v1.scss */
+/* line 719, ../scss/app_v1.scss */
 #footer #insta_button {
   margin-right: 20px;
   background-repeat: no-repeat;
@@ -24083,17 +24097,17 @@ input.button:hover {
   background-size: 43px 44px;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 705, ../scss/app_v1.scss */
+  /* line 719, ../scss/app_v1.scss */
   #footer #insta_button {
     margin-right: 30px;
   }
 }
-/* line 721, ../scss/app_v1.scss */
+/* line 735, ../scss/app_v1.scss */
 #footer #insta_button:hover {
   background: url("../assets/images/buttons/instagram_highlighted@2x.png");
   background-size: 43px 44px;
 }
-/* line 728, ../scss/app_v1.scss */
+/* line 742, ../scss/app_v1.scss */
 #footer #blog_button {
   background-repeat: no-repeat;
   margin-right: 5px;
@@ -24103,27 +24117,27 @@ input.button:hover {
   background-size: 28px 47px;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 728, ../scss/app_v1.scss */
+  /* line 742, ../scss/app_v1.scss */
   #footer #blog_button {
     margin-right: 15px;
   }
 }
-/* line 744, ../scss/app_v1.scss */
+/* line 758, ../scss/app_v1.scss */
 #footer #blog_button:hover {
   background-repeat: no-repeat;
   background: url("../assets/images/buttons/blog_highlighted@2x.png");
   background-size: 28px 47px;
 }
-/* line 753, ../scss/app_v1.scss */
+/* line 767, ../scss/app_v1.scss */
 #footer a {
   color: #0D8F8E;
   text-decoration: underline;
 }
-/* line 758, ../scss/app_v1.scss */
+/* line 772, ../scss/app_v1.scss */
 #footer a:active {
   color: #0D8F8E;
 }
-/* line 763, ../scss/app_v1.scss */
+/* line 777, ../scss/app_v1.scss */
 #footer a:hover {
   color: #FFFFFF;
 }
