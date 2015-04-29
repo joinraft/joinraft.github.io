@@ -16,6 +16,7 @@
     <meta property="og:type" content="website"/>
     <meta property="og:image" content="http://www.joinraft.com/assets/images/fb_share_image_app.png" />
     <meta property="fb:admins" content="637611614" />
+    <meta name="apple-itunes-app" content="app-id=949819247">
     
     <!-- Fonts -->
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,400,300,700' rel='stylesheet' type='text/css'>
@@ -48,7 +49,8 @@
       <div class="section" id="info">
         <div class="row" id="header_menu">
           <div class="large-12 columns center">
-              <div class="menu_btn" id="press_button">Press kit</div>
+            <div class="menu_btn" id="press_button">Press kit</div>
+			<div class="menu_btn" id="download_button">Download App</div>
           </div>
         </div>
         <div class="row">
@@ -68,7 +70,11 @@
               <div id="device"></div>
             </div>
             <div id="small_appstore_button">
-
+              <div id="appstore_container">
+                <div id="appstore"></div>
+	            <div style="clear:both;"></div>
+                <p>LAUNCHING IN MAY</p>
+              </div>
             </div>
           </div>
         </div>
@@ -173,6 +179,16 @@
 
 
 <script type="text/javascript">
+
+$("#appstore").click(function(){
+  ga('send', 'event', 'button', 'click', 'App Store button');
+  window.open("http://itunes.apple.com/app/id949819247");
+});
+
+$("#download_button").click(function(){
+  ga('send', 'event', 'button', 'click', 'Download button');
+  window.open("http://itunes.apple.com/app/id949819247");
+});
 
 $("#press_button").click(function(){
   ga('send', 'event', 'button', 'click', 'Press Kit button');
