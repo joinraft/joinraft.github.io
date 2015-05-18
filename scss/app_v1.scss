@@ -652,23 +652,27 @@ input.button
 	margin-top:15px;
 
 	p{
-		font-size: 24px;
+		font-size: 18px;
 		font-family: 'Avenir-Book', 'Open Sans', sans-serif;
 		font-weight: normal;
 		margin-bottom: 0px !important;
+	
+		@media #{$medium-up} {
+			font-size: 24px;
+		}
 	}
 }
 
 .pressImage{
-	width:181px;
-	height:73px;
+	width:180px;
+	height:60px;
 
  	opacity: .5;
- 	
-    transition: opacity .3s;
-    -moz-transition: opacity .3s;
-    -webkit-transition: opacity .3s;
-    -o-transition: opacity .3s;
+
+    transition: opacity .2s;
+    -moz-transition: opacity .2s;
+    -webkit-transition: opacity .2s;
+    -o-transition: opacity .2s;
 
 	&:hover
 	{
