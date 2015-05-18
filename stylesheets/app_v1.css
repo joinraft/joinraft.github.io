@@ -24016,7 +24016,13 @@ input.button:hover {
   }
 }
 
-/* line 641, ../scss/app_v1.scss */
+/* line 646, ../scss/app_v1.scss */
+.pressImage {
+  width: 181px;
+  height: 73px;
+}
+
+/* line 651, ../scss/app_v1.scss */
 #footer {
   color: #0D8F8E;
   background-color: #15B6B5;
@@ -24024,35 +24030,35 @@ input.button:hover {
   padding-bottom: 1.25rem;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 641, ../scss/app_v1.scss */
+  /* line 651, ../scss/app_v1.scss */
   #footer {
     padding-top: 3.75rem;
     padding-bottom: 1.875rem;
   }
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 641, ../scss/app_v1.scss */
+  /* line 651, ../scss/app_v1.scss */
   #footer {
     padding-top: 3.75rem;
     padding-bottom: 1.875rem;
   }
 }
-/* line 659, ../scss/app_v1.scss */
+/* line 669, ../scss/app_v1.scss */
 #footer .likeWrapper {
   margin-bottom: 1.25rem;
   height: 1.875rem;
 }
-/* line 665, ../scss/app_v1.scss */
+/* line 675, ../scss/app_v1.scss */
 #footer #footer_menu {
   margin: 0 auto;
   text-align: center;
 }
-/* line 671, ../scss/app_v1.scss */
+/* line 681, ../scss/app_v1.scss */
 #footer .footer_btn {
   display: inline-block;
   cursor: pointer;
 }
-/* line 677, ../scss/app_v1.scss */
+/* line 687, ../scss/app_v1.scss */
 #footer #fb_button {
   margin-right: 20px;
   background-repeat: no-repeat;
@@ -24062,17 +24068,17 @@ input.button:hover {
   background-size: 43px 44px;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 677, ../scss/app_v1.scss */
+  /* line 687, ../scss/app_v1.scss */
   #footer #fb_button {
     margin-right: 30px;
   }
 }
-/* line 693, ../scss/app_v1.scss */
+/* line 703, ../scss/app_v1.scss */
 #footer #fb_button:hover {
   background: url("../assets/images/buttons/fb_highlighted@2x.png");
   background-size: 43px 44px;
 }
-/* line 700, ../scss/app_v1.scss */
+/* line 710, ../scss/app_v1.scss */
 #footer #twitter_button {
   margin-right: 20px;
   background-repeat: no-repeat;
@@ -24082,17 +24088,17 @@ input.button:hover {
   background-size: 46px 38px;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 700, ../scss/app_v1.scss */
+  /* line 710, ../scss/app_v1.scss */
   #footer #twitter_button {
     margin-right: 30px;
   }
 }
-/* line 716, ../scss/app_v1.scss */
+/* line 726, ../scss/app_v1.scss */
 #footer #twitter_button:hover {
   background: url("../assets/images/buttons/twitter_highlighted@2x.png");
   background-size: 46px 38px;
 }
-/* line 723, ../scss/app_v1.scss */
+/* line 733, ../scss/app_v1.scss */
 #footer #insta_button {
   margin-right: 20px;
   background-repeat: no-repeat;
@@ -24102,17 +24108,17 @@ input.button:hover {
   background-size: 43px 44px;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 723, ../scss/app_v1.scss */
+  /* line 733, ../scss/app_v1.scss */
   #footer #insta_button {
     margin-right: 30px;
   }
 }
-/* line 739, ../scss/app_v1.scss */
+/* line 749, ../scss/app_v1.scss */
 #footer #insta_button:hover {
   background: url("../assets/images/buttons/instagram_highlighted@2x.png");
   background-size: 43px 44px;
 }
-/* line 746, ../scss/app_v1.scss */
+/* line 756, ../scss/app_v1.scss */
 #footer #blog_button {
   background-repeat: no-repeat;
   margin-right: 5px;
@@ -24122,27 +24128,27 @@ input.button:hover {
   background-size: 28px 47px;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 746, ../scss/app_v1.scss */
+  /* line 756, ../scss/app_v1.scss */
   #footer #blog_button {
     margin-right: 15px;
   }
 }
-/* line 762, ../scss/app_v1.scss */
+/* line 772, ../scss/app_v1.scss */
 #footer #blog_button:hover {
   background-repeat: no-repeat;
   background: url("../assets/images/buttons/blog_highlighted@2x.png");
   background-size: 28px 47px;
 }
-/* line 771, ../scss/app_v1.scss */
+/* line 781, ../scss/app_v1.scss */
 #footer a {
   color: #0D8F8E;
   text-decoration: underline;
 }
-/* line 776, ../scss/app_v1.scss */
+/* line 786, ../scss/app_v1.scss */
 #footer a:active {
   color: #0D8F8E;
 }
-/* line 781, ../scss/app_v1.scss */
+/* line 791, ../scss/app_v1.scss */
 #footer a:hover {
   color: #FFFFFF;
 }
