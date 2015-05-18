@@ -24043,21 +24043,43 @@ input.button:hover {
 }
 
 /* line 666, ../scss/app_v1.scss */
-.pressImage {
+.testimonal_image {
+  margin: 0 auto;
+  display: block;
+  background-repeat: no-repeat;
+  background-size: 180px 60px;
   width: 180px;
   height: 60px;
-  opacity: .5;
-  transition: opacity .2s;
-  -moz-transition: opacity .2s;
-  -webkit-transition: opacity .2s;
-  -o-transition: opacity .2s;
-}
-/* line 677, ../scss/app_v1.scss */
-.pressImage:hover {
-  opacity: 1;
 }
 
-/* line 683, ../scss/app_v1.scss */
+/* line 676, ../scss/app_v1.scss */
+#testimonial_sydsvenskan {
+  background-image: url("../assets/images/testimonial_sydsvenskan@2x.png");
+}
+/* line 679, ../scss/app_v1.scss */
+#testimonial_sydsvenskan:hover {
+  background-image: url("../assets/images/testimonial_sydsvenskan_hover@2x.png");
+}
+
+/* line 685, ../scss/app_v1.scss */
+#testimonial_breakit {
+  background-image: url("../assets/images/testimonial_breakit@2x.png");
+}
+/* line 688, ../scss/app_v1.scss */
+#testimonial_breakit:hover {
+  background-image: url("../assets/images/testimonial_breakit_hover@2x.png");
+}
+
+/* line 694, ../scss/app_v1.scss */
+#testimonial_gp {
+  background-image: url("../assets/images/testimonial_gp@2x.png");
+}
+/* line 697, ../scss/app_v1.scss */
+#testimonial_gp:hover {
+  background-image: url("../assets/images/testimonial_gp_hover@2x.png");
+}
+
+/* line 703, ../scss/app_v1.scss */
 #footer {
   color: #0D8F8E;
   background-color: #15B6B5;
@@ -24065,35 +24087,35 @@ input.button:hover {
   padding-bottom: 1.25rem;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 683, ../scss/app_v1.scss */
+  /* line 703, ../scss/app_v1.scss */
   #footer {
     padding-top: 3.75rem;
     padding-bottom: 1.875rem;
   }
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 683, ../scss/app_v1.scss */
+  /* line 703, ../scss/app_v1.scss */
   #footer {
     padding-top: 3.75rem;
     padding-bottom: 1.875rem;
   }
 }
-/* line 701, ../scss/app_v1.scss */
+/* line 721, ../scss/app_v1.scss */
 #footer .likeWrapper {
   margin-bottom: 1.25rem;
   height: 1.875rem;
 }
-/* line 707, ../scss/app_v1.scss */
+/* line 727, ../scss/app_v1.scss */
 #footer #footer_menu {
   margin: 0 auto;
   text-align: center;
 }
-/* line 713, ../scss/app_v1.scss */
+/* line 733, ../scss/app_v1.scss */
 #footer .footer_btn {
   display: inline-block;
   cursor: pointer;
 }
-/* line 719, ../scss/app_v1.scss */
+/* line 739, ../scss/app_v1.scss */
 #footer #fb_button {
   margin-right: 20px;
   background-repeat: no-repeat;
@@ -24103,17 +24125,17 @@ input.button:hover {
   background-size: 43px 44px;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 719, ../scss/app_v1.scss */
+  /* line 739, ../scss/app_v1.scss */
   #footer #fb_button {
     margin-right: 30px;
   }
 }
-/* line 735, ../scss/app_v1.scss */
+/* line 755, ../scss/app_v1.scss */
 #footer #fb_button:hover {
   background: url("../assets/images/buttons/fb_highlighted@2x.png");
   background-size: 43px 44px;
 }
-/* line 742, ../scss/app_v1.scss */
+/* line 762, ../scss/app_v1.scss */
 #footer #twitter_button {
   margin-right: 20px;
   background-repeat: no-repeat;
@@ -24123,17 +24145,17 @@ input.button:hover {
   background-size: 46px 38px;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 742, ../scss/app_v1.scss */
+  /* line 762, ../scss/app_v1.scss */
   #footer #twitter_button {
     margin-right: 30px;
   }
 }
-/* line 758, ../scss/app_v1.scss */
+/* line 778, ../scss/app_v1.scss */
 #footer #twitter_button:hover {
   background: url("../assets/images/buttons/twitter_highlighted@2x.png");
   background-size: 46px 38px;
 }
-/* line 765, ../scss/app_v1.scss */
+/* line 785, ../scss/app_v1.scss */
 #footer #insta_button {
   margin-right: 20px;
   background-repeat: no-repeat;
@@ -24143,17 +24165,17 @@ input.button:hover {
   background-size: 43px 44px;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 765, ../scss/app_v1.scss */
+  /* line 785, ../scss/app_v1.scss */
   #footer #insta_button {
     margin-right: 30px;
   }
 }
-/* line 781, ../scss/app_v1.scss */
+/* line 801, ../scss/app_v1.scss */
 #footer #insta_button:hover {
   background: url("../assets/images/buttons/instagram_highlighted@2x.png");
   background-size: 43px 44px;
 }
-/* line 788, ../scss/app_v1.scss */
+/* line 808, ../scss/app_v1.scss */
 #footer #blog_button {
   background-repeat: no-repeat;
   margin-right: 5px;
@@ -24163,27 +24185,27 @@ input.button:hover {
   background-size: 28px 47px;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 788, ../scss/app_v1.scss */
+  /* line 808, ../scss/app_v1.scss */
   #footer #blog_button {
     margin-right: 15px;
   }
 }
-/* line 804, ../scss/app_v1.scss */
+/* line 824, ../scss/app_v1.scss */
 #footer #blog_button:hover {
   background-repeat: no-repeat;
   background: url("../assets/images/buttons/blog_highlighted@2x.png");
   background-size: 28px 47px;
 }
-/* line 813, ../scss/app_v1.scss */
+/* line 833, ../scss/app_v1.scss */
 #footer a {
   color: #0D8F8E;
   text-decoration: underline;
 }
-/* line 818, ../scss/app_v1.scss */
+/* line 838, ../scss/app_v1.scss */
 #footer a:active {
   color: #0D8F8E;
 }
-/* line 823, ../scss/app_v1.scss */
+/* line 843, ../scss/app_v1.scss */
 #footer a:hover {
   color: #FFFFFF;
 }

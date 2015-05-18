@@ -663,20 +663,40 @@ input.button
 	}
 }
 
-.pressImage{
+.testimonal_image{
+	margin:0 auto;
+	// margin-top:10px;
+	display: block;
+	background-repeat:no-repeat;
+	background-size:180px 60px;
 	width:180px;
 	height:60px;
+}
 
- 	opacity: .5;
-
-    transition: opacity .2s;
-    -moz-transition: opacity .2s;
-    -webkit-transition: opacity .2s;
-    -o-transition: opacity .2s;
+#testimonial_sydsvenskan{
+	background-image:url('../assets/images/testimonial_sydsvenskan@2x.png');
 
 	&:hover
 	{
-		opacity: 1;
+		background-image:url('../assets/images/testimonial_sydsvenskan_hover@2x.png');
+	}
+}
+
+#testimonial_breakit{
+	background-image:url('../assets/images/testimonial_breakit@2x.png');
+
+	&:hover
+	{
+		background-image:url('../assets/images/testimonial_breakit_hover@2x.png');
+	}
+}
+
+#testimonial_gp{
+	background-image:url('../assets/images/testimonial_gp@2x.png');
+
+	&:hover
+	{
+		background-image:url('../assets/images/testimonial_gp_hover@2x.png');
 	}
 }
 
