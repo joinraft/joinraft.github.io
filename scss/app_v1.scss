@@ -504,6 +504,13 @@ h3
 	margin-bottom: rem-calc(0px);
 }
 
+#video
+{
+	h2{
+		margin-bottom: 20px;
+	}
+}
+
 #demo
 {
 	display: none;
@@ -521,10 +528,31 @@ h3
 	}
 }
 
-#video
+#signup_v2
 {
-	h2{
+	background-color: $raftFriends;
+	padding-top:rem-calc(40px);
+	padding-bottom:rem-calc(50px);
+	text-align: center;
+
+	@media #{$medium-up} {
+		padding-top:rem-calc(50px);
+		padding-bottom:rem-calc(70px);
+	}
+
+	p
+	{
 		margin-bottom: 20px;
+	}
+
+	a
+	{
+		text-decoration: none;
+
+		&:hover
+		{
+			color: $raftFriends;
+		}
 	}
 }
 
@@ -662,7 +690,7 @@ input.button
 // Testemonials
 
 #testimonials{
-	background-color: $raftFriends;
+	background-color: $raftPartner;
 	padding-top:rem-calc(40px);
 	padding-bottom:rem-calc(50px);
 	text-align: center;
