@@ -554,6 +554,52 @@ h3
 			color: $raftFriends;
 		}
 	}
+
+	input.button
+	{
+		margin: 0 auto;
+		cursor: pointer;
+
+		font-family: 'Avenir-Heavy', 'Open Sans', sans-serif;
+		font-size:rem-calc(24px);
+		font-weight:600;
+
+		-webkit-transition: all 0.20s ease-in-out;
+		-moz-transition: all 0.20s ease-in-out;
+		-ms-transition: all 0.20s ease-in-out;
+		-o-transition: all 0.20s ease-in-out;
+
+		border:2px solid #FFFFFF;
+		border-radius:6px;
+		box-shadow:0;
+
+		background-color:transparent;
+		color:#FFFFFF;
+		padding: 10px;
+		letter-spacing:1.2px;
+
+		width: 100%;
+
+		&:hover
+		{
+			background-color:#FFFFFF;
+			color: $raftFriends;
+		}
+
+		@media #{$medium-up} {
+			font-size:rem-calc(24px);
+			width: auto;
+			padding-left: rem-calc(60px);
+			padding-right: rem-calc(60px);
+		}
+
+		@media #{$large-up} {
+			font-size:rem-calc(24px);
+			width: auto;
+			padding-left: rem-calc(60px);
+			padding-right: rem-calc(60px);
+		}
+	}
 }
 
 #signup
@@ -580,6 +626,52 @@ h3
 		&:hover
 		{
 			color: $raftPartner;
+		}
+	}
+
+	input.button
+	{
+		margin: 0 auto;
+		cursor: pointer;
+
+		font-family: 'Avenir-Heavy', 'Open Sans', sans-serif;
+		font-size:rem-calc(24px);
+		font-weight:600;
+
+		-webkit-transition: all 0.20s ease-in-out;
+		-moz-transition: all 0.20s ease-in-out;
+		-ms-transition: all 0.20s ease-in-out;
+		-o-transition: all 0.20s ease-in-out;
+
+		border:2px solid #FFFFFF;
+		border-radius:6px;
+		box-shadow:0;
+
+		background-color:transparent;
+		color:#FFFFFF;
+		padding: 10px;
+		letter-spacing:1.2px;
+
+		width: 100%;
+
+		&:hover
+		{
+			background-color:#FFFFFF;
+			color: $raftPartner;
+		}
+
+		@media #{$medium-up} {
+			font-size:rem-calc(24px);
+			width: auto;
+			padding-left: rem-calc(60px);
+			padding-right: rem-calc(60px);
+		}
+
+		@media #{$large-up} {
+			font-size:rem-calc(24px);
+			width: auto;
+			padding-left: rem-calc(60px);
+			padding-right: rem-calc(60px);
 		}
 	}
 }
@@ -611,52 +703,6 @@ h3
 	@media #{$medium-up} {
 		font-size:rem-calc(22px);
 		margin-bottom: rem-calc(20px);
-	}
-}
-
-input.button
-{
-	margin: 0 auto;
-	cursor: pointer;
-
-	font-family: 'Avenir-Heavy', 'Open Sans', sans-serif;
-	font-size:rem-calc(24px);
-	font-weight:600;
-
-	-webkit-transition: all 0.20s ease-in-out;
-	-moz-transition: all 0.20s ease-in-out;
-	-ms-transition: all 0.20s ease-in-out;
-	-o-transition: all 0.20s ease-in-out;
-
-	border:2px solid #FFFFFF;
-	border-radius:6px;
-	box-shadow:0;
-
-	background-color:transparent;
-	color:#FFFFFF;
-	padding: 10px;
-	letter-spacing:1.2px;
-
-	width: 100%;
-
-	&:hover
-	{
-		background-color:#FFFFFF;
-		color: $raftPartner;
-	}
-
-	@media #{$medium-up} {
-		font-size:rem-calc(24px);
-		width: auto;
-		padding-left: rem-calc(60px);
-		padding-right: rem-calc(60px);
-	}
-
-	@media #{$large-up} {
-		font-size:rem-calc(24px);
-		width: auto;
-		padding-left: rem-calc(60px);
-		padding-right: rem-calc(60px);
 	}
 }
 
