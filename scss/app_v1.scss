@@ -197,6 +197,20 @@ h3
 	}
 }
 
+#raft_video
+{
+	width:100%;
+	height:400px;
+
+	@media #{$medium-up} {
+		height:600px;
+	}
+
+	@media #{$large-up} {
+		height:800px;
+	}
+}
+
 #menu_logo
 {
 	float:left;
