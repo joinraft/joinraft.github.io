@@ -85,9 +85,10 @@
 
       <div class="section" id="video">
         <div id="raft_video">
-            <div id="play_button">
+            <div id="play_button_wrapper">
+              <div id="play_button"></div>
+              <h2>Our vision in 20s!</h2>
             </div>
-            <h2>Our vision in 20s!</h2>
             <div id="player"></div>
         </div>
       </div>
@@ -255,7 +256,8 @@
 
   function loadVideo(){
 
-    $("#play_button").hide().animate()
+    $("#play_button_wrapper").hide().animate()
+
 
     player = new YT.Player('player', {
       height: '100%',

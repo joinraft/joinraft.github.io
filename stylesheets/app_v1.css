@@ -23905,6 +23905,12 @@ h3 {
 
 /* line 532, ../scss/app_v1.scss */
 #raft_video {
+  background-color: transparent;
+  background: url(../assets/images/video_bg.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   text-align: center;
   position: relative;
   width: 100%;
@@ -23919,13 +23925,31 @@ h3 {
 @media only screen and (min-width: 64.063em) {
   /* line 532, ../scss/app_v1.scss */
   #raft_video {
+    height: 600px;
+  }
+}
+
+/* line 555, ../scss/app_v1.scss */
+#play_button_wrapper {
+  padding-top: 75px;
+}
+@media only screen and (min-width: 40.063em) {
+  /* line 555, ../scss/app_v1.scss */
+  #play_button_wrapper {
+    padding-top: 150px;
+    height: 400px;
+  }
+}
+@media only screen and (min-width: 64.063em) {
+  /* line 555, ../scss/app_v1.scss */
+  #play_button_wrapper {
+    padding-top: 180px;
     height: 700px;
   }
 }
 
-/* line 549, ../scss/app_v1.scss */
+/* line 569, ../scss/app_v1.scss */
 #play_button {
-  margin-top: 60px;
   cursor: pointer;
   margin: 0 auto;
   background-repeat: no-repeat;
@@ -23933,9 +23957,10 @@ h3 {
   height: 149px;
   background: url("../assets/images/play_button_up@2x.png");
   background-size: 144px 149px;
+  margin-bottom: 15px;
 }
 
-/* line 563, ../scss/app_v1.scss */
+/* line 582, ../scss/app_v1.scss */
 #demo {
   display: none;
   background-color: #F8CD5A;
@@ -23944,17 +23969,17 @@ h3 {
   padding-bottom: 0;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 563, ../scss/app_v1.scss */
+  /* line 582, ../scss/app_v1.scss */
   #demo {
     display: block;
   }
 }
-/* line 576, ../scss/app_v1.scss */
+/* line 595, ../scss/app_v1.scss */
 #demo h2 {
   margin-bottom: 20px;
 }
 
-/* line 581, ../scss/app_v1.scss */
+/* line 600, ../scss/app_v1.scss */
 #signup_v2 {
   background-color: #F8CD5A;
   padding-top: 2.5rem;
@@ -23962,25 +23987,25 @@ h3 {
   text-align: center;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 581, ../scss/app_v1.scss */
+  /* line 600, ../scss/app_v1.scss */
   #signup_v2 {
     padding-top: 3.125rem;
     padding-bottom: 4.375rem;
   }
 }
-/* line 593, ../scss/app_v1.scss */
+/* line 612, ../scss/app_v1.scss */
 #signup_v2 p {
   margin-bottom: 20px;
 }
-/* line 598, ../scss/app_v1.scss */
+/* line 617, ../scss/app_v1.scss */
 #signup_v2 a {
   text-decoration: none;
 }
-/* line 602, ../scss/app_v1.scss */
+/* line 621, ../scss/app_v1.scss */
 #signup_v2 a:hover {
   color: #F8CD5A;
 }
-/* line 608, ../scss/app_v1.scss */
+/* line 627, ../scss/app_v1.scss */
 #signup_v2 input.button {
   margin: 0 auto;
   cursor: pointer;
@@ -24000,13 +24025,13 @@ h3 {
   letter-spacing: 1.2px;
   width: 100%;
 }
-/* line 633, ../scss/app_v1.scss */
+/* line 652, ../scss/app_v1.scss */
 #signup_v2 input.button:hover {
   background-color: #FFFFFF;
   color: #F8CD5A;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 608, ../scss/app_v1.scss */
+  /* line 627, ../scss/app_v1.scss */
   #signup_v2 input.button {
     font-size: 1.5rem;
     width: auto;
@@ -24015,7 +24040,7 @@ h3 {
   }
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 608, ../scss/app_v1.scss */
+  /* line 627, ../scss/app_v1.scss */
   #signup_v2 input.button {
     font-size: 1.5rem;
     width: auto;
@@ -24024,7 +24049,7 @@ h3 {
   }
 }
 
-/* line 655, ../scss/app_v1.scss */
+/* line 674, ../scss/app_v1.scss */
 #signup {
   background-color: #F36454;
   padding-top: 2.5rem;
@@ -24032,25 +24057,25 @@ h3 {
   text-align: center;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 655, ../scss/app_v1.scss */
+  /* line 674, ../scss/app_v1.scss */
   #signup {
     padding-top: 3.125rem;
     padding-bottom: 4.375rem;
   }
 }
-/* line 667, ../scss/app_v1.scss */
+/* line 686, ../scss/app_v1.scss */
 #signup p {
   margin-bottom: 20px;
 }
-/* line 672, ../scss/app_v1.scss */
+/* line 691, ../scss/app_v1.scss */
 #signup a {
   text-decoration: none;
 }
-/* line 676, ../scss/app_v1.scss */
+/* line 695, ../scss/app_v1.scss */
 #signup a:hover {
   color: #F36454;
 }
-/* line 682, ../scss/app_v1.scss */
+/* line 701, ../scss/app_v1.scss */
 #signup input.button {
   margin: 0 auto;
   cursor: pointer;
@@ -24070,13 +24095,13 @@ h3 {
   letter-spacing: 1.2px;
   width: 100%;
 }
-/* line 707, ../scss/app_v1.scss */
+/* line 726, ../scss/app_v1.scss */
 #signup input.button:hover {
   background-color: #FFFFFF;
   color: #F36454;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 682, ../scss/app_v1.scss */
+  /* line 701, ../scss/app_v1.scss */
   #signup input.button {
     font-size: 1.5rem;
     width: auto;
@@ -24085,7 +24110,7 @@ h3 {
   }
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 682, ../scss/app_v1.scss */
+  /* line 701, ../scss/app_v1.scss */
   #signup input.button {
     font-size: 1.5rem;
     width: auto;
@@ -24094,13 +24119,13 @@ h3 {
   }
 }
 
-/* line 729, ../scss/app_v1.scss */
+/* line 748, ../scss/app_v1.scss */
 #mc_embed_signup {
   background-color: transparent;
   clear: left;
 }
 
-/* line 735, ../scss/app_v1.scss */
+/* line 754, ../scss/app_v1.scss */
 #mce-EMAIL {
   -webkit-appearance: none;
   outline: none;
@@ -24115,14 +24140,14 @@ h3 {
   margin-bottom: 1.25rem;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 735, ../scss/app_v1.scss */
+  /* line 754, ../scss/app_v1.scss */
   #mce-EMAIL {
     font-size: 1.375rem;
     margin-bottom: 1.25rem;
   }
 }
 
-/* line 759, ../scss/app_v1.scss */
+/* line 778, ../scss/app_v1.scss */
 #signup_form {
   webkit-transition: all 0.30s ease-in-out;
   -moz-transition: all 0.30s ease-in-out;
@@ -24131,26 +24156,26 @@ h3 {
   overflow: hidden;
 }
 
-/* line 769, ../scss/app_v1.scss */
+/* line 788, ../scss/app_v1.scss */
 .center {
   text-align: center;
 }
 
-/* line 774, ../scss/app_v1.scss */
+/* line 793, ../scss/app_v1.scss */
 .section {
   width: 100%;
   padding-top: 1.875rem;
   padding-bottom: 1.875rem;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 774, ../scss/app_v1.scss */
+  /* line 793, ../scss/app_v1.scss */
   .section {
     padding-top: 3.125rem;
     padding-bottom: 3.125rem;
   }
 }
 
-/* line 788, ../scss/app_v1.scss */
+/* line 807, ../scss/app_v1.scss */
 #testimonials {
   background-color: #F36454;
   padding-top: 2.5rem;
@@ -24158,11 +24183,11 @@ h3 {
   text-align: center;
 }
 
-/* line 795, ../scss/app_v1.scss */
+/* line 814, ../scss/app_v1.scss */
 .testimonial {
   margin-top: 15px;
 }
-/* line 799, ../scss/app_v1.scss */
+/* line 818, ../scss/app_v1.scss */
 .testimonial p {
   font-size: 20px;
   font-family: 'Avenir-Book', 'Open Sans', sans-serif;
@@ -24170,13 +24195,13 @@ h3 {
   margin-bottom: 0px !important;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 799, ../scss/app_v1.scss */
+  /* line 818, ../scss/app_v1.scss */
   .testimonial p {
     font-size: 24px;
   }
 }
 
-/* line 811, ../scss/app_v1.scss */
+/* line 830, ../scss/app_v1.scss */
 .testimonal_image {
   margin: 0 auto;
   display: block;
@@ -24186,34 +24211,34 @@ h3 {
   height: 60px;
 }
 
-/* line 821, ../scss/app_v1.scss */
+/* line 840, ../scss/app_v1.scss */
 #testimonial_sydsvenskan {
   background-image: url("../assets/images/testimonial_sydsvenskan@2x.png");
 }
-/* line 824, ../scss/app_v1.scss */
+/* line 843, ../scss/app_v1.scss */
 #testimonial_sydsvenskan:hover {
   background-image: url("../assets/images/testimonial_sydsvenskan_hover@2x.png");
 }
 
-/* line 830, ../scss/app_v1.scss */
+/* line 849, ../scss/app_v1.scss */
 #testimonial_breakit {
   background-image: url("../assets/images/testimonial_breakit@2x.png");
 }
-/* line 833, ../scss/app_v1.scss */
+/* line 852, ../scss/app_v1.scss */
 #testimonial_breakit:hover {
   background-image: url("../assets/images/testimonial_breakit_hover@2x.png");
 }
 
-/* line 839, ../scss/app_v1.scss */
+/* line 858, ../scss/app_v1.scss */
 #testimonial_gp {
   background-image: url("../assets/images/testimonial_gp@2x.png");
 }
-/* line 842, ../scss/app_v1.scss */
+/* line 861, ../scss/app_v1.scss */
 #testimonial_gp:hover {
   background-image: url("../assets/images/testimonial_gp_hover@2x.png");
 }
 
-/* line 848, ../scss/app_v1.scss */
+/* line 867, ../scss/app_v1.scss */
 #footer {
   color: #0D8F8E;
   background-color: #15B6B5;
@@ -24221,35 +24246,35 @@ h3 {
   padding-bottom: 1.25rem;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 848, ../scss/app_v1.scss */
+  /* line 867, ../scss/app_v1.scss */
   #footer {
     padding-top: 3.75rem;
     padding-bottom: 1.875rem;
   }
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 848, ../scss/app_v1.scss */
+  /* line 867, ../scss/app_v1.scss */
   #footer {
     padding-top: 3.75rem;
     padding-bottom: 1.875rem;
   }
 }
-/* line 866, ../scss/app_v1.scss */
+/* line 885, ../scss/app_v1.scss */
 #footer .likeWrapper {
   margin-bottom: 1.25rem;
   height: 1.875rem;
 }
-/* line 872, ../scss/app_v1.scss */
+/* line 891, ../scss/app_v1.scss */
 #footer #footer_menu {
   margin: 0 auto;
   text-align: center;
 }
-/* line 878, ../scss/app_v1.scss */
+/* line 897, ../scss/app_v1.scss */
 #footer .footer_btn {
   display: inline-block;
   cursor: pointer;
 }
-/* line 884, ../scss/app_v1.scss */
+/* line 903, ../scss/app_v1.scss */
 #footer #fb_button {
   margin-right: 20px;
   background-repeat: no-repeat;
@@ -24259,17 +24284,17 @@ h3 {
   background-size: 43px 44px;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 884, ../scss/app_v1.scss */
+  /* line 903, ../scss/app_v1.scss */
   #footer #fb_button {
     margin-right: 30px;
   }
 }
-/* line 900, ../scss/app_v1.scss */
+/* line 919, ../scss/app_v1.scss */
 #footer #fb_button:hover {
   background: url("../assets/images/buttons/fb_highlighted@2x.png");
   background-size: 43px 44px;
 }
-/* line 907, ../scss/app_v1.scss */
+/* line 926, ../scss/app_v1.scss */
 #footer #twitter_button {
   margin-right: 20px;
   background-repeat: no-repeat;
@@ -24279,17 +24304,17 @@ h3 {
   background-size: 46px 38px;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 907, ../scss/app_v1.scss */
+  /* line 926, ../scss/app_v1.scss */
   #footer #twitter_button {
     margin-right: 30px;
   }
 }
-/* line 923, ../scss/app_v1.scss */
+/* line 942, ../scss/app_v1.scss */
 #footer #twitter_button:hover {
   background: url("../assets/images/buttons/twitter_highlighted@2x.png");
   background-size: 46px 38px;
 }
-/* line 930, ../scss/app_v1.scss */
+/* line 949, ../scss/app_v1.scss */
 #footer #insta_button {
   margin-right: 20px;
   background-repeat: no-repeat;
@@ -24299,17 +24324,17 @@ h3 {
   background-size: 43px 44px;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 930, ../scss/app_v1.scss */
+  /* line 949, ../scss/app_v1.scss */
   #footer #insta_button {
     margin-right: 30px;
   }
 }
-/* line 946, ../scss/app_v1.scss */
+/* line 965, ../scss/app_v1.scss */
 #footer #insta_button:hover {
   background: url("../assets/images/buttons/instagram_highlighted@2x.png");
   background-size: 43px 44px;
 }
-/* line 953, ../scss/app_v1.scss */
+/* line 972, ../scss/app_v1.scss */
 #footer #blog_button {
   background-repeat: no-repeat;
   margin-right: 5px;
@@ -24319,27 +24344,27 @@ h3 {
   background-size: 28px 47px;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 953, ../scss/app_v1.scss */
+  /* line 972, ../scss/app_v1.scss */
   #footer #blog_button {
     margin-right: 15px;
   }
 }
-/* line 969, ../scss/app_v1.scss */
+/* line 988, ../scss/app_v1.scss */
 #footer #blog_button:hover {
   background-repeat: no-repeat;
   background: url("../assets/images/buttons/blog_highlighted@2x.png");
   background-size: 28px 47px;
 }
-/* line 978, ../scss/app_v1.scss */
+/* line 997, ../scss/app_v1.scss */
 #footer a {
   color: #0D8F8E;
   text-decoration: underline;
 }
-/* line 983, ../scss/app_v1.scss */
+/* line 1002, ../scss/app_v1.scss */
 #footer a:active {
   color: #0D8F8E;
 }
-/* line 988, ../scss/app_v1.scss */
+/* line 1007, ../scss/app_v1.scss */
 #footer a:hover {
   color: #FFFFFF;
 }
