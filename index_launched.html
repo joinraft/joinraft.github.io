@@ -238,13 +238,9 @@
   var player;
   function onYouTubeIframeAPIReady() {
     player = new YT.Player('player', {
-      height: '100%',
-      width: '100%',
+      height: '300',
+      width: '500',
       videoId: '7j66pZqbifQ',
-      color: 'white',
-      ​modestbranding:'1',
-      ​theme:'light',
-      ​showinfo:'0',
       events: {
         'onReady': onPlayerReady,
         'onStateChange': onPlayerStateChange
