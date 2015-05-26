@@ -55,7 +55,8 @@
         </div>
         <div class="row">
           <div id="logoWrapper">
-            <div id="logo"></div>
+            <div id="logo_2"></div>
+            <div id="loves"></div>
             <div id="product_hunt"></div>
           </div>
         </div>
@@ -89,7 +90,6 @@
               <div id="play_button"></div>
               <h2>Our vision in 20s!</h2>
             </div>
-            <div id="player"></div>
         </div>
       </div>
 
@@ -250,14 +250,25 @@
 
   var videoHeight;
   var player;
+  var videoLoaded = false;
+
+  if(is_producthunt){
+    $("#loves").show();
+    $("#product_hunt").show();
+  }
+
   function onYouTubeIframeAPIReady() {
 
   }
 
   function loadVideo(){
+    videoFullHeight();
 
-    $("#play_button_wrapper").hide().animate()
+    $("#play_button_wrapper").hide().animate();
 
+    if(($('#elementId').length == 0)){
+      $( "#raft_video").append('<div id="player"></div>');
+    }
 
     player = new YT.Player('player', {
       height: '100%',
@@ -274,6 +285,7 @@
   // 4. The API will call this function when the video player is ready.
   function onPlayerReady(event) {
     event.target.playVideo();
+    // videoLoaded = true;
   }
 
   // 5. The API calls this function when the player's state changes.
@@ -286,12 +298,13 @@
     //   done = true;
     // }
 
+    console.log("player state change");
+
     if(event.data == YT.PlayerState.PLAYING){
-      videoFullHeight();
+      // videoFullHeight();
     }
     else if(event.data == YT.PlayerState.ENDED){
-      player.clearVideo()
-
+      resetIframe();
       videoNormal();
     }
     else if(event.data == YT.PlayerState.PAUSED){
@@ -302,6 +315,10 @@
     player.stopVideo();
   }
 
+  function resetIframe(){
+    $("#play_button_wrapper").show().animate();
+    $("#player").remove();
+  }
 
   function videoFullHeight()
   {

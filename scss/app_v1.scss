@@ -332,22 +332,55 @@ h3
 	}
 }
 
-#loves{
+#logo_2
+{
+	float:left;
 
+	background-repeat:no-repeat;
+	width:193px;
+	height:146px;
+	background:url('../assets/images/center_logo@2x.png');
+	background-size:193px 146px;
+
+	@media #{$medium-up} {
+		margin-bottom:rem-calc(20px);
+		margin-top:rem-calc(50px);
+	}
+	@media #{$large-up} {
+		margin-bottom:rem-calc(70px);
+		margin-top:rem-calc(40px);
+	}
+}
+
+#loves{
+	display:none;
+	// margin-top:80px;
+	margin-left:30px;
+	float:left;
+	background-repeat:no-repeat;
+	width:50px;
+	height:50px;
+	background:url('../assets/images/loves@2x.png');
+	background-size:50px 50px;	
+
+	@media #{$medium-up} {
+		margin-bottom:rem-calc(20px);
+		margin-top:rem-calc(50px);
+	}
+	@media #{$large-up} {
+		margin-bottom:rem-calc(70px);
+		margin-top:rem-calc(40px);
+	}
 }
 
 #product_hunt{
-	// z-index:999;
-	// position:absolute;
-	// top:-50px;
-	// right:0px;
-	float:right;
-
+	display:none;
+	float:left;
 	background-repeat:no-repeat;
-	width:256px;
-	height:236px;
+	width:231px;
+	height:213px;
 	background:url('../assets/images/ph_cat@2x.png');
-	background-size:256px 236px;
+	background-size:231px 213px;
 }
 
 /* SECTIONS */
@@ -531,8 +564,8 @@ h3
 
 #raft_video
 {
-	background-color:transparent;
-	background: url(../assets/images/video_bg.jpg) no-repeat center center; 
+	background-color:black;
+	// background: url(../assets/images/video_bg_2.jpg) no-repeat center center; 
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
