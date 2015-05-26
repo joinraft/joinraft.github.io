@@ -273,6 +273,16 @@
     //   setTimeout(stopVideo, 6000);
     //   done = true;
     // }
+
+    if(event.data == YT.PlayerState.PLAYING){
+
+    }
+    else if(event.data == YT.PlayerState.ENDED){
+      
+    }
+    else if(event.data == YT.PlayerState.PAUSED){
+
+    }    
   }
   function stopVideo() {
     player.stopVideo();
