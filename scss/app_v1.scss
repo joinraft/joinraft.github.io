@@ -544,11 +544,11 @@ h3
 	height:340px;
 
 	@media #{$medium-up} {
-		height:400px;
+		height:430px;
 	}
 
 	@media #{$large-up} {
-		height:600px;
+		height:580px;
 	}
 }
 
@@ -556,13 +556,11 @@ h3
 	padding-top:75px;
 
 	@media #{$medium-up} {
-		padding-top:150px;
-		height:400px;
+		padding-top:110px;
 	}
 
 	@media #{$large-up} {
 		padding-top:180px;
-		height:700px;
 	}
 }
 
@@ -577,6 +575,11 @@ h3
 	background:url('../assets/images/play_button_up@2x.png');
 	background-size:144px 149px;
 	margin-bottom:15px;
+
+	&:hover{
+		background:url('../assets/images/play_button_over@2x.png');
+		background-size:144px 149px;
+	}
 }
 
 #demo
