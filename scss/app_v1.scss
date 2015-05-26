@@ -258,7 +258,7 @@ h3
 
 	margin-left: auto;
 	margin-right: auto;
-	margin-bottom: rem-calc(10px);
+	margin-bottom: rem-calc(30px);
 	
 	width:200px;
 	height:60px;
@@ -269,7 +269,7 @@ h3
 
 
 	@media #{$medium-up} {
-		margin-bottom: rem-calc(10px);
+		margin-bottom: rem-calc(30px);
 		float: none;
 		margin-left: auto;
 		margin-right: auto;
@@ -283,7 +283,7 @@ h3
 	}
 
 	@media #{$large-up} {
-		margin-bottom: rem-calc(15px);
+		margin-bottom: rem-calc(25px);
 		float: left;
 	}
 }
@@ -302,8 +302,16 @@ h3
 #logoWrapper
 {
 	position:relative;
-	// width:600px;
-	margin:0 auto;
+	text-align:center;
+
+	@media #{$medium-up} {
+		margin-bottom:rem-calc(10px);
+		margin-top:rem-calc(50px);
+	}
+	@media #{$large-up} {
+		margin-bottom:rem-calc(30px);
+		margin-top:rem-calc(40px);
+	}
 }
 
 #logo
@@ -312,10 +320,8 @@ h3
 
 	margin-left: auto;
 	margin-right: auto;
-
 	margin-top:rem-calc(30px);
 	margin-bottom:rem-calc(20px);
-
 
 	width:193px;
 	height:146px;
@@ -334,29 +340,18 @@ h3
 
 #logo_2
 {
-	float:left;
-
+	display:inline-block;
 	background-repeat:no-repeat;
 	width:193px;
 	height:146px;
 	background:url('../assets/images/center_logo@2x.png');
 	background-size:193px 146px;
-
-	@media #{$medium-up} {
-		margin-bottom:rem-calc(20px);
-		margin-top:rem-calc(50px);
-	}
-	@media #{$large-up} {
-		margin-bottom:rem-calc(70px);
-		margin-top:rem-calc(40px);
-	}
+	margin-bottom:20px;
 }
 
 #loves{
 	display:none;
-	// margin-top:80px;
-	margin-left:30px;
-	float:left;
+	margin-left:20px;
 	background-repeat:no-repeat;
 	width:50px;
 	height:50px;
@@ -375,12 +370,11 @@ h3
 
 #product_hunt{
 	display:none;
-	float:left;
 	background-repeat:no-repeat;
-	width:231px;
-	height:213px;
+	width:212px;
+	height:196px;
 	background:url('../assets/images/ph_cat@2x.png');
-	background-size:231px 213px;
+	background-size:212px 196px;
 }
 
 /* SECTIONS */

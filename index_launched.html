@@ -70,7 +70,6 @@
               <div id="appstore_container">
                 <div id="appstore"></div>
 	            <div style="clear:both;"></div>
-                <p>AVAILABLE EVERYWHERE!</p>
               </div>
           </div>
 
@@ -253,8 +252,8 @@
   var videoLoaded = false;
 
   if(is_producthunt){
-    $("#loves").show();
-    $("#product_hunt").show();
+    $("#loves").css("display", "inline-block");
+    $("#product_hunt").css("display", "inline-block");
   }
 
   function onYouTubeIframeAPIReady() {
@@ -274,7 +273,7 @@
       height: '100%',
       width: '100%',
       videoId: 'P9XCoSQT_h4',
-      playerVars:{'theme':'light', 'autoplay':'0', 'modestbranding':'1', 'rel':'0', 'showinfo':'0', 'autohide':'1', 'controls':'0'},
+      playerVars:{'theme':'light', 'autoplay':'1', 'modestbranding':'1', 'rel':'0', 'showinfo':'0', 'autohide':'1', 'controls':'0'},
       events: {
         'onReady': onPlayerReady,
         'onStateChange': onPlayerStateChange
@@ -284,7 +283,7 @@
 
   // 4. The API will call this function when the video player is ready.
   function onPlayerReady(event) {
-    event.target.playVideo();
+    // event.target.playVideo();
     // videoLoaded = true;
   }
 
