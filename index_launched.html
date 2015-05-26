@@ -54,11 +54,15 @@
           </div>
         </div>
         <div class="row">
-          <div id="logo">
+          <div id="logoWrapper">
+            <div id="logo"></div>
+            <div id="product_hunt"></div>
           </div>
         </div>
 
-        <div class="row">
+        <div class="row" style="position:relative;">
+          
+
           <div class="large-6 large-offset-0 large-pull-0 medium-8 medium-offset-2 small-10 small-offset-1 columns">
               <h1>Calendar with friends</h1>
               <h3>The easiest way to share calendar with your friends.</h3>
@@ -81,8 +85,10 @@
 
       <div class="section" id="video">
         <div id="raft_video">
-          <div id="video_overlay"></div>
-          <div id="player"></div>
+            <div id="play_button">
+            </div>
+            <h2>Our vision in 20s!</h2>
+            <div id="player"></div>
         </div>
       </div>
 
@@ -220,6 +226,10 @@
 
 <script type="text/javascript">
 
+  $("#play_button").click(function(){
+    loadVideo();
+  });
+
   var ref = getQueryVariable("ref");
   var is_producthunt = (ref == "producthunt");
 
@@ -240,11 +250,18 @@
   var videoHeight;
   var player;
   function onYouTubeIframeAPIReady() {
+
+  }
+
+  function loadVideo(){
+
+    $("#play_button").hide().animate()
+
     player = new YT.Player('player', {
       height: '100%',
       width: '100%',
       videoId: 'P9XCoSQT_h4',
-      playerVars:{'theme':'light', 'autoplay':'0', 'modestbranding':'1', 'rel':'0', 'showinfo':'0', 'autohide':'1', 'controls':'0', 'origin':'http://www.joinraft.com'},
+      playerVars:{'theme':'light', 'autoplay':'0', 'modestbranding':'1', 'rel':'0', 'showinfo':'0', 'autohide':'1', 'controls':'0'},
       events: {
         'onReady': onPlayerReady,
         'onStateChange': onPlayerStateChange
@@ -254,7 +271,7 @@
 
   // 4. The API will call this function when the video player is ready.
   function onPlayerReady(event) {
-    //event.target.playVideo();
+    event.target.playVideo();
   }
 
   // 5. The API calls this function when the player's state changes.
@@ -271,6 +288,8 @@
       videoFullHeight();
     }
     else if(event.data == YT.PlayerState.ENDED){
+      player.clearVideo()
+
       videoNormal();
     }
     else if(event.data == YT.PlayerState.PAUSED){
