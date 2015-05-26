@@ -346,35 +346,52 @@ h3
 	height:146px;
 	background:url('../assets/images/center_logo@2x.png');
 	background-size:193px 146px;
-	margin-bottom:20px;
+	margin-bottom:rem-calc(20px);
+
+	@media #{$medium-up} {
+		margin-bottom:rem-calc(20px);
+	}
+	@media #{$large-up} {
+		margin-bottom:rem-calc(20px);
+	}
 }
 
 #loves{
 	display:none;
-	margin-left:20px;
 	background-repeat:no-repeat;
-	width:50px;
-	height:50px;
-	background:url('../assets/images/loves@2x.png');
-	background-size:50px 50px;	
 
 	@media #{$medium-up} {
-		margin-bottom:rem-calc(20px);
+		margin-left:20px;
+		width:50px;
+		height:50px;
+		background:url('../assets/images/loves@2x.png');
+		background-size:50px 50px;	
+
+		margin-bottom:rem-calc(70px);
 		margin-top:rem-calc(50px);
+		display: none;
 	}
 	@media #{$large-up} {
 		margin-bottom:rem-calc(70px);
 		margin-top:rem-calc(40px);
+		display: none;
 	}
 }
 
 #product_hunt{
 	display:none;
 	background-repeat:no-repeat;
-	width:212px;
-	height:196px;
-	background:url('../assets/images/ph_cat@2x.png');
-	background-size:212px 196px;
+
+	@media #{$medium-up} {
+		width:212px;
+		height:196px;
+		background:url('../assets/images/ph_cat@2x.png');
+		background-size:212px 196px;
+		display: none;
+	}
+	@media #{$large-up} {
+		display: none;
+	}
 }
 
 /* SECTIONS */
@@ -383,9 +400,6 @@ h3
 {
 	padding-top:rem-calc(30px);
 	padding-bottom:rem-calc(0px);
-	// background-color:$raftUserDark;
-
-	background-color:$raftUser;
 	background-color:transparent;
 	background: url(../assets/images/raft_deck_blurred_mobile.png) no-repeat center center fixed; 
 	-webkit-background-size: cover;
@@ -403,7 +417,6 @@ h3
 	}
 
 	@media #{$medium-up} {
-		background-color:$raftUser;
 		background-color:transparent;
 		background: url(../assets/images/raft_deck_blurred_tablet.png) no-repeat center center fixed; 
 		-webkit-background-size: cover;
@@ -413,7 +426,6 @@ h3
 	}
 
 	@media #{$large-up} {
-		background-color:$raftUser;
 		background-color:transparent;
 		background: url(../assets/images/raft_deck_blurred.png) no-repeat center center fixed; 
 		-webkit-background-size: cover;
