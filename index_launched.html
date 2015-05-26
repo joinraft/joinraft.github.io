@@ -80,18 +80,10 @@
       </div>
 
       <div class="section" id="video">
-        <!-- <div class="row"> -->
-<!--           <div class="large-12 large-offset-0 medium-10 medium-offset-1 small-12 small-offset-0 columns center">
-            <h2>Raft in 20 seconds</h2>
-            <div id="raft_video">
-              <div id="player"></div>
-            </div>
-          </div> -->
-
-            <div id="raft_video">
-              <div id="player"></div>
-            </div>
-        <!-- </div> -->
+        <div id="raft_video">
+          <div id="video_overlay"></div>
+          <div id="player"></div>
+        </div>
       </div>
 
       <div class="section" id="demo">
@@ -252,7 +244,7 @@
       height: '100%',
       width: '100%',
       videoId: 'P9XCoSQT_h4',
-      playerVars:{'theme':'light', 'autoplay':'0', 'modestbranding':'1', 'rel':'0', 'showinfo':'0', 'autohide':'1'},
+      playerVars:{'theme':'light', 'autoplay':'0', 'modestbranding':'1', 'rel':'0', 'showinfo':'0', 'autohide':'1', 'controls':'0'},
       events: {
         'onReady': onPlayerReady,
         'onStateChange': onPlayerStateChange

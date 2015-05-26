@@ -199,6 +199,7 @@ h3
 
 #raft_video
 {
+	position:relative;
 	width:100%;
 	height:340px;
 
@@ -209,6 +210,20 @@ h3
 	@media #{$large-up} {
 		height:700px;
 	}
+}
+
+#video_overlay
+{
+	position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background:#000;
+    opacity:0.8;
+    /*background:rgba(255,255,255,0.8); or just this*/
+    z-index:50;
+    color:#fff;
 }
 
 #menu_logo
