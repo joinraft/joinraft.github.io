@@ -245,6 +245,7 @@
   
  // 'color':'white'
 
+  var videoHeight;
   var player;
   function onYouTubeIframeAPIReady() {
     player = new YT.Player('player', {
@@ -275,19 +276,33 @@
     // }
 
     if(event.data == YT.PlayerState.PLAYING){
-
+      videoFullHeight();
     }
     else if(event.data == YT.PlayerState.ENDED){
-      
+      videoNormal();
     }
     else if(event.data == YT.PlayerState.PAUSED){
-
+      videoNormal();
     }    
   }
   function stopVideo() {
     player.stopVideo();
   }
 
+
+  function videoFullHeight()
+  {
+      var ratio = 1920/1080;
+      var width = $( document ).width();
+      videoHeight = $("#raft_video").height();
+      var fullHeight = width/ratio;
+      $( "#raft_video" ).animate({height: fullHeight}, 300);
+  }
+
+  function videoNormal()
+  {
+    $( "#raft_video" ).animate({height: videoHeight}, 500);
+  }
 
   function getQueryVariable(variable)
   {
