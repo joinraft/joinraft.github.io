@@ -23620,7 +23620,7 @@ h3 {
   }
 }
 
-/* line 255, ../scss/app_v1.scss */
+/* line 247, ../scss/app_v1.scss */
 #appstore {
   cursor: pointer;
   margin-left: auto;
@@ -23633,7 +23633,7 @@ h3 {
   background-size: 200px 60px;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 255, ../scss/app_v1.scss */
+  /* line 247, ../scss/app_v1.scss */
   #appstore {
     margin-bottom: 1.875rem;
     float: none;
@@ -23647,46 +23647,46 @@ h3 {
   }
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 255, ../scss/app_v1.scss */
+  /* line 247, ../scss/app_v1.scss */
   #appstore {
     margin-bottom: 1.5625rem;
     float: left;
   }
 }
 
-/* line 291, ../scss/app_v1.scss */
+/* line 283, ../scss/app_v1.scss */
 #wrapper {
   color: #FFFFFF;
   background-color: #15B6B5;
 }
 
-/* line 297, ../scss/app_v1.scss */
+/* line 289, ../scss/app_v1.scss */
 #mixpanel_logo {
   width: 114px;
   height: 36px;
 }
 
-/* line 302, ../scss/app_v1.scss */
+/* line 294, ../scss/app_v1.scss */
 #logoWrapper {
   position: relative;
   text-align: center;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 302, ../scss/app_v1.scss */
+  /* line 294, ../scss/app_v1.scss */
   #logoWrapper {
     margin-bottom: 0.625rem;
     margin-top: 3.125rem;
   }
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 302, ../scss/app_v1.scss */
+  /* line 294, ../scss/app_v1.scss */
   #logoWrapper {
     margin-bottom: 1.875rem;
     margin-top: 2.5rem;
   }
 }
 
-/* line 317, ../scss/app_v1.scss */
+/* line 309, ../scss/app_v1.scss */
 #logo {
   background-repeat: no-repeat;
   margin-left: auto;
@@ -23699,21 +23699,21 @@ h3 {
   background-size: 193px 146px;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 317, ../scss/app_v1.scss */
+  /* line 309, ../scss/app_v1.scss */
   #logo {
     margin-bottom: 1.25rem;
     margin-top: 3.125rem;
   }
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 317, ../scss/app_v1.scss */
+  /* line 309, ../scss/app_v1.scss */
   #logo {
     margin-bottom: 4.375rem;
     margin-top: 2.5rem;
   }
 }
 
-/* line 341, ../scss/app_v1.scss */
+/* line 333, ../scss/app_v1.scss */
 #logo_2 {
   display: inline-block;
   background-repeat: no-repeat;
@@ -23724,25 +23724,25 @@ h3 {
   margin-bottom: 1.25rem;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 341, ../scss/app_v1.scss */
+  /* line 333, ../scss/app_v1.scss */
   #logo_2 {
     margin-bottom: 1.25rem;
   }
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 341, ../scss/app_v1.scss */
+  /* line 333, ../scss/app_v1.scss */
   #logo_2 {
     margin-bottom: 1.25rem;
   }
 }
 
-/* line 359, ../scss/app_v1.scss */
+/* line 351, ../scss/app_v1.scss */
 #loves {
   display: none;
   background-repeat: no-repeat;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 359, ../scss/app_v1.scss */
+  /* line 351, ../scss/app_v1.scss */
   #loves {
     margin-left: 20px;
     width: 50px;
@@ -23755,7 +23755,7 @@ h3 {
   }
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 359, ../scss/app_v1.scss */
+  /* line 351, ../scss/app_v1.scss */
   #loves {
     margin-bottom: 4.375rem;
     margin-top: 2.5rem;
@@ -23763,13 +23763,13 @@ h3 {
   }
 }
 
-/* line 381, ../scss/app_v1.scss */
+/* line 373, ../scss/app_v1.scss */
 #product_hunt {
   display: none;
   background-repeat: no-repeat;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 381, ../scss/app_v1.scss */
+  /* line 373, ../scss/app_v1.scss */
   #product_hunt {
     width: 212px;
     height: 196px;
@@ -23779,10 +23779,17 @@ h3 {
   }
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 381, ../scss/app_v1.scss */
+  /* line 373, ../scss/app_v1.scss */
   #product_hunt {
     display: none;
   }
+}
+
+/* line 390, ../scss/app_v1.scss */
+#tagline a {
+  font-family: 'AvenirNext-DemiBold', 'Open Sans', sans-serif;
+  font-weight: 300;
+  color: #FFFFFF;
 }
 
 /* SECTIONS */

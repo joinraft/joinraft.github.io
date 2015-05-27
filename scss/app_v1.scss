@@ -242,14 +242,6 @@ h3
 		display: block;
 		text-align: left;
 	}
-
-	// p
-	// {
-	// 	font-family: 'Avenir', 'Open Sans', sans-serif;
-	// 	font-size:rem-calc(10px);
-	// 	font-weight:300;
-	// 	margin-bottom: rem-calc(20px);
-	// }
 }
 
 #appstore
@@ -391,6 +383,14 @@ h3
 	}
 	@media #{$large-up} {
 		display: none;
+	}
+}
+
+#tagline{
+	a{
+		font-family: 'AvenirNext-DemiBold', 'Open Sans', sans-serif;
+		font-weight:300;
+		color:#FFFFFF;
 	}
 }
 
