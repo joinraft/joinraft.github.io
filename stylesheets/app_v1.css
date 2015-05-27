@@ -23790,10 +23790,11 @@ h3 {
   font-family: 'AvenirNext-DemiBold', 'Open Sans', sans-serif;
   font-weight: 300;
   color: #FFFFFF;
+  text-decoration: underline;
 }
 
 /* SECTIONS */
-/* line 399, ../scss/app_v1.scss */
+/* line 400, ../scss/app_v1.scss */
 #info {
   padding-top: 1.875rem;
   padding-bottom: 0;
@@ -23804,7 +23805,7 @@ h3 {
   -o-background-size: cover;
   background-size: cover;
 }
-/* line 410, ../scss/app_v1.scss */
+/* line 411, ../scss/app_v1.scss */
 #info p {
   font-family: 'Avenir-Heavy', 'Open Sans', sans-serif;
   font-size: 0.875rem;
@@ -23813,7 +23814,7 @@ h3 {
   margin-bottom: 1.25rem;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 399, ../scss/app_v1.scss */
+  /* line 400, ../scss/app_v1.scss */
   #info {
     background-color: transparent;
     background: url(../assets/images/raft_deck_blurred_tablet.png) no-repeat center center fixed;
@@ -23824,7 +23825,7 @@ h3 {
   }
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 399, ../scss/app_v1.scss */
+  /* line 400, ../scss/app_v1.scss */
   #info {
     background-color: transparent;
     background: url(../assets/images/raft_deck_blurred.png) no-repeat center center fixed;
@@ -23835,24 +23836,24 @@ h3 {
   }
 }
 
-/* line 438, ../scss/app_v1.scss */
+/* line 439, ../scss/app_v1.scss */
 #device_container {
   text-align: center;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 438, ../scss/app_v1.scss */
+  /* line 439, ../scss/app_v1.scss */
   #device_container {
     text-align: center;
   }
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 438, ../scss/app_v1.scss */
+  /* line 439, ../scss/app_v1.scss */
   #device_container {
     text-align: right;
   }
 }
 
-/* line 451, ../scss/app_v1.scss */
+/* line 452, ../scss/app_v1.scss */
 #device {
   margin-left: auto;
   margin-right: auto;
@@ -23866,7 +23867,7 @@ h3 {
   background-size: 280px 460px;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 451, ../scss/app_v1.scss */
+  /* line 452, ../scss/app_v1.scss */
   #device {
     margin-top: 0;
     float: clear;
@@ -23880,7 +23881,7 @@ h3 {
   }
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 451, ../scss/app_v1.scss */
+  /* line 452, ../scss/app_v1.scss */
   #device {
     margin-top: 1.25rem;
     float: right;
@@ -23892,17 +23893,17 @@ h3 {
   }
 }
 
-/* line 490, ../scss/app_v1.scss */
+/* line 491, ../scss/app_v1.scss */
 .promo_container {
   text-align: center;
 }
-/* line 494, ../scss/app_v1.scss */
+/* line 495, ../scss/app_v1.scss */
 .promo_container p {
   text-align: center;
   margin-bottom: 1.875rem;
 }
 
-/* line 501, ../scss/app_v1.scss */
+/* line 502, ../scss/app_v1.scss */
 .promo {
   webkit-transition: all 0.30s ease-in-out;
   -moz-transition: all 0.30s ease-in-out;
@@ -23918,7 +23919,7 @@ h3 {
   display: block;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 501, ../scss/app_v1.scss */
+  /* line 502, ../scss/app_v1.scss */
   .promo {
     margin-top: 0.9375rem;
     width: 100%;
@@ -23926,7 +23927,7 @@ h3 {
   }
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 501, ../scss/app_v1.scss */
+  /* line 502, ../scss/app_v1.scss */
   .promo {
     margin-top: 0.9375rem;
     width: 294px;
@@ -23934,56 +23935,56 @@ h3 {
   }
 }
 
-/* line 530, ../scss/app_v1.scss */
+/* line 531, ../scss/app_v1.scss */
 #promo_2 {
   margin-bottom: 1.25rem;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 530, ../scss/app_v1.scss */
+  /* line 531, ../scss/app_v1.scss */
   #promo_2 {
     margin-bottom: 0;
   }
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 530, ../scss/app_v1.scss */
+  /* line 531, ../scss/app_v1.scss */
   #promo_2 {
     margin-bottom: 0;
   }
 }
 
-/* line 543, ../scss/app_v1.scss */
+/* line 544, ../scss/app_v1.scss */
 #promo_3 {
   margin-bottom: 1.25rem;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 543, ../scss/app_v1.scss */
+  /* line 544, ../scss/app_v1.scss */
   #promo_3 {
     margin-bottom: 0;
   }
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 543, ../scss/app_v1.scss */
+  /* line 544, ../scss/app_v1.scss */
   #promo_3 {
     margin-bottom: 0;
   }
 }
 
-/* line 556, ../scss/app_v1.scss */
+/* line 557, ../scss/app_v1.scss */
 #promo_4 {
   margin-bottom: 0;
 }
 
-/* line 561, ../scss/app_v1.scss */
+/* line 562, ../scss/app_v1.scss */
 #video {
   padding-top: 0px !important;
   padding-bottom: 0px !important;
 }
-/* line 566, ../scss/app_v1.scss */
+/* line 567, ../scss/app_v1.scss */
 #video h2 {
   margin-bottom: 20px;
 }
 
-/* line 571, ../scss/app_v1.scss */
+/* line 572, ../scss/app_v1.scss */
 #raft_video {
   background-color: black;
   -webkit-background-size: cover;
@@ -23996,36 +23997,36 @@ h3 {
   height: 340px;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 571, ../scss/app_v1.scss */
+  /* line 572, ../scss/app_v1.scss */
   #raft_video {
     height: 430px;
   }
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 571, ../scss/app_v1.scss */
+  /* line 572, ../scss/app_v1.scss */
   #raft_video {
     height: 580px;
   }
 }
 
-/* line 594, ../scss/app_v1.scss */
+/* line 595, ../scss/app_v1.scss */
 #play_button_wrapper {
   padding-top: 75px;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 594, ../scss/app_v1.scss */
+  /* line 595, ../scss/app_v1.scss */
   #play_button_wrapper {
     padding-top: 110px;
   }
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 594, ../scss/app_v1.scss */
+  /* line 595, ../scss/app_v1.scss */
   #play_button_wrapper {
     padding-top: 180px;
   }
 }
 
-/* line 606, ../scss/app_v1.scss */
+/* line 607, ../scss/app_v1.scss */
 #play_button {
   cursor: pointer;
   margin: 0 auto;
@@ -24036,13 +24037,13 @@ h3 {
   background-size: 144px 149px;
   margin-bottom: 15px;
 }
-/* line 618, ../scss/app_v1.scss */
+/* line 619, ../scss/app_v1.scss */
 #play_button:hover {
   background: url("../assets/images/play_button_over@2x.png");
   background-size: 144px 149px;
 }
 
-/* line 624, ../scss/app_v1.scss */
+/* line 625, ../scss/app_v1.scss */
 #demo {
   display: none;
   background-color: #F8CD5A;
@@ -24051,17 +24052,17 @@ h3 {
   padding-bottom: 0;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 624, ../scss/app_v1.scss */
+  /* line 625, ../scss/app_v1.scss */
   #demo {
     display: block;
   }
 }
-/* line 637, ../scss/app_v1.scss */
+/* line 638, ../scss/app_v1.scss */
 #demo h2 {
   margin-bottom: 20px;
 }
 
-/* line 642, ../scss/app_v1.scss */
+/* line 643, ../scss/app_v1.scss */
 #signup_v2 {
   background-color: #F8CD5A;
   padding-top: 2.5rem;
@@ -24069,25 +24070,25 @@ h3 {
   text-align: center;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 642, ../scss/app_v1.scss */
+  /* line 643, ../scss/app_v1.scss */
   #signup_v2 {
     padding-top: 3.125rem;
     padding-bottom: 4.375rem;
   }
 }
-/* line 654, ../scss/app_v1.scss */
+/* line 655, ../scss/app_v1.scss */
 #signup_v2 p {
   margin-bottom: 20px;
 }
-/* line 659, ../scss/app_v1.scss */
+/* line 660, ../scss/app_v1.scss */
 #signup_v2 a {
   text-decoration: none;
 }
-/* line 663, ../scss/app_v1.scss */
+/* line 664, ../scss/app_v1.scss */
 #signup_v2 a:hover {
   color: #F8CD5A;
 }
-/* line 669, ../scss/app_v1.scss */
+/* line 670, ../scss/app_v1.scss */
 #signup_v2 input.button {
   margin: 0 auto;
   cursor: pointer;
@@ -24107,13 +24108,13 @@ h3 {
   letter-spacing: 1.2px;
   width: 100%;
 }
-/* line 694, ../scss/app_v1.scss */
+/* line 695, ../scss/app_v1.scss */
 #signup_v2 input.button:hover {
   background-color: #FFFFFF;
   color: #F8CD5A;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 669, ../scss/app_v1.scss */
+  /* line 670, ../scss/app_v1.scss */
   #signup_v2 input.button {
     font-size: 1.5rem;
     width: auto;
@@ -24122,7 +24123,7 @@ h3 {
   }
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 669, ../scss/app_v1.scss */
+  /* line 670, ../scss/app_v1.scss */
   #signup_v2 input.button {
     font-size: 1.5rem;
     width: auto;
@@ -24131,7 +24132,7 @@ h3 {
   }
 }
 
-/* line 716, ../scss/app_v1.scss */
+/* line 717, ../scss/app_v1.scss */
 #signup {
   background-color: #F36454;
   padding-top: 2.5rem;
@@ -24139,25 +24140,25 @@ h3 {
   text-align: center;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 716, ../scss/app_v1.scss */
+  /* line 717, ../scss/app_v1.scss */
   #signup {
     padding-top: 3.125rem;
     padding-bottom: 4.375rem;
   }
 }
-/* line 728, ../scss/app_v1.scss */
+/* line 729, ../scss/app_v1.scss */
 #signup p {
   margin-bottom: 20px;
 }
-/* line 733, ../scss/app_v1.scss */
+/* line 734, ../scss/app_v1.scss */
 #signup a {
   text-decoration: none;
 }
-/* line 737, ../scss/app_v1.scss */
+/* line 738, ../scss/app_v1.scss */
 #signup a:hover {
   color: #F36454;
 }
-/* line 743, ../scss/app_v1.scss */
+/* line 744, ../scss/app_v1.scss */
 #signup input.button {
   margin: 0 auto;
   cursor: pointer;
@@ -24177,13 +24178,13 @@ h3 {
   letter-spacing: 1.2px;
   width: 100%;
 }
-/* line 768, ../scss/app_v1.scss */
+/* line 769, ../scss/app_v1.scss */
 #signup input.button:hover {
   background-color: #FFFFFF;
   color: #F36454;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 743, ../scss/app_v1.scss */
+  /* line 744, ../scss/app_v1.scss */
   #signup input.button {
     font-size: 1.5rem;
     width: auto;
@@ -24192,7 +24193,7 @@ h3 {
   }
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 743, ../scss/app_v1.scss */
+  /* line 744, ../scss/app_v1.scss */
   #signup input.button {
     font-size: 1.5rem;
     width: auto;
@@ -24201,13 +24202,13 @@ h3 {
   }
 }
 
-/* line 790, ../scss/app_v1.scss */
+/* line 791, ../scss/app_v1.scss */
 #mc_embed_signup {
   background-color: transparent;
   clear: left;
 }
 
-/* line 796, ../scss/app_v1.scss */
+/* line 797, ../scss/app_v1.scss */
 #mce-EMAIL {
   -webkit-appearance: none;
   outline: none;
@@ -24222,14 +24223,14 @@ h3 {
   margin-bottom: 1.25rem;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 796, ../scss/app_v1.scss */
+  /* line 797, ../scss/app_v1.scss */
   #mce-EMAIL {
     font-size: 1.375rem;
     margin-bottom: 1.25rem;
   }
 }
 
-/* line 820, ../scss/app_v1.scss */
+/* line 821, ../scss/app_v1.scss */
 #signup_form {
   webkit-transition: all 0.30s ease-in-out;
   -moz-transition: all 0.30s ease-in-out;
@@ -24238,26 +24239,26 @@ h3 {
   overflow: hidden;
 }
 
-/* line 830, ../scss/app_v1.scss */
+/* line 831, ../scss/app_v1.scss */
 .center {
   text-align: center;
 }
 
-/* line 835, ../scss/app_v1.scss */
+/* line 836, ../scss/app_v1.scss */
 .section {
   width: 100%;
   padding-top: 1.875rem;
   padding-bottom: 1.875rem;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 835, ../scss/app_v1.scss */
+  /* line 836, ../scss/app_v1.scss */
   .section {
     padding-top: 3.125rem;
     padding-bottom: 3.125rem;
   }
 }
 
-/* line 849, ../scss/app_v1.scss */
+/* line 850, ../scss/app_v1.scss */
 #testimonials {
   background-color: #F36454;
   padding-top: 2.5rem;
@@ -24265,11 +24266,11 @@ h3 {
   text-align: center;
 }
 
-/* line 856, ../scss/app_v1.scss */
+/* line 857, ../scss/app_v1.scss */
 .testimonial {
   margin-top: 15px;
 }
-/* line 860, ../scss/app_v1.scss */
+/* line 861, ../scss/app_v1.scss */
 .testimonial p {
   font-size: 20px;
   font-family: 'Avenir-Book', 'Open Sans', sans-serif;
@@ -24277,13 +24278,13 @@ h3 {
   margin-bottom: 0px !important;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 860, ../scss/app_v1.scss */
+  /* line 861, ../scss/app_v1.scss */
   .testimonial p {
     font-size: 24px;
   }
 }
 
-/* line 872, ../scss/app_v1.scss */
+/* line 873, ../scss/app_v1.scss */
 .testimonal_image {
   margin: 0 auto;
   display: block;
@@ -24293,34 +24294,34 @@ h3 {
   height: 60px;
 }
 
-/* line 882, ../scss/app_v1.scss */
+/* line 883, ../scss/app_v1.scss */
 #testimonial_sydsvenskan {
   background-image: url("../assets/images/testimonial_sydsvenskan@2x.png");
 }
-/* line 885, ../scss/app_v1.scss */
+/* line 886, ../scss/app_v1.scss */
 #testimonial_sydsvenskan:hover {
   background-image: url("../assets/images/testimonial_sydsvenskan_hover@2x.png");
 }
 
-/* line 891, ../scss/app_v1.scss */
+/* line 892, ../scss/app_v1.scss */
 #testimonial_breakit {
   background-image: url("../assets/images/testimonial_breakit@2x.png");
 }
-/* line 894, ../scss/app_v1.scss */
+/* line 895, ../scss/app_v1.scss */
 #testimonial_breakit:hover {
   background-image: url("../assets/images/testimonial_breakit_hover@2x.png");
 }
 
-/* line 900, ../scss/app_v1.scss */
+/* line 901, ../scss/app_v1.scss */
 #testimonial_gp {
   background-image: url("../assets/images/testimonial_gp@2x.png");
 }
-/* line 903, ../scss/app_v1.scss */
+/* line 904, ../scss/app_v1.scss */
 #testimonial_gp:hover {
   background-image: url("../assets/images/testimonial_gp_hover@2x.png");
 }
 
-/* line 909, ../scss/app_v1.scss */
+/* line 910, ../scss/app_v1.scss */
 #footer {
   color: #0D8F8E;
   background-color: #15B6B5;
@@ -24328,35 +24329,35 @@ h3 {
   padding-bottom: 1.25rem;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 909, ../scss/app_v1.scss */
+  /* line 910, ../scss/app_v1.scss */
   #footer {
     padding-top: 3.75rem;
     padding-bottom: 1.875rem;
   }
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 909, ../scss/app_v1.scss */
+  /* line 910, ../scss/app_v1.scss */
   #footer {
     padding-top: 3.75rem;
     padding-bottom: 1.875rem;
   }
 }
-/* line 927, ../scss/app_v1.scss */
+/* line 928, ../scss/app_v1.scss */
 #footer .likeWrapper {
   margin-bottom: 1.25rem;
   height: 1.875rem;
 }
-/* line 933, ../scss/app_v1.scss */
+/* line 934, ../scss/app_v1.scss */
 #footer #footer_menu {
   margin: 0 auto;
   text-align: center;
 }
-/* line 939, ../scss/app_v1.scss */
+/* line 940, ../scss/app_v1.scss */
 #footer .footer_btn {
   display: inline-block;
   cursor: pointer;
 }
-/* line 945, ../scss/app_v1.scss */
+/* line 946, ../scss/app_v1.scss */
 #footer #fb_button {
   margin-right: 20px;
   background-repeat: no-repeat;
@@ -24366,17 +24367,17 @@ h3 {
   background-size: 43px 44px;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 945, ../scss/app_v1.scss */
+  /* line 946, ../scss/app_v1.scss */
   #footer #fb_button {
     margin-right: 30px;
   }
 }
-/* line 961, ../scss/app_v1.scss */
+/* line 962, ../scss/app_v1.scss */
 #footer #fb_button:hover {
   background: url("../assets/images/buttons/fb_highlighted@2x.png");
   background-size: 43px 44px;
 }
-/* line 968, ../scss/app_v1.scss */
+/* line 969, ../scss/app_v1.scss */
 #footer #twitter_button {
   margin-right: 20px;
   background-repeat: no-repeat;
@@ -24386,17 +24387,17 @@ h3 {
   background-size: 46px 38px;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 968, ../scss/app_v1.scss */
+  /* line 969, ../scss/app_v1.scss */
   #footer #twitter_button {
     margin-right: 30px;
   }
 }
-/* line 984, ../scss/app_v1.scss */
+/* line 985, ../scss/app_v1.scss */
 #footer #twitter_button:hover {
   background: url("../assets/images/buttons/twitter_highlighted@2x.png");
   background-size: 46px 38px;
 }
-/* line 991, ../scss/app_v1.scss */
+/* line 992, ../scss/app_v1.scss */
 #footer #insta_button {
   margin-right: 20px;
   background-repeat: no-repeat;
@@ -24406,17 +24407,17 @@ h3 {
   background-size: 43px 44px;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 991, ../scss/app_v1.scss */
+  /* line 992, ../scss/app_v1.scss */
   #footer #insta_button {
     margin-right: 30px;
   }
 }
-/* line 1007, ../scss/app_v1.scss */
+/* line 1008, ../scss/app_v1.scss */
 #footer #insta_button:hover {
   background: url("../assets/images/buttons/instagram_highlighted@2x.png");
   background-size: 43px 44px;
 }
-/* line 1014, ../scss/app_v1.scss */
+/* line 1015, ../scss/app_v1.scss */
 #footer #blog_button {
   background-repeat: no-repeat;
   margin-right: 5px;
@@ -24426,27 +24427,27 @@ h3 {
   background-size: 28px 47px;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 1014, ../scss/app_v1.scss */
+  /* line 1015, ../scss/app_v1.scss */
   #footer #blog_button {
     margin-right: 15px;
   }
 }
-/* line 1030, ../scss/app_v1.scss */
+/* line 1031, ../scss/app_v1.scss */
 #footer #blog_button:hover {
   background-repeat: no-repeat;
   background: url("../assets/images/buttons/blog_highlighted@2x.png");
   background-size: 28px 47px;
 }
-/* line 1039, ../scss/app_v1.scss */
+/* line 1040, ../scss/app_v1.scss */
 #footer a {
   color: #0D8F8E;
   text-decoration: underline;
 }
-/* line 1044, ../scss/app_v1.scss */
+/* line 1045, ../scss/app_v1.scss */
 #footer a:active {
   color: #0D8F8E;
 }
-/* line 1049, ../scss/app_v1.scss */
+/* line 1050, ../scss/app_v1.scss */
 #footer a:hover {
   color: #FFFFFF;
 }
