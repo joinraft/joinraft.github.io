@@ -281,15 +281,12 @@
   }
 
   function onPlayerReady(event) {
-    alert("PLAYER READY - START!");
-    event.target.playVideo();
-    // videoLoaded = true;
+    // event.target.playVideo();
   }
   function onPlayerStateChange(event) {
     console.log("player state change");
 
     if(event.data == YT.PlayerState.PLAYING){
-      // videoFullHeight();
     }
     else if(event.data == YT.PlayerState.ENDED){
       resetIframe();
