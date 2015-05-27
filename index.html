@@ -332,7 +332,9 @@
   $("#appstore").click(function(){
     ga('send', 'event', 'button', 'click', 'App Store button');
 
-    if(is_producthunt){
+    var actions_ref = getQueryVariable("ref");
+
+    if(actions_ref == "producthunt"){
       window.open("https://bnc.lt/l/4xqS-D-_FL");
     }
     else{
@@ -343,7 +345,9 @@
   $("#download_button").click(function(){
     ga('send', 'event', 'button', 'click', 'Download button');
     
-    if(is_producthunt){
+    var actions_ref = getQueryVariable("ref");
+
+    if(actions_ref == "producthunt"){
       window.open("https://bnc.lt/l/4xqS-D-_FL");
     }
     else{
