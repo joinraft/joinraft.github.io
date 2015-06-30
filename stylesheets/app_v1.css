@@ -23629,14 +23629,14 @@ h3 {
   width: 200px;
   height: 60px;
   background-repeat: no-repeat;
-  background-size: 200px 60px;
   background: url("../assets/images/appstore_badge.svg");
+  background-size: 200px 60px;
 }
 /* line 262, ../scss/app_v1.scss */
-#appstore .sv {
+#appstore.sv {
   background-repeat: no-repeat;
-  background-size: 200px 60px;
   background: url("../assets/images/appstore_badge_sv.svg");
+  background-size: 200px 60px;
 }
 @media only screen and (min-width: 40.063em) {
   /* line 247, ../scss/app_v1.scss */
@@ -23648,14 +23648,14 @@ h3 {
     width: 250px;
     height: 74px;
     background-repeat: no-repeat;
-    background-size: 250px 74px;
     background: url("../assets/images/appstore_badge.svg");
+    background-size: 250px 74px;
   }
   /* line 281, ../scss/app_v1.scss */
-  #appstore .sv {
+  #appstore.sv {
     background-repeat: no-repeat;
-    background-size: 250px 74px;
     background: url("../assets/images/appstore_badge_sv.svg");
+    background-size: 250px 74px;
   }
 }
 @media only screen and (min-width: 64.063em) {

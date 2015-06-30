@@ -256,13 +256,13 @@ h3
 	height:60px;
 	
 	background-repeat:no-repeat;
-	background-size:200px 60px;
 	background:url('../assets/images/appstore_badge.svg');
+	background-size:200px 60px;
 		
-	.sv{
+	&.sv{
 		background-repeat:no-repeat;
-		background-size:200px 60px;
 		background:url('../assets/images/appstore_badge_sv.svg');
+		background-size:200px 60px;
 	}
 
 	@media #{$medium-up} {
@@ -274,14 +274,14 @@ h3
 		width:250px;
 		height:74px;
 		
-		background-repeat:no-repeat;
-		background-size:250px 74px;
+		background-repeat:no-repeat;		
 		background:url('../assets/images/appstore_badge.svg');
-
-		.sv{
+		background-size:250px 74px;
+		
+		&.sv{
 			background-repeat:no-repeat;
-			background-size:250px 74px;
 			background:url('../assets/images/appstore_badge_sv.svg');
+			background-size:250px 74px;
 		}
 	}
 
