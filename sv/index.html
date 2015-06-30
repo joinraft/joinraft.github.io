@@ -60,15 +60,13 @@
           <div class="large-12 columns center">
             <div class="menu_btn" id="press_button">Presskit</div>
             <div class="menu_btn" id="download_button">Ladda ner appen</div>
+            <div class="menu_btn" id="language_button">English</div>
           </div>
         </div>
         
         <div class="row">
           <div class="large-12 columns center">
             <div id="logoWrapper">
-              <div id="logo_2"></div>
-              <div id="loves"></div>
-              <div id="product_hunt"></div>
             </div>
           </div>
         </div>
@@ -338,6 +336,11 @@
   $("#press_button").click(function(){
     ga('send', 'event', 'button', 'click', 'Press Kit button');
     window.open("https://www.dropbox.com/sh/r1it7rsxhvk40z7/AAD6iwW4ax9W8_dNlAYLhpIea?dl=0");
+  });
+
+  $("#language_button").click(function(){
+    ga('send', 'event', 'button', 'click', 'English button');
+    window.open("http://www.joinraft.com");
   });
 
   $("#fb_button").click(function(){
