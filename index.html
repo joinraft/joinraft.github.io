@@ -59,6 +59,7 @@
         
         <div class="row" id="header_menu">
           <div class="large-12 columns center">
+            <div class="menu_btn" id="language_button">Svenska</div>
             <div class="menu_btn" id="press_button">Press kit</div>
             <div class="menu_btn" id="download_button">Download App</div>
           </div>
@@ -362,6 +363,11 @@
     else{
       window.open("https://bnc.lt/l/4xqPKOk_Lj");
     }
+  });
+
+  $("#language_button").click(function(){
+    ga('send', 'event', 'button', 'click', 'Swedish button');
+    window.location = "http://www.joinraft.com/sv/";
   });
 
   $("#press_button").click(function(){
