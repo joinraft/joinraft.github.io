@@ -217,16 +217,15 @@ h3
 {
 	float:right;
 	padding-left:rem-calc(30px);
-	
-	&.left{
-		float:left;
-		padding-left:rem-calc(0px);
+	font-size: rem-calc(18px);
+
+	&.flag{
+		font-size: rem-calc(28px);
 	}
 
 	padding-top:rem-calc(10px);
 	padding-bottom:rem-calc(10px);
 	cursor:pointer;
-	font-size: rem-calc(18px);
 	font-weight:400;
 	letter-spacing: 0.3px;
 
