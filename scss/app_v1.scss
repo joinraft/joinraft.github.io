@@ -201,6 +201,16 @@ h3
 {
 	float:left;
 	padding-left:rem-calc(0px);
+
+	cursor:pointer;
+	font-size: rem-calc(18px);
+	font-weight:400;
+	letter-spacing: 0.3px;
+
+	&:hover
+	{
+		text-decoration: underline;
+	}
 }
 
 .menu_btn
@@ -218,12 +228,6 @@ h3
 	{
 		text-decoration: underline;
 	}
-
-	// @media #{$medium-up} {
-	// 	padding-top:rem-calc(20px);
-	// 	padding-bottom:rem-calc(20px);
-	// 	padding-left:rem-calc(20px);
-	// }
 }
 
 #appstore_container
