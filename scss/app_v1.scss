@@ -216,6 +216,11 @@ h3
 .menu_btn
 {
 	float:right;
+
+	&.left{
+		float:left;
+	}
+
 	padding-top:rem-calc(10px);
 	padding-bottom:rem-calc(10px);
 	padding-left:rem-calc(30px);
