@@ -23608,7 +23608,7 @@ h3 {
 /* line 233, ../scss/app_v1.scss */
 .menu_btn.flag {
   font-size: 1.75rem;
-  padding-top: 0;
+  padding-top: 0.3125rem;
 }
 /* line 237, ../scss/app_v1.scss */
 .menu_btn.flag:hover {
