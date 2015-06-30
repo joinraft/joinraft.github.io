@@ -219,10 +219,6 @@ h3
 	padding-left:rem-calc(30px);
 	font-size: rem-calc(18px);
 
-	&.flag{
-		font-size: rem-calc(28px);
-	}
-
 	padding-top:rem-calc(10px);
 	padding-bottom:rem-calc(10px);
 	cursor:pointer;
@@ -232,6 +228,16 @@ h3
 	&:hover
 	{
 		text-decoration: underline;
+	}
+
+	&.flag{
+		font-size: rem-calc(28px);
+		padding-top:rem-calc(0px);
+
+		&:hover
+		{
+			text-decoration: none;
+		}
 	}
 }
 
