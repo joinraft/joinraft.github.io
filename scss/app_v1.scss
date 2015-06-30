@@ -216,14 +216,15 @@ h3
 .menu_btn
 {
 	float:right;
-
+	padding-left:rem-calc(30px);
+	
 	&.left{
 		float:left;
+		padding-left:rem-calc(0px);
 	}
 
 	padding-top:rem-calc(10px);
 	padding-bottom:rem-calc(10px);
-	padding-left:rem-calc(30px);
 	cursor:pointer;
 	font-size: rem-calc(18px);
 	font-weight:400;
