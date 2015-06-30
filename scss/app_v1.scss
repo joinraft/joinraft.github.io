@@ -257,11 +257,12 @@ h3
 	
 	background-repeat:no-repeat;
 	background:url('../assets/images/appstore_badge.svg');
-	background-size:200px 60px;
-	
+		
 	&.sv{
 		background:url('../assets/images/appstore_badge_sv.svg');
 	}
+
+	background-size:200px 60px;
 
 	@media #{$medium-up} {
 		margin-bottom: rem-calc(30px);
@@ -274,11 +275,12 @@ h3
 		
 		background-repeat:no-repeat;
 		background:url('../assets/images/appstore_badge.svg');
-		background-size:250px 74px;
 
 		&.sv{
 			background:url('../assets/images/appstore_badge_sv.svg');
 		}
+
+		background-size:250px 74px;
 	}
 
 	@media #{$large-up} {

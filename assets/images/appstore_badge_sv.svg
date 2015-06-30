@@ -32,8 +32,8 @@
                     </g>
                 </g>
             </g>
-            <text id="Ladda-appen-på" sketch:type="MSTextLayer" font-family="Myriad Pro" font-size="15" font-weight="526" letter-spacing="0.300000012" fill="#FFFFFF">
-                <tspan x="63" y="19">Ladda appen på</tspan>
+            <text id="Ladda-ner-på" sketch:type="MSTextLayer" font-family="Myriad Pro" font-size="15" font-weight="526" letter-spacing="0.300000012" fill="#FFFFFF">
+                <tspan x="63" y="19">Ladda ner på</tspan>
             </text>
         </g>
     </g>
