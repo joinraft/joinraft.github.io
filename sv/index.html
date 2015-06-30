@@ -69,7 +69,7 @@
               <h1>Din sociala kalender</h1>
               <h3 id="tagline">Det enklaste sättet att dela kalender med vänner och familj.</h3>
               <div id="appstore_container">
-                <div id="appstore"></div>
+                <div id="appstore" class="sv"></div>
               <div style="clear:both;"></div>
               </div>
           </div>
@@ -318,20 +318,12 @@
 
   $("#appstore").click(function(){
     ga('send', 'event', 'button', 'click', 'App Store button');
-
-    var actions_ref = getQueryVariable("ref");
-
-    if(actions_ref == "producthunt"){
-      window.open("https://bnc.lt/l/4xqS-D-_FL");
-    }
-    else{
-      window.open("https://bnc.lt/l/4xqPKOk_Lj");
-    }
+    window.open("https://bnc.lt/l/6_Jf7Uk_Hp");
   });
 
   $("#download_button").click(function(){
     ga('send', 'event', 'button', 'click', 'Download button');
-    window.open("https://bnc.lt/l/4xqPKOk_Lj");
+    window.open("https://bnc.lt/l/6_Jf7Uk_Hp");
   });
 
   $("#press_button").click(function(){
