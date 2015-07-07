@@ -601,7 +601,8 @@ h3
 }
 
 #faq_header{
-	padding-bottom:40px !important;
+	padding-top:rem-calc(30px);
+	padding-bottom:rem-calc(40px);
 
 	h1{
 		text-align:center;
@@ -636,6 +637,8 @@ h3
 	}
 
 	#logo_2{
+		cursor: pointer;
+		margin-top: 0px;
 		margin-bottom: 0px;
 	}
 }

@@ -342,6 +342,11 @@
          return(false);
   }
 
+  $("#logo_2").click(function(){
+    ga('send', 'event', 'button', 'click', 'Home button');
+    window.location = "http://www.joinraft.com/";
+  });
+
   $("#appstore").click(function(){
     ga('send', 'event', 'button', 'click', 'App Store button');
 

@@ -329,6 +329,11 @@
          return(false);
   }
 
+  $("#logo_2").click(function(){
+    ga('send', 'event', 'button', 'click', 'Home button');
+    window.location = "http://www.joinraft.com/sv/";
+  });
+
   $("#appstore").click(function(){
     ga('send', 'event', 'button', 'click', 'App Store button');
     window.open("https://bnc.lt/l/6_Jf7Uk_Hp");
