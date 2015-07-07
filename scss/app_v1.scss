@@ -1020,6 +1020,14 @@ h3
 	padding-top: rem-calc(50px);
 	padding-bottom: rem-calc(20px);
 
+	small{
+		font-size: rem-calc(14px);
+	}
+
+	p{
+		margin-bottom: rem-calc(10px);
+	}
+
 	@media #{$medium-up} {
 		padding-top: rem-calc(60px);
 		padding-bottom: rem-calc(30px);
