@@ -104,7 +104,7 @@ p
 
 h1
 {
-	font-family: 'AvenirNext-DemiBold', 'Open Sans', sans-serif;
+	font-family: 'AvenirNext-Heavy', 'Open Sans', sans-serif;
 	font-weight:300;
 	color:#FFFFFF;
 
@@ -238,6 +238,11 @@ h3
 		{
 			text-decoration: none;
 		}
+	}
+
+	&.selected
+	{
+		font-weight:700;
 	}
 }
 
@@ -595,10 +600,69 @@ h3
 	}
 }
 
+#faq_header{
+	padding-bottom:40px !important;
+
+	h1{
+		text-align:center;
+		margin-top: rem-calc(0px);
+		margin-bottom: rem-calc(20px);
+
+		font-family: 'AvenirNext-Bold', 'Open Sans', sans-serif;
+		color:#FFFFFF;
+		font-size:rem-calc(38px);
+		letter-spacing: 0px;
+	}
+
+	p{
+		font-size:rem-calc(20);
+	}
+
+	a{
+		color:white;
+		text-decoration: underline;
+	
+		&:visited{
+			color:white;
+		}
+
+		&:active{
+			color:white;	
+		}
+	}
+
+	#logoWrapper{
+		margin-bottom: 0px;
+	}
+
+	#logo_2{
+		margin-bottom: 0px;
+	}
+}
+
 #faq
 {
+	padding-top:20px !important;
+	padding-bottom:20px !important;
+	background-color:white;
+	text-align:left;
+	color:#454545;
+
+	h3{
+		font-family: 'AvenirNext-Bold', 'Open Sans', sans-serif;
+		font-size: rem-calc(24px);
+		font-weight: 800;
+		color:#454545;		
+		margin-bottom: 10px;
+		margin-top: 25px;
+	}
+
 	p{
-		font-size:rem-calc(16px);
+		font-size:rem-calc(18);
+	}
+
+	hr{
+		margin-top:0px;
 	}
 }
 
