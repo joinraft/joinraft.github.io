@@ -9130,7 +9130,7 @@ p small a {
 
 /* line 106, ../scss/app_v1.scss */
 h1 {
-  font-family: 'AvenirNext-Heavy', 'Open Sans', sans-serif;
+  font-family: 'AvenirNext-Bold', 'Open Sans', sans-serif;
   font-weight: 300;
   color: #FFFFFF;
   font-size: 1.875rem;
@@ -9719,8 +9719,8 @@ h3 {
 }
 /* line 651, ../scss/app_v1.scss */
 #faq h3 {
-  font-family: 'AvenirNext-Bold', 'Open Sans', sans-serif;
-  font-size: 1.5rem;
+  font-family: 'AvenirNext-DemiBold', 'Open Sans', sans-serif;
+  font-size: 1.375rem;
   font-weight: 800;
   color: #454545;
   margin-bottom: 10px;
