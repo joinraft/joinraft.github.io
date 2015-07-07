@@ -1024,8 +1024,13 @@ h3
 
 	.likeWrapper
 	{
+		display: inline-block;
 		margin-bottom:rem-calc(20px);
 		height: rem-calc(30px);
+	}
+
+	.appstore{
+		display: inline-block;
 	}
 
 	#footer_menu

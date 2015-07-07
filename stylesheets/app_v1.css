@@ -10095,20 +10095,25 @@ h3 {
 }
 /* line 1026, ../scss/app_v1.scss */
 #footer .likeWrapper {
+  display: inline-block;
   margin-bottom: 1.25rem;
   height: 1.875rem;
 }
 /* line 1032, ../scss/app_v1.scss */
+#footer .appstore {
+  display: inline-block;
+}
+/* line 1037, ../scss/app_v1.scss */
 #footer #footer_menu {
   margin: 0 auto;
   text-align: center;
 }
-/* line 1038, ../scss/app_v1.scss */
+/* line 1043, ../scss/app_v1.scss */
 #footer .footer_btn {
   display: inline-block;
   cursor: pointer;
 }
-/* line 1044, ../scss/app_v1.scss */
+/* line 1049, ../scss/app_v1.scss */
 #footer #fb_button {
   margin-right: 20px;
   background-repeat: no-repeat;
@@ -10118,17 +10123,17 @@ h3 {
   background-size: 43px 44px;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 1044, ../scss/app_v1.scss */
+  /* line 1049, ../scss/app_v1.scss */
   #footer #fb_button {
     margin-right: 30px;
   }
 }
-/* line 1060, ../scss/app_v1.scss */
+/* line 1065, ../scss/app_v1.scss */
 #footer #fb_button:hover {
   background: url("../assets/images/buttons/fb_highlighted@2x.png");
   background-size: 43px 44px;
 }
-/* line 1067, ../scss/app_v1.scss */
+/* line 1072, ../scss/app_v1.scss */
 #footer #twitter_button {
   margin-right: 20px;
   background-repeat: no-repeat;
@@ -10138,17 +10143,17 @@ h3 {
   background-size: 46px 38px;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 1067, ../scss/app_v1.scss */
+  /* line 1072, ../scss/app_v1.scss */
   #footer #twitter_button {
     margin-right: 30px;
   }
 }
-/* line 1083, ../scss/app_v1.scss */
+/* line 1088, ../scss/app_v1.scss */
 #footer #twitter_button:hover {
   background: url("../assets/images/buttons/twitter_highlighted@2x.png");
   background-size: 46px 38px;
 }
-/* line 1090, ../scss/app_v1.scss */
+/* line 1095, ../scss/app_v1.scss */
 #footer #insta_button {
   margin-right: 20px;
   background-repeat: no-repeat;
@@ -10158,17 +10163,17 @@ h3 {
   background-size: 43px 44px;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 1090, ../scss/app_v1.scss */
+  /* line 1095, ../scss/app_v1.scss */
   #footer #insta_button {
     margin-right: 30px;
   }
 }
-/* line 1106, ../scss/app_v1.scss */
+/* line 1111, ../scss/app_v1.scss */
 #footer #insta_button:hover {
   background: url("../assets/images/buttons/instagram_highlighted@2x.png");
   background-size: 43px 44px;
 }
-/* line 1113, ../scss/app_v1.scss */
+/* line 1118, ../scss/app_v1.scss */
 #footer #blog_button {
   background-repeat: no-repeat;
   margin-right: 5px;
@@ -10178,27 +10183,27 @@ h3 {
   background-size: 28px 47px;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 1113, ../scss/app_v1.scss */
+  /* line 1118, ../scss/app_v1.scss */
   #footer #blog_button {
     margin-right: 15px;
   }
 }
-/* line 1129, ../scss/app_v1.scss */
+/* line 1134, ../scss/app_v1.scss */
 #footer #blog_button:hover {
   background-repeat: no-repeat;
   background: url("../assets/images/buttons/blog_highlighted@2x.png");
   background-size: 28px 47px;
 }
-/* line 1138, ../scss/app_v1.scss */
+/* line 1143, ../scss/app_v1.scss */
 #footer a {
   color: #0d8f8e;
   text-decoration: underline;
 }
-/* line 1143, ../scss/app_v1.scss */
+/* line 1148, ../scss/app_v1.scss */
 #footer a:active {
   color: #0d8f8e;
 }
-/* line 1148, ../scss/app_v1.scss */
+/* line 1153, ../scss/app_v1.scss */
 #footer a:hover {
   color: #FFFFFF;
 }

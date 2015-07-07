@@ -63,7 +63,7 @@
           <div class="large-12 columns center">
             <div class="menu_btn" id="language_button">English</div>
             <div class="menu_btn" id="press_button">Presskit</div>
-            <div class="menu_btn" id="download_button">Ladda ner appen</div>
+            <div class="menu_btn" id="faq_button">Vanliga frågor</div>
           </div>
         </div>
         
@@ -332,6 +332,11 @@
   $("#appstore").click(function(){
     ga('send', 'event', 'button', 'click', 'App Store button');
     window.open("https://bnc.lt/l/6_Jf7Uk_Hp");
+  });
+
+  $("#faq_button").click(function(){
+    ga('send', 'event', 'button', 'click', 'FAQ button');
+    window.location = "http://www.joinraft.com/sv/faq.html";
   });
 
   $("#download_button").click(function(){
