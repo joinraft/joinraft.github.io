@@ -467,6 +467,18 @@ h3
 		margin-bottom: rem-calc(20px);
 	}
 
+	a{
+		color:white;
+	
+		&:visited{
+			color:white;
+		}
+
+		&:active{
+			color:white;	
+		}
+	}
+
 	@media #{$medium-up} {
 		background-color:transparent;
 		background: url(../assets/images/raft_deck_blurred_tablet.png) no-repeat center center fixed; 
