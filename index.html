@@ -6,7 +6,9 @@
     <title>Raft - Calendar with friends</title>
     <link rel="icon" type="image/ico" href="http://www.joinraft.com/assets/favicon/favicon.ico"/>
     <link rel="stylesheet" href="stylesheets/app_v1.css" />
-    <link rel="alternate" hreflang="sv" href="http://www.joinraft.com/sv/"/>
+
+    <link rel="alternate" href="http://www.joinraft.com" hreflang="en-us" />
+    <link rel="alternate" href="http://www.joinraft.com/sv/" hreflang="sv-se" />
 
     <!-- Meta -->
     <meta name="description" content="Raft for iPhone is the easiest way to share calendar with your friends and loved ones. Make planning fun and spend more time together.">
@@ -345,6 +347,11 @@
   $("#logo_2").click(function(){
     ga('send', 'event', 'button', 'click', 'Home button');
     window.location = "http://www.joinraft.com/";
+  });
+
+  $("#faq_button").click(function(){
+    ga('send', 'event', 'button', 'click', 'FAQ button');
+    window.location = "http://www.joinraft.com/faq.html";
   });
 
   $("#appstore").click(function(){

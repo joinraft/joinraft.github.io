@@ -6,7 +6,9 @@
     <title>Raft - Frequently Asked Questions</title>
     <link rel="icon" type="image/ico" href="http://www.joinraft.com/assets/favicon/favicon.ico"/>
     <link rel="stylesheet" href="stylesheets/app_v1.css" />  
-    <link rel="alternate" hreflang="sv" href="http://www.joinraft.com/sv/"/>
+    
+  <link rel="alternate" href="http://www.joinraft.com/faq.html" hreflang="en-us" />
+  <link rel="alternate" href="http://www.joinraft.com/sv/faq.html" hreflang="sv-se" />
     
     <!-- Meta -->
     <meta name="description" content="Raft for iPhone is the easiest way to share calendar with your friends and loved ones. Make planning fun and spend more time together.">
@@ -63,7 +65,7 @@
           <div class="large-12 columns center">
             <div class="menu_btn" id="language_button">Svenska</div>
             <div class="menu_btn" id="press_button">Press kit</div>
-            <div class="menu_btn" id="home_button">Home</div>
+            <div class="menu_btn" id="home_button"><a href="">Home</a></div>
           </div>
         </div>
 
@@ -280,32 +282,32 @@
 
   $("#logo_2").click(function(){
     ga('send', 'event', 'button', 'click', 'Home button');
-    window.location = "http://www.joinraft.com/sv/";
-  });
-
-  $("#appstore").click(function(){
-    ga('send', 'event', 'button', 'click', 'App Store button');
-    window.open("https://bnc.lt/l/6_Jf7Uk_Hp");
-  });
-
-  $("#download_button").click(function(){
-    ga('send', 'event', 'button', 'click', 'Download button');
-    window.open("https://bnc.lt/l/6_Jf7Uk_Hp");
-  });
-
-  $("#language_button").click(function(){
-    ga('send', 'event', 'button', 'click', 'English button');
-    window.location = "http://www.joinraft.com";
+    window.location = "http://www.joinraft.com/";
   });
 
   $("#home_button").click(function(){
     ga('send', 'event', 'button', 'click', 'Home button');
-    window.location = "http://www.joinraft.com/sv/";
+    window.location = "http://www.joinraft.com/";
   });
 
   $("#faq_button").click(function(){
     ga('send', 'event', 'button', 'click', 'FAQ button');
-    window.location = "http://www.joinraft.com/sv/faq.html";
+    window.location = "http://www.joinraft.com/faq.html";
+  });
+
+  $("#appstore").click(function(){
+    ga('send', 'event', 'button', 'click', 'App Store button');
+    window.open("https://bnc.lt/l/4xqPKOk_Lj");
+  });
+
+  $("#download_button").click(function(){
+    ga('send', 'event', 'button', 'click', 'Download button');
+    window.open("https://bnc.lt/l/4xqPKOk_Lj");
+  });
+
+  $("#language_button").click(function(){
+    ga('send', 'event', 'button', 'click', 'Swedish button');
+    window.location = "http://www.joinraft.com/sv/";
   });
 
   $("#press_button").click(function(){
