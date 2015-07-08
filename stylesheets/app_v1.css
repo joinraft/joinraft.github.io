@@ -9074,13 +9074,18 @@ html, body {
 }
 
 /* line 53, ../scss/app_v1.scss */
+a {
+  color: #15b6b5;
+}
+
+/* line 58, ../scss/app_v1.scss */
 p {
   font-family: 'Avenir', 'Open Sans', sans-serif;
   font-size: 0.875rem;
   font-weight: 300;
   margin-bottom: 1.875rem;
 }
-/* line 60, ../scss/app_v1.scss */
+/* line 65, ../scss/app_v1.scss */
 p strong {
   font-family: 'Avenir-Heavy', 'Open Sans', sans-serif;
   font-size: 1rem;
@@ -9088,13 +9093,13 @@ p strong {
   letter-spacing: 1.3px;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 60, ../scss/app_v1.scss */
+  /* line 65, ../scss/app_v1.scss */
   p strong {
     font-weight: 400;
     font-size: 1.125rem;
   }
 }
-/* line 73, ../scss/app_v1.scss */
+/* line 78, ../scss/app_v1.scss */
 p small {
   font-family: 'Avenir-Heavy', 'Open Sans', sans-serif;
   font-size: 0.875rem;
@@ -9102,17 +9107,17 @@ p small {
   letter-spacing: 1.2px;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 73, ../scss/app_v1.scss */
+  /* line 78, ../scss/app_v1.scss */
   p small {
     font-size: 0.875rem;
   }
 }
-/* line 84, ../scss/app_v1.scss */
+/* line 89, ../scss/app_v1.scss */
 p small a {
   font-style: normal;
   text-decoration: underline;
 }
-/* line 90, ../scss/app_v1.scss */
+/* line 95, ../scss/app_v1.scss */
 p.small {
   font-family: 'Avenir-Heavy', 'Open Sans', sans-serif;
   font-weight: 500;
@@ -9121,13 +9126,13 @@ p.small {
   margin-bottom: 0.625rem;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 90, ../scss/app_v1.scss */
+  /* line 95, ../scss/app_v1.scss */
   p.small {
     font-size: 0.875rem;
   }
 }
 
-/* line 106, ../scss/app_v1.scss */
+/* line 111, ../scss/app_v1.scss */
 .appleInfo {
   line-height: 80%;
   letter-spacing: 0px;
@@ -9136,13 +9141,13 @@ p.small {
   font-weight: normal;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 106, ../scss/app_v1.scss */
+  /* line 111, ../scss/app_v1.scss */
   .appleInfo {
     font-size: 0.875rem;
   }
 }
 
-/* line 120, ../scss/app_v1.scss */
+/* line 125, ../scss/app_v1.scss */
 h1 {
   font-family: 'AvenirNext-Bold', 'Open Sans', sans-serif;
   font-weight: 300;
@@ -9152,7 +9157,7 @@ h1 {
   text-align: center;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 120, ../scss/app_v1.scss */
+  /* line 125, ../scss/app_v1.scss */
   h1 {
     text-align: center;
     font-size: 2.75rem;
@@ -9160,7 +9165,7 @@ h1 {
   }
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 120, ../scss/app_v1.scss */
+  /* line 125, ../scss/app_v1.scss */
   h1 {
     text-align: left;
     font-size: 2.875rem;
@@ -9168,7 +9173,7 @@ h1 {
   }
 }
 
-/* line 150, ../scss/app_v1.scss */
+/* line 155, ../scss/app_v1.scss */
 h2 {
   color: #FFFFFF;
   font-family: 'AvenirNext-Bold', 'Open Sans', sans-serif;
@@ -9177,24 +9182,24 @@ h2 {
   letter-spacing: 1.0px;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 150, ../scss/app_v1.scss */
+  /* line 155, ../scss/app_v1.scss */
   h2 {
     font-size: 2.125rem;
   }
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 150, ../scss/app_v1.scss */
+  /* line 155, ../scss/app_v1.scss */
   h2 {
     font-size: 2.25rem;
   }
 }
-/* line 167, ../scss/app_v1.scss */
+/* line 172, ../scss/app_v1.scss */
 h2 a {
   text-decoration: underline;
   color: #FFFFFF;
 }
 
-/* line 174, ../scss/app_v1.scss */
+/* line 179, ../scss/app_v1.scss */
 h3 {
   color: #FFFFFF;
   font-family: 'Avenir-Light', 'Open Sans', sans-serif;
@@ -9206,7 +9211,7 @@ h3 {
   letter-spacing: 0.5px;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 174, ../scss/app_v1.scss */
+  /* line 179, ../scss/app_v1.scss */
   h3 {
     text-align: center;
     font-size: 1.5rem;
@@ -9215,7 +9220,7 @@ h3 {
   }
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 174, ../scss/app_v1.scss */
+  /* line 179, ../scss/app_v1.scss */
   h3 {
     text-align: left;
     font-size: 1.625rem;
@@ -9224,25 +9229,25 @@ h3 {
   }
 }
 
-/* line 200, ../scss/app_v1.scss */
+/* line 205, ../scss/app_v1.scss */
 #header_menu {
   display: none;
   margin-bottom: 0.625rem;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 200, ../scss/app_v1.scss */
+  /* line 205, ../scss/app_v1.scss */
   #header_menu {
     display: none;
   }
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 200, ../scss/app_v1.scss */
+  /* line 205, ../scss/app_v1.scss */
   #header_menu {
     display: block;
   }
 }
 
-/* line 215, ../scss/app_v1.scss */
+/* line 220, ../scss/app_v1.scss */
 #menu_logo {
   float: left;
   padding-left: 0;
@@ -9251,12 +9256,12 @@ h3 {
   font-weight: 400;
   letter-spacing: 0.3px;
 }
-/* line 225, ../scss/app_v1.scss */
+/* line 230, ../scss/app_v1.scss */
 #menu_logo:hover {
   text-decoration: underline;
 }
 
-/* line 231, ../scss/app_v1.scss */
+/* line 236, ../scss/app_v1.scss */
 .menu_btn {
   float: right;
   padding-left: 1.875rem;
@@ -9267,25 +9272,25 @@ h3 {
   font-weight: 400;
   letter-spacing: 0.3px;
 }
-/* line 243, ../scss/app_v1.scss */
+/* line 248, ../scss/app_v1.scss */
 .menu_btn:hover {
   text-decoration: underline;
 }
-/* line 247, ../scss/app_v1.scss */
+/* line 252, ../scss/app_v1.scss */
 .menu_btn.flag {
   font-size: 1.75rem;
   padding-top: 0.3125rem;
 }
-/* line 252, ../scss/app_v1.scss */
+/* line 257, ../scss/app_v1.scss */
 .menu_btn.flag:hover {
   text-decoration: none;
 }
-/* line 258, ../scss/app_v1.scss */
+/* line 263, ../scss/app_v1.scss */
 .menu_btn.selected {
   font-weight: 700;
 }
 
-/* line 264, ../scss/app_v1.scss */
+/* line 269, ../scss/app_v1.scss */
 #appstore_container {
   margin-top: 0.625rem;
   display: block;
@@ -9293,21 +9298,21 @@ h3 {
   text-align: center;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 264, ../scss/app_v1.scss */
+  /* line 269, ../scss/app_v1.scss */
   #appstore_container {
     display: block;
     text-align: center;
   }
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 264, ../scss/app_v1.scss */
+  /* line 269, ../scss/app_v1.scss */
   #appstore_container {
     display: block;
     text-align: left;
   }
 }
 
-/* line 282, ../scss/app_v1.scss */
+/* line 287, ../scss/app_v1.scss */
 #appstore {
   cursor: pointer;
   margin-left: auto;
@@ -9319,19 +9324,19 @@ h3 {
   background: url("../assets/images/appstore_badge.svg");
   background-size: 200px 60px;
 }
-/* line 296, ../scss/app_v1.scss */
+/* line 301, ../scss/app_v1.scss */
 #appstore.sv {
   background-repeat: no-repeat;
   background: url("../assets/images/appstore_badge_sv.svg");
   background-size: 200px 60px;
 }
-/* line 302, ../scss/app_v1.scss */
+/* line 307, ../scss/app_v1.scss */
 #appstore.footer {
   float: none;
   margin-bottom: 0px;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 282, ../scss/app_v1.scss */
+  /* line 287, ../scss/app_v1.scss */
   #appstore {
     margin-bottom: 1.875rem;
     float: none;
@@ -9343,7 +9348,7 @@ h3 {
     background: url("../assets/images/appstore_badge.svg");
     background-size: 250px 74px;
   }
-  /* line 320, ../scss/app_v1.scss */
+  /* line 325, ../scss/app_v1.scss */
   #appstore.sv {
     background-repeat: no-repeat;
     background: url("../assets/images/appstore_badge_sv.svg");
@@ -9351,46 +9356,46 @@ h3 {
   }
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 282, ../scss/app_v1.scss */
+  /* line 287, ../scss/app_v1.scss */
   #appstore {
     margin-bottom: 1.5625rem;
     float: left;
   }
 }
 
-/* line 334, ../scss/app_v1.scss */
+/* line 339, ../scss/app_v1.scss */
 #wrapper {
   color: #FFFFFF;
   background-color: #15b6b5;
 }
 
-/* line 339, ../scss/app_v1.scss */
+/* line 344, ../scss/app_v1.scss */
 #mixpanel_logo {
   width: 114px;
   height: 36px;
 }
 
-/* line 345, ../scss/app_v1.scss */
+/* line 350, ../scss/app_v1.scss */
 #logoWrapper {
   position: relative;
   text-align: center;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 345, ../scss/app_v1.scss */
+  /* line 350, ../scss/app_v1.scss */
   #logoWrapper {
     margin-bottom: 0.625rem;
     margin-top: 3.125rem;
   }
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 345, ../scss/app_v1.scss */
+  /* line 350, ../scss/app_v1.scss */
   #logoWrapper {
     margin-bottom: 1.875rem;
     margin-top: 2.5rem;
   }
 }
 
-/* line 360, ../scss/app_v1.scss */
+/* line 365, ../scss/app_v1.scss */
 #logo {
   background-repeat: no-repeat;
   margin-left: auto;
@@ -9403,21 +9408,21 @@ h3 {
   background-size: 193px 146px;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 360, ../scss/app_v1.scss */
+  /* line 365, ../scss/app_v1.scss */
   #logo {
     margin-bottom: 1.25rem;
     margin-top: 3.125rem;
   }
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 360, ../scss/app_v1.scss */
+  /* line 365, ../scss/app_v1.scss */
   #logo {
     margin-bottom: 4.375rem;
     margin-top: 2.5rem;
   }
 }
 
-/* line 384, ../scss/app_v1.scss */
+/* line 389, ../scss/app_v1.scss */
 #logo_2 {
   display: inline-block;
   background-repeat: no-repeat;
@@ -9428,25 +9433,25 @@ h3 {
   margin-bottom: 1.25rem;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 384, ../scss/app_v1.scss */
+  /* line 389, ../scss/app_v1.scss */
   #logo_2 {
     margin-bottom: 1.25rem;
   }
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 384, ../scss/app_v1.scss */
+  /* line 389, ../scss/app_v1.scss */
   #logo_2 {
     margin-bottom: 1.25rem;
   }
 }
 
-/* line 401, ../scss/app_v1.scss */
+/* line 406, ../scss/app_v1.scss */
 #loves {
   display: none;
   background-repeat: no-repeat;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 401, ../scss/app_v1.scss */
+  /* line 406, ../scss/app_v1.scss */
   #loves {
     margin-left: 20px;
     width: 50px;
@@ -9459,7 +9464,7 @@ h3 {
   }
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 401, ../scss/app_v1.scss */
+  /* line 406, ../scss/app_v1.scss */
   #loves {
     margin-bottom: 4.375rem;
     margin-top: 2.5rem;
@@ -9467,13 +9472,13 @@ h3 {
   }
 }
 
-/* line 423, ../scss/app_v1.scss */
+/* line 428, ../scss/app_v1.scss */
 #product_hunt {
   display: none;
   background-repeat: no-repeat;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 423, ../scss/app_v1.scss */
+  /* line 428, ../scss/app_v1.scss */
   #product_hunt {
     width: 212px;
     height: 196px;
@@ -9483,13 +9488,13 @@ h3 {
   }
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 423, ../scss/app_v1.scss */
+  /* line 428, ../scss/app_v1.scss */
   #product_hunt {
     display: none;
   }
 }
 
-/* line 440, ../scss/app_v1.scss */
+/* line 445, ../scss/app_v1.scss */
 #tagline a {
   font-family: 'AvenirNext-DemiBold', 'Open Sans', sans-serif;
   font-weight: 300;
@@ -9498,7 +9503,7 @@ h3 {
 }
 
 /* SECTIONS */
-/* line 451, ../scss/app_v1.scss */
+/* line 456, ../scss/app_v1.scss */
 #info {
   padding-top: 1.875rem;
   padding-bottom: 0;
@@ -9509,7 +9514,7 @@ h3 {
   -o-background-size: cover;
   background-size: cover;
 }
-/* line 462, ../scss/app_v1.scss */
+/* line 467, ../scss/app_v1.scss */
 #info p {
   font-family: 'Avenir-Heavy', 'Open Sans', sans-serif;
   font-size: 0.875rem;
@@ -9517,20 +9522,20 @@ h3 {
   letter-spacing: 1.3px;
   margin-bottom: 1.25rem;
 }
-/* line 470, ../scss/app_v1.scss */
+/* line 475, ../scss/app_v1.scss */
 #info a {
   color: white;
 }
-/* line 473, ../scss/app_v1.scss */
+/* line 478, ../scss/app_v1.scss */
 #info a:visited {
   color: white;
 }
-/* line 477, ../scss/app_v1.scss */
+/* line 482, ../scss/app_v1.scss */
 #info a:active {
   color: white;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 451, ../scss/app_v1.scss */
+  /* line 456, ../scss/app_v1.scss */
   #info {
     background-color: transparent;
     background: url(../assets/images/raft_deck_blurred_tablet.png) no-repeat center center fixed;
@@ -9541,7 +9546,7 @@ h3 {
   }
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 451, ../scss/app_v1.scss */
+  /* line 456, ../scss/app_v1.scss */
   #info {
     background-color: transparent;
     background: url(../assets/images/raft_deck_blurred.png) no-repeat center center fixed;
@@ -9552,24 +9557,24 @@ h3 {
   }
 }
 
-/* line 502, ../scss/app_v1.scss */
+/* line 507, ../scss/app_v1.scss */
 #device_container {
   text-align: center;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 502, ../scss/app_v1.scss */
+  /* line 507, ../scss/app_v1.scss */
   #device_container {
     text-align: center;
   }
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 502, ../scss/app_v1.scss */
+  /* line 507, ../scss/app_v1.scss */
   #device_container {
     text-align: right;
   }
 }
 
-/* line 515, ../scss/app_v1.scss */
+/* line 520, ../scss/app_v1.scss */
 #device {
   margin-left: auto;
   margin-right: auto;
@@ -9583,7 +9588,7 @@ h3 {
   background-size: 280px 460px;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 515, ../scss/app_v1.scss */
+  /* line 520, ../scss/app_v1.scss */
   #device {
     margin-top: 0;
     float: clear;
@@ -9597,7 +9602,7 @@ h3 {
   }
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 515, ../scss/app_v1.scss */
+  /* line 520, ../scss/app_v1.scss */
   #device {
     margin-top: 1.25rem;
     float: right;
@@ -9609,17 +9614,17 @@ h3 {
   }
 }
 
-/* line 554, ../scss/app_v1.scss */
+/* line 559, ../scss/app_v1.scss */
 .promo_container {
   text-align: center;
 }
-/* line 558, ../scss/app_v1.scss */
+/* line 563, ../scss/app_v1.scss */
 .promo_container p {
   text-align: center;
   margin-bottom: 1.875rem;
 }
 
-/* line 565, ../scss/app_v1.scss */
+/* line 570, ../scss/app_v1.scss */
 .promo {
   webkit-transition: all 0.30s ease-in-out;
   -moz-transition: all 0.30s ease-in-out;
@@ -9635,7 +9640,7 @@ h3 {
   display: block;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 565, ../scss/app_v1.scss */
+  /* line 570, ../scss/app_v1.scss */
   .promo {
     margin-top: 0.9375rem;
     width: 100%;
@@ -9643,7 +9648,7 @@ h3 {
   }
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 565, ../scss/app_v1.scss */
+  /* line 570, ../scss/app_v1.scss */
   .promo {
     margin-top: 0.9375rem;
     width: 294px;
@@ -9651,56 +9656,56 @@ h3 {
   }
 }
 
-/* line 594, ../scss/app_v1.scss */
+/* line 599, ../scss/app_v1.scss */
 #promo_2 {
   margin-bottom: 1.25rem;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 594, ../scss/app_v1.scss */
+  /* line 599, ../scss/app_v1.scss */
   #promo_2 {
     margin-bottom: 0;
   }
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 594, ../scss/app_v1.scss */
+  /* line 599, ../scss/app_v1.scss */
   #promo_2 {
     margin-bottom: 0;
   }
 }
 
-/* line 607, ../scss/app_v1.scss */
+/* line 612, ../scss/app_v1.scss */
 #promo_3 {
   margin-bottom: 1.25rem;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 607, ../scss/app_v1.scss */
+  /* line 612, ../scss/app_v1.scss */
   #promo_3 {
     margin-bottom: 0;
   }
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 607, ../scss/app_v1.scss */
+  /* line 612, ../scss/app_v1.scss */
   #promo_3 {
     margin-bottom: 0;
   }
 }
 
-/* line 620, ../scss/app_v1.scss */
+/* line 625, ../scss/app_v1.scss */
 #promo_4 {
   margin-bottom: 0;
 }
 
-/* line 625, ../scss/app_v1.scss */
+/* line 630, ../scss/app_v1.scss */
 #video {
   padding-top: 0px !important;
   padding-bottom: 0px !important;
 }
-/* line 629, ../scss/app_v1.scss */
+/* line 634, ../scss/app_v1.scss */
 #video h2 {
   margin-bottom: 20px;
 }
 
-/* line 634, ../scss/app_v1.scss */
+/* line 639, ../scss/app_v1.scss */
 #faq_header {
   padding-top: 1.875rem;
   padding-bottom: 2.5rem;
@@ -9711,7 +9716,7 @@ h3 {
   -o-background-size: cover;
   background-size: cover;
 }
-/* line 638, ../scss/app_v1.scss */
+/* line 643, ../scss/app_v1.scss */
 #faq_header h1 {
   text-align: center;
   margin-top: 0;
@@ -9721,38 +9726,38 @@ h3 {
   font-size: 2.375rem;
   letter-spacing: 0px;
 }
-/* line 649, ../scss/app_v1.scss */
+/* line 654, ../scss/app_v1.scss */
 #faq_header p {
   font-size: 1.25rem;
 }
-/* line 653, ../scss/app_v1.scss */
+/* line 658, ../scss/app_v1.scss */
 #faq_header a {
   color: white;
 }
-/* line 656, ../scss/app_v1.scss */
+/* line 661, ../scss/app_v1.scss */
 #faq_header a:visited {
   color: white;
 }
-/* line 660, ../scss/app_v1.scss */
+/* line 665, ../scss/app_v1.scss */
 #faq_header a:active {
   color: white;
 }
-/* line 664, ../scss/app_v1.scss */
+/* line 669, ../scss/app_v1.scss */
 #faq_header a strong {
   text-decoration: underline;
 }
-/* line 669, ../scss/app_v1.scss */
+/* line 674, ../scss/app_v1.scss */
 #faq_header #logoWrapper {
   margin-bottom: 0px;
 }
-/* line 673, ../scss/app_v1.scss */
+/* line 678, ../scss/app_v1.scss */
 #faq_header #logo_2 {
   cursor: pointer;
   margin-top: 0px;
   margin-bottom: 0px;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 634, ../scss/app_v1.scss */
+  /* line 639, ../scss/app_v1.scss */
   #faq_header {
     background-color: transparent;
     background: url(../assets/images/raft_deck_blurred_tablet.png) no-repeat center center fixed;
@@ -9763,7 +9768,7 @@ h3 {
   }
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 634, ../scss/app_v1.scss */
+  /* line 639, ../scss/app_v1.scss */
   #faq_header {
     background-color: transparent;
     background: url(../assets/images/raft_deck_blurred.png) no-repeat center center fixed;
@@ -9774,7 +9779,7 @@ h3 {
   }
 }
 
-/* line 706, ../scss/app_v1.scss */
+/* line 711, ../scss/app_v1.scss */
 #faq {
   padding-top: 20px !important;
   padding-bottom: 20px !important;
@@ -9782,7 +9787,7 @@ h3 {
   text-align: left;
   color: #454545;
 }
-/* line 713, ../scss/app_v1.scss */
+/* line 718, ../scss/app_v1.scss */
 #faq h3 {
   font-family: 'AvenirNext-DemiBold', 'Open Sans', sans-serif;
   font-size: 1.375rem;
@@ -9791,16 +9796,16 @@ h3 {
   margin-bottom: 10px;
   margin-top: 25px;
 }
-/* line 722, ../scss/app_v1.scss */
+/* line 727, ../scss/app_v1.scss */
 #faq p {
   font-size: 1.125rem;
 }
-/* line 726, ../scss/app_v1.scss */
+/* line 731, ../scss/app_v1.scss */
 #faq hr {
   margin-top: 0px;
 }
 
-/* line 732, ../scss/app_v1.scss */
+/* line 737, ../scss/app_v1.scss */
 #raft_video {
   background-color: black;
   -webkit-background-size: cover;
@@ -9813,36 +9818,36 @@ h3 {
   height: 340px;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 732, ../scss/app_v1.scss */
+  /* line 737, ../scss/app_v1.scss */
   #raft_video {
     height: 430px;
   }
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 732, ../scss/app_v1.scss */
+  /* line 737, ../scss/app_v1.scss */
   #raft_video {
     height: 580px;
   }
 }
 
-/* line 754, ../scss/app_v1.scss */
+/* line 759, ../scss/app_v1.scss */
 #play_button_wrapper {
   padding-top: 75px;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 754, ../scss/app_v1.scss */
+  /* line 759, ../scss/app_v1.scss */
   #play_button_wrapper {
     padding-top: 110px;
   }
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 754, ../scss/app_v1.scss */
+  /* line 759, ../scss/app_v1.scss */
   #play_button_wrapper {
     padding-top: 180px;
   }
 }
 
-/* line 767, ../scss/app_v1.scss */
+/* line 772, ../scss/app_v1.scss */
 #play_button {
   cursor: pointer;
   margin: 0 auto;
@@ -9853,13 +9858,13 @@ h3 {
   background-size: 144px 149px;
   margin-bottom: 15px;
 }
-/* line 778, ../scss/app_v1.scss */
+/* line 783, ../scss/app_v1.scss */
 #play_button:hover {
   background: url("../assets/images/play_button_over@2x.png");
   background-size: 144px 149px;
 }
 
-/* line 785, ../scss/app_v1.scss */
+/* line 790, ../scss/app_v1.scss */
 #demo {
   display: none;
   background-color: #f8cd5a;
@@ -9868,17 +9873,17 @@ h3 {
   padding-bottom: 0;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 785, ../scss/app_v1.scss */
+  /* line 790, ../scss/app_v1.scss */
   #demo {
     display: block;
   }
 }
-/* line 797, ../scss/app_v1.scss */
+/* line 802, ../scss/app_v1.scss */
 #demo h2 {
   margin-bottom: 20px;
 }
 
-/* line 803, ../scss/app_v1.scss */
+/* line 808, ../scss/app_v1.scss */
 #signup_v2 {
   background-color: #f8cd5a;
   padding-top: 2.5rem;
@@ -9886,25 +9891,25 @@ h3 {
   text-align: center;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 803, ../scss/app_v1.scss */
+  /* line 808, ../scss/app_v1.scss */
   #signup_v2 {
     padding-top: 3.125rem;
     padding-bottom: 4.375rem;
   }
 }
-/* line 815, ../scss/app_v1.scss */
+/* line 820, ../scss/app_v1.scss */
 #signup_v2 p {
   margin-bottom: 20px;
 }
-/* line 820, ../scss/app_v1.scss */
+/* line 825, ../scss/app_v1.scss */
 #signup_v2 a {
   text-decoration: none;
 }
-/* line 824, ../scss/app_v1.scss */
+/* line 829, ../scss/app_v1.scss */
 #signup_v2 a:hover {
   color: #f8cd5a;
 }
-/* line 830, ../scss/app_v1.scss */
+/* line 835, ../scss/app_v1.scss */
 #signup_v2 input.button {
   margin: 0 auto;
   cursor: pointer;
@@ -9924,13 +9929,13 @@ h3 {
   letter-spacing: 1.2px;
   width: 100%;
 }
-/* line 855, ../scss/app_v1.scss */
+/* line 860, ../scss/app_v1.scss */
 #signup_v2 input.button:hover {
   background-color: #FFFFFF;
   color: #f8cd5a;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 830, ../scss/app_v1.scss */
+  /* line 835, ../scss/app_v1.scss */
   #signup_v2 input.button {
     font-size: 1.5rem;
     width: auto;
@@ -9939,7 +9944,7 @@ h3 {
   }
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 830, ../scss/app_v1.scss */
+  /* line 835, ../scss/app_v1.scss */
   #signup_v2 input.button {
     font-size: 1.5rem;
     width: auto;
@@ -9948,7 +9953,7 @@ h3 {
   }
 }
 
-/* line 877, ../scss/app_v1.scss */
+/* line 882, ../scss/app_v1.scss */
 #signup {
   background-color: #f36454;
   padding-top: 2.5rem;
@@ -9956,25 +9961,25 @@ h3 {
   text-align: center;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 877, ../scss/app_v1.scss */
+  /* line 882, ../scss/app_v1.scss */
   #signup {
     padding-top: 3.125rem;
     padding-bottom: 4.375rem;
   }
 }
-/* line 889, ../scss/app_v1.scss */
+/* line 894, ../scss/app_v1.scss */
 #signup p {
   margin-bottom: 20px;
 }
-/* line 894, ../scss/app_v1.scss */
+/* line 899, ../scss/app_v1.scss */
 #signup a {
   text-decoration: none;
 }
-/* line 898, ../scss/app_v1.scss */
+/* line 903, ../scss/app_v1.scss */
 #signup a:hover {
   color: #f36454;
 }
-/* line 904, ../scss/app_v1.scss */
+/* line 909, ../scss/app_v1.scss */
 #signup input.button {
   margin: 0 auto;
   cursor: pointer;
@@ -9994,13 +9999,13 @@ h3 {
   letter-spacing: 1.2px;
   width: 100%;
 }
-/* line 929, ../scss/app_v1.scss */
+/* line 934, ../scss/app_v1.scss */
 #signup input.button:hover {
   background-color: #FFFFFF;
   color: #f36454;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 904, ../scss/app_v1.scss */
+  /* line 909, ../scss/app_v1.scss */
   #signup input.button {
     font-size: 1.5rem;
     width: auto;
@@ -10009,7 +10014,7 @@ h3 {
   }
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 904, ../scss/app_v1.scss */
+  /* line 909, ../scss/app_v1.scss */
   #signup input.button {
     font-size: 1.5rem;
     width: auto;
@@ -10018,13 +10023,13 @@ h3 {
   }
 }
 
-/* line 950, ../scss/app_v1.scss */
+/* line 955, ../scss/app_v1.scss */
 #mc_embed_signup {
   background-color: transparent;
   clear: left;
 }
 
-/* line 957, ../scss/app_v1.scss */
+/* line 962, ../scss/app_v1.scss */
 #mce-EMAIL {
   -webkit-appearance: none;
   outline: none;
@@ -10039,14 +10044,14 @@ h3 {
   margin-bottom: 1.25rem;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 957, ../scss/app_v1.scss */
+  /* line 962, ../scss/app_v1.scss */
   #mce-EMAIL {
     font-size: 1.375rem;
     margin-bottom: 1.25rem;
   }
 }
 
-/* line 981, ../scss/app_v1.scss */
+/* line 986, ../scss/app_v1.scss */
 #signup_form {
   webkit-transition: all 0.30s ease-in-out;
   -moz-transition: all 0.30s ease-in-out;
@@ -10055,26 +10060,26 @@ h3 {
   overflow: hidden;
 }
 
-/* line 991, ../scss/app_v1.scss */
+/* line 996, ../scss/app_v1.scss */
 .center {
   text-align: center;
 }
 
-/* line 996, ../scss/app_v1.scss */
+/* line 1001, ../scss/app_v1.scss */
 .section {
   width: 100%;
   padding-top: 1.875rem;
   padding-bottom: 1.875rem;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 996, ../scss/app_v1.scss */
+  /* line 1001, ../scss/app_v1.scss */
   .section {
     padding-top: 3.125rem;
     padding-bottom: 3.125rem;
   }
 }
 
-/* line 1009, ../scss/app_v1.scss */
+/* line 1014, ../scss/app_v1.scss */
 #testimonials {
   background-color: #f36454;
   padding-top: 2.5rem;
@@ -10082,11 +10087,11 @@ h3 {
   text-align: center;
 }
 
-/* line 1016, ../scss/app_v1.scss */
+/* line 1021, ../scss/app_v1.scss */
 .testimonial {
   margin-top: 15px;
 }
-/* line 1020, ../scss/app_v1.scss */
+/* line 1025, ../scss/app_v1.scss */
 .testimonial p {
   font-size: 20px;
   font-family: 'Avenir-Book', 'Open Sans', sans-serif;
@@ -10094,13 +10099,13 @@ h3 {
   margin-bottom: 0px !important;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 1020, ../scss/app_v1.scss */
+  /* line 1025, ../scss/app_v1.scss */
   .testimonial p {
     font-size: 24px;
   }
 }
 
-/* line 1032, ../scss/app_v1.scss */
+/* line 1037, ../scss/app_v1.scss */
 .testimonal_image {
   margin: 0 auto;
   display: block;
@@ -10110,34 +10115,34 @@ h3 {
   height: 60px;
 }
 
-/* line 1042, ../scss/app_v1.scss */
+/* line 1047, ../scss/app_v1.scss */
 #testimonial_sydsvenskan {
   background-image: url("../assets/images/testimonial_sydsvenskan@2x.png");
 }
-/* line 1046, ../scss/app_v1.scss */
+/* line 1051, ../scss/app_v1.scss */
 #testimonial_sydsvenskan:hover {
   background-image: url("../assets/images/testimonial_sydsvenskan_hover@2x.png");
 }
 
-/* line 1051, ../scss/app_v1.scss */
+/* line 1056, ../scss/app_v1.scss */
 #testimonial_breakit {
   background-image: url("../assets/images/testimonial_breakit@2x.png");
 }
-/* line 1055, ../scss/app_v1.scss */
+/* line 1060, ../scss/app_v1.scss */
 #testimonial_breakit:hover {
   background-image: url("../assets/images/testimonial_breakit_hover@2x.png");
 }
 
-/* line 1060, ../scss/app_v1.scss */
+/* line 1065, ../scss/app_v1.scss */
 #testimonial_gp {
   background-image: url("../assets/images/testimonial_gp@2x.png");
 }
-/* line 1064, ../scss/app_v1.scss */
+/* line 1069, ../scss/app_v1.scss */
 #testimonial_gp:hover {
   background-image: url("../assets/images/testimonial_gp_hover@2x.png");
 }
 
-/* line 1070, ../scss/app_v1.scss */
+/* line 1075, ../scss/app_v1.scss */
 #footer {
   color: #0d8f8e;
   background-color: #15b6b5;
@@ -10145,36 +10150,36 @@ h3 {
   padding-bottom: 2.5rem;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 1070, ../scss/app_v1.scss */
+  /* line 1075, ../scss/app_v1.scss */
   #footer {
     padding-top: 2.5rem;
     padding-bottom: 3.125rem;
   }
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 1070, ../scss/app_v1.scss */
+  /* line 1075, ../scss/app_v1.scss */
   #footer {
     padding-top: 2.5rem;
     padding-bottom: 3.125rem;
   }
 }
-/* line 1088, ../scss/app_v1.scss */
+/* line 1093, ../scss/app_v1.scss */
 #footer .likeWrapper {
   display: inline-block;
   margin-bottom: 1.25rem;
   height: 1.875rem;
 }
-/* line 1095, ../scss/app_v1.scss */
+/* line 1100, ../scss/app_v1.scss */
 #footer #footer_menu {
   margin: 0 auto;
   text-align: center;
 }
-/* line 1101, ../scss/app_v1.scss */
+/* line 1106, ../scss/app_v1.scss */
 #footer .footer_btn {
   display: inline-block;
   cursor: pointer;
 }
-/* line 1107, ../scss/app_v1.scss */
+/* line 1112, ../scss/app_v1.scss */
 #footer #fb_button {
   margin-right: 20px;
   background-repeat: no-repeat;
@@ -10184,17 +10189,17 @@ h3 {
   background-size: 43px 44px;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 1107, ../scss/app_v1.scss */
+  /* line 1112, ../scss/app_v1.scss */
   #footer #fb_button {
     margin-right: 30px;
   }
 }
-/* line 1123, ../scss/app_v1.scss */
+/* line 1128, ../scss/app_v1.scss */
 #footer #fb_button:hover {
   background: url("../assets/images/buttons/fb_highlighted@2x.png");
   background-size: 43px 44px;
 }
-/* line 1130, ../scss/app_v1.scss */
+/* line 1135, ../scss/app_v1.scss */
 #footer #twitter_button {
   margin-right: 20px;
   background-repeat: no-repeat;
@@ -10204,17 +10209,17 @@ h3 {
   background-size: 46px 38px;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 1130, ../scss/app_v1.scss */
+  /* line 1135, ../scss/app_v1.scss */
   #footer #twitter_button {
     margin-right: 30px;
   }
 }
-/* line 1146, ../scss/app_v1.scss */
+/* line 1151, ../scss/app_v1.scss */
 #footer #twitter_button:hover {
   background: url("../assets/images/buttons/twitter_highlighted@2x.png");
   background-size: 46px 38px;
 }
-/* line 1153, ../scss/app_v1.scss */
+/* line 1158, ../scss/app_v1.scss */
 #footer #insta_button {
   margin-right: 20px;
   background-repeat: no-repeat;
@@ -10224,17 +10229,17 @@ h3 {
   background-size: 43px 44px;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 1153, ../scss/app_v1.scss */
+  /* line 1158, ../scss/app_v1.scss */
   #footer #insta_button {
     margin-right: 30px;
   }
 }
-/* line 1169, ../scss/app_v1.scss */
+/* line 1174, ../scss/app_v1.scss */
 #footer #insta_button:hover {
   background: url("../assets/images/buttons/instagram_highlighted@2x.png");
   background-size: 43px 44px;
 }
-/* line 1176, ../scss/app_v1.scss */
+/* line 1181, ../scss/app_v1.scss */
 #footer #blog_button {
   background-repeat: no-repeat;
   margin-right: 5px;
@@ -10244,27 +10249,27 @@ h3 {
   background-size: 28px 47px;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 1176, ../scss/app_v1.scss */
+  /* line 1181, ../scss/app_v1.scss */
   #footer #blog_button {
     margin-right: 15px;
   }
 }
-/* line 1192, ../scss/app_v1.scss */
+/* line 1197, ../scss/app_v1.scss */
 #footer #blog_button:hover {
   background-repeat: no-repeat;
   background: url("../assets/images/buttons/blog_highlighted@2x.png");
   background-size: 28px 47px;
 }
-/* line 1201, ../scss/app_v1.scss */
+/* line 1206, ../scss/app_v1.scss */
 #footer a {
   color: #0d8f8e;
   text-decoration: underline;
 }
-/* line 1206, ../scss/app_v1.scss */
+/* line 1211, ../scss/app_v1.scss */
 #footer a:active {
   color: #0d8f8e;
 }
-/* line 1211, ../scss/app_v1.scss */
+/* line 1216, ../scss/app_v1.scss */
 #footer a:hover {
   color: #FFFFFF;
 }
