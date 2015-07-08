@@ -203,16 +203,15 @@ h3
 
 #header_menu
 {
-	display: none;
-
-	margin-bottom:rem-calc(10px);
+	// display: none;
+	margin-bottom:rem-calc(30px);
 
 	@media #{$medium-up} {
-		display: none;
+		margin-bottom:rem-calc(0px);
 	}
 
 	@media #{$large-up} {
-		display: block;
+		margin-bottom:rem-calc(10px);	
 	}
 }
 
@@ -234,15 +233,28 @@ h3
 
 .menu_btn
 {
-	float:right;
-	padding-left:rem-calc(30px);
+	display:inline-block;
 	font-size: rem-calc(18px);
+
+	padding-left:rem-calc(15px);
+	padding-right:rem-calc(15px);
 
 	padding-top:rem-calc(10px);
 	padding-bottom:rem-calc(10px);
 	cursor:pointer;
 	font-weight:400;
 	letter-spacing: 0.3px;
+
+	@media #{$large-up} {
+		padding-bottom:rem-calc(0px);
+	}
+
+	@media #{$large-up} {
+		float:right;
+		padding-bottom:rem-calc(10px);
+		padding-right:0px;
+		padding-left:rem-calc(30px);
+	}
 
 	&:hover
 	{
@@ -638,7 +650,15 @@ h3
 
 #faq_header{
 	padding-top:rem-calc(30px);
-	padding-bottom:rem-calc(40px);
+	padding-bottom:rem-calc(20px);
+
+	@media #{$large-up} {
+		padding-top:rem-calc(20px);
+	}	
+
+	@media #{$large-up} {
+		padding-bottom:rem-calc(40px);
+	}
 
 	h1{
 		text-align:center;
@@ -652,7 +672,11 @@ h3
 	}
 
 	p{
-		font-size:rem-calc(20);
+		font-size:rem-calc(18);
+
+		@media #{$medium-up} {
+			font-size:rem-calc(20);
+		}
 	}
 
 	a{
