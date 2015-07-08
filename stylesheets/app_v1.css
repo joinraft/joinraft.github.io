@@ -9785,7 +9785,7 @@ h3 {
   color: white;
 }
 /* line 698, ../scss/app_v1.scss */
-#faq_header a strong {
+#faq_header a:hover {
   text-decoration: underline;
 }
 /* line 703, ../scss/app_v1.scss */
