@@ -664,6 +664,16 @@ h3
 		text-align:center;
 		margin-top: rem-calc(0px);
 		margin-bottom: rem-calc(20px);
+
+		font-size:rem-calc(30px);
+
+		@media #{$medium-up} {
+			font-size:rem-calc(34px);
+		}
+
+		@media #{$large-up} {
+			font-size:rem-calc(36px);
+		}
 	}
 
 	p{
