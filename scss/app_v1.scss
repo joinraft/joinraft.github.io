@@ -652,8 +652,8 @@ h3
 	padding-top:rem-calc(30px);
 	padding-bottom:rem-calc(20px);
 
-	@media #{$large-up} {
-		padding-top:rem-calc(20px);
+	@media #{$media-up} {
+		padding-bottom:rem-calc(30px);
 	}	
 
 	@media #{$large-up} {
