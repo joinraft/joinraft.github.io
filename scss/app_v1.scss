@@ -640,7 +640,6 @@ h3
 
 	a{
 		color:white;
-		text-decoration: underline;
 	
 		&:visited{
 			color:white;
@@ -648,6 +647,10 @@ h3
 
 		&:active{
 			color:white;	
+		}
+
+		strong{
+			text-decoration: underline;
 		}
 	}
 
