@@ -663,6 +663,31 @@ h3
 		margin-top: 0px;
 		margin-bottom: 0px;
 	}
+
+	background-color:transparent;
+	background: url(../assets/images/raft_deck_blurred_mobile.png) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+
+	@media #{$medium-up} {
+		background-color:transparent;
+		background: url(../assets/images/raft_deck_blurred_tablet.png) no-repeat center center fixed; 
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+	}
+
+	@media #{$large-up} {
+		background-color:transparent;
+		background: url(../assets/images/raft_deck_blurred.png) no-repeat center center fixed; 
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+	}
 }
 
 #faq
