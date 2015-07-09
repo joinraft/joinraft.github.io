@@ -9947,7 +9947,7 @@ h3 {
   /* line 837, ../scss/app_v1.scss */
   #sms {
     padding-top: 1.875rem;
-    padding-bottom: 6.25rem;
+    padding-bottom: 5rem;
   }
 }
 /* line 851, ../scss/app_v1.scss */
@@ -9998,12 +9998,17 @@ h3 {
   text-decoration: underline;
 }
 /* line 893, ../scss/app_v1.scss */
+#sms #appstore-link {
+  opacity: 0.4;
+  font-size: 1rem;
+}
+/* line 898, ../scss/app_v1.scss */
 #sms #logo_2 {
   cursor: pointer;
   margin-top: 0px;
   margin-bottom: 0px;
 }
-/* line 900, ../scss/app_v1.scss */
+/* line 905, ../scss/app_v1.scss */
 #sms #sms-status {
   text-align: center;
   font-family: 'Avenir-Regular', 'Open Sans', sans-serif;
@@ -10012,7 +10017,7 @@ h3 {
   padding: 1.25rem;
   height: 4.375rem;
 }
-/* line 912, ../scss/app_v1.scss */
+/* line 917, ../scss/app_v1.scss */
 #sms #phone {
   text-align: center;
   letter-spacing: 1.8px;
@@ -10028,9 +10033,10 @@ h3 {
   height: 4.625rem;
   margin-bottom: 0.625rem;
 }
-/* line 935, ../scss/app_v1.scss */
+/* line 940, ../scss/app_v1.scss */
 #sms input.button {
   margin: 0 auto;
+  margin-bottom: 1.875rem;
   cursor: pointer;
   font-family: 'Avenir-Heavy', 'Open Sans', sans-serif;
   font-size: 1.25rem;
@@ -10048,7 +10054,7 @@ h3 {
   letter-spacing: 1px;
   width: 100%;
 }
-/* line 960, ../scss/app_v1.scss */
+/* line 966, ../scss/app_v1.scss */
 #sms input.button:hover {
   background-color: #FFFFFF;
   color: #15b6b5;
@@ -10075,12 +10081,12 @@ h3 {
     background-size: cover;
   }
 }
-/* line 1005, ../scss/app_v1.scss */
+/* line 997, ../scss/app_v1.scss */
 #sms .hidden {
   display: none;
 }
 
-/* line 1011, ../scss/app_v1.scss */
+/* line 1003, ../scss/app_v1.scss */
 #signup_v2 {
   background-color: #f8cd5a;
   padding-top: 2.5rem;
@@ -10088,25 +10094,25 @@ h3 {
   text-align: center;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 1011, ../scss/app_v1.scss */
+  /* line 1003, ../scss/app_v1.scss */
   #signup_v2 {
     padding-top: 3.125rem;
     padding-bottom: 4.375rem;
   }
 }
-/* line 1023, ../scss/app_v1.scss */
+/* line 1015, ../scss/app_v1.scss */
 #signup_v2 p {
   margin-bottom: 20px;
 }
-/* line 1028, ../scss/app_v1.scss */
+/* line 1020, ../scss/app_v1.scss */
 #signup_v2 a {
   text-decoration: none;
 }
-/* line 1032, ../scss/app_v1.scss */
+/* line 1024, ../scss/app_v1.scss */
 #signup_v2 a:hover {
   color: #f8cd5a;
 }
-/* line 1038, ../scss/app_v1.scss */
+/* line 1030, ../scss/app_v1.scss */
 #signup_v2 input.button {
   margin: 0 auto;
   cursor: pointer;
@@ -10126,13 +10132,13 @@ h3 {
   letter-spacing: 1.2px;
   width: 100%;
 }
-/* line 1063, ../scss/app_v1.scss */
+/* line 1055, ../scss/app_v1.scss */
 #signup_v2 input.button:hover {
   background-color: #FFFFFF;
   color: #f8cd5a;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 1038, ../scss/app_v1.scss */
+  /* line 1030, ../scss/app_v1.scss */
   #signup_v2 input.button {
     font-size: 1.5rem;
     width: auto;
@@ -10141,7 +10147,7 @@ h3 {
   }
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 1038, ../scss/app_v1.scss */
+  /* line 1030, ../scss/app_v1.scss */
   #signup_v2 input.button {
     font-size: 1.5rem;
     width: auto;
@@ -10150,7 +10156,7 @@ h3 {
   }
 }
 
-/* line 1085, ../scss/app_v1.scss */
+/* line 1077, ../scss/app_v1.scss */
 #signup {
   background-color: #f36454;
   padding-top: 2.5rem;
@@ -10158,25 +10164,25 @@ h3 {
   text-align: center;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 1085, ../scss/app_v1.scss */
+  /* line 1077, ../scss/app_v1.scss */
   #signup {
     padding-top: 3.125rem;
     padding-bottom: 4.375rem;
   }
 }
-/* line 1097, ../scss/app_v1.scss */
+/* line 1089, ../scss/app_v1.scss */
 #signup p {
   margin-bottom: 20px;
 }
-/* line 1102, ../scss/app_v1.scss */
+/* line 1094, ../scss/app_v1.scss */
 #signup a {
   text-decoration: none;
 }
-/* line 1106, ../scss/app_v1.scss */
+/* line 1098, ../scss/app_v1.scss */
 #signup a:hover {
   color: #f36454;
 }
-/* line 1112, ../scss/app_v1.scss */
+/* line 1104, ../scss/app_v1.scss */
 #signup input.button {
   margin: 0 auto;
   cursor: pointer;
@@ -10196,13 +10202,13 @@ h3 {
   letter-spacing: 1.2px;
   width: 100%;
 }
-/* line 1137, ../scss/app_v1.scss */
+/* line 1129, ../scss/app_v1.scss */
 #signup input.button:hover {
   background-color: #FFFFFF;
   color: #f36454;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 1112, ../scss/app_v1.scss */
+  /* line 1104, ../scss/app_v1.scss */
   #signup input.button {
     font-size: 1.5rem;
     width: auto;
@@ -10211,7 +10217,7 @@ h3 {
   }
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 1112, ../scss/app_v1.scss */
+  /* line 1104, ../scss/app_v1.scss */
   #signup input.button {
     font-size: 1.5rem;
     width: auto;
@@ -10220,13 +10226,13 @@ h3 {
   }
 }
 
-/* line 1158, ../scss/app_v1.scss */
+/* line 1150, ../scss/app_v1.scss */
 #mc_embed_signup {
   background-color: transparent;
   clear: left;
 }
 
-/* line 1165, ../scss/app_v1.scss */
+/* line 1157, ../scss/app_v1.scss */
 #mce-EMAIL {
   -webkit-appearance: none;
   outline: none;
@@ -10241,14 +10247,14 @@ h3 {
   margin-bottom: 1.25rem;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 1165, ../scss/app_v1.scss */
+  /* line 1157, ../scss/app_v1.scss */
   #mce-EMAIL {
     font-size: 1.375rem;
     margin-bottom: 1.25rem;
   }
 }
 
-/* line 1189, ../scss/app_v1.scss */
+/* line 1181, ../scss/app_v1.scss */
 #signup_form {
   webkit-transition: all 0.30s ease-in-out;
   -moz-transition: all 0.30s ease-in-out;
@@ -10257,26 +10263,26 @@ h3 {
   overflow: hidden;
 }
 
-/* line 1199, ../scss/app_v1.scss */
+/* line 1191, ../scss/app_v1.scss */
 .center {
   text-align: center;
 }
 
-/* line 1204, ../scss/app_v1.scss */
+/* line 1196, ../scss/app_v1.scss */
 .section {
   width: 100%;
   padding-top: 1.875rem;
   padding-bottom: 1.875rem;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 1204, ../scss/app_v1.scss */
+  /* line 1196, ../scss/app_v1.scss */
   .section {
     padding-top: 3.125rem;
     padding-bottom: 3.125rem;
   }
 }
 
-/* line 1217, ../scss/app_v1.scss */
+/* line 1209, ../scss/app_v1.scss */
 #testimonials {
   background-color: #f36454;
   padding-top: 2.5rem;
@@ -10284,11 +10290,11 @@ h3 {
   text-align: center;
 }
 
-/* line 1224, ../scss/app_v1.scss */
+/* line 1216, ../scss/app_v1.scss */
 .testimonial {
   margin-top: 15px;
 }
-/* line 1228, ../scss/app_v1.scss */
+/* line 1220, ../scss/app_v1.scss */
 .testimonial p {
   font-size: 20px;
   font-family: 'Avenir-Book', 'Open Sans', sans-serif;
@@ -10296,13 +10302,13 @@ h3 {
   margin-bottom: 0px !important;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 1228, ../scss/app_v1.scss */
+  /* line 1220, ../scss/app_v1.scss */
   .testimonial p {
     font-size: 24px;
   }
 }
 
-/* line 1240, ../scss/app_v1.scss */
+/* line 1232, ../scss/app_v1.scss */
 .testimonal_image {
   margin: 0 auto;
   display: block;
@@ -10312,34 +10318,34 @@ h3 {
   height: 60px;
 }
 
-/* line 1250, ../scss/app_v1.scss */
+/* line 1242, ../scss/app_v1.scss */
 #testimonial_sydsvenskan {
   background-image: url("../assets/images/testimonial_sydsvenskan@2x.png");
 }
-/* line 1254, ../scss/app_v1.scss */
+/* line 1246, ../scss/app_v1.scss */
 #testimonial_sydsvenskan:hover {
   background-image: url("../assets/images/testimonial_sydsvenskan_hover@2x.png");
 }
 
-/* line 1259, ../scss/app_v1.scss */
+/* line 1251, ../scss/app_v1.scss */
 #testimonial_breakit {
   background-image: url("../assets/images/testimonial_breakit@2x.png");
 }
-/* line 1263, ../scss/app_v1.scss */
+/* line 1255, ../scss/app_v1.scss */
 #testimonial_breakit:hover {
   background-image: url("../assets/images/testimonial_breakit_hover@2x.png");
 }
 
-/* line 1268, ../scss/app_v1.scss */
+/* line 1260, ../scss/app_v1.scss */
 #testimonial_gp {
   background-image: url("../assets/images/testimonial_gp@2x.png");
 }
-/* line 1272, ../scss/app_v1.scss */
+/* line 1264, ../scss/app_v1.scss */
 #testimonial_gp:hover {
   background-image: url("../assets/images/testimonial_gp_hover@2x.png");
 }
 
-/* line 1278, ../scss/app_v1.scss */
+/* line 1270, ../scss/app_v1.scss */
 #footer {
   color: #0d8f8e;
   background-color: #15b6b5;
@@ -10347,36 +10353,36 @@ h3 {
   padding-bottom: 2.5rem;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 1278, ../scss/app_v1.scss */
+  /* line 1270, ../scss/app_v1.scss */
   #footer {
     padding-top: 2.5rem;
     padding-bottom: 3.125rem;
   }
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 1278, ../scss/app_v1.scss */
+  /* line 1270, ../scss/app_v1.scss */
   #footer {
     padding-top: 2.5rem;
     padding-bottom: 3.125rem;
   }
 }
-/* line 1296, ../scss/app_v1.scss */
+/* line 1288, ../scss/app_v1.scss */
 #footer .likeWrapper {
   display: inline-block;
   margin-bottom: 1.25rem;
   height: 1.875rem;
 }
-/* line 1303, ../scss/app_v1.scss */
+/* line 1295, ../scss/app_v1.scss */
 #footer #footer_menu {
   margin: 0 auto;
   text-align: center;
 }
-/* line 1309, ../scss/app_v1.scss */
+/* line 1301, ../scss/app_v1.scss */
 #footer .footer_btn {
   display: inline-block;
   cursor: pointer;
 }
-/* line 1315, ../scss/app_v1.scss */
+/* line 1307, ../scss/app_v1.scss */
 #footer #fb_button {
   margin-right: 20px;
   background-repeat: no-repeat;
@@ -10386,17 +10392,17 @@ h3 {
   background-size: 43px 44px;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 1315, ../scss/app_v1.scss */
+  /* line 1307, ../scss/app_v1.scss */
   #footer #fb_button {
     margin-right: 30px;
   }
 }
-/* line 1331, ../scss/app_v1.scss */
+/* line 1323, ../scss/app_v1.scss */
 #footer #fb_button:hover {
   background: url("../assets/images/buttons/fb_highlighted@2x.png");
   background-size: 43px 44px;
 }
-/* line 1338, ../scss/app_v1.scss */
+/* line 1330, ../scss/app_v1.scss */
 #footer #twitter_button {
   margin-right: 20px;
   background-repeat: no-repeat;
@@ -10406,17 +10412,17 @@ h3 {
   background-size: 46px 38px;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 1338, ../scss/app_v1.scss */
+  /* line 1330, ../scss/app_v1.scss */
   #footer #twitter_button {
     margin-right: 30px;
   }
 }
-/* line 1354, ../scss/app_v1.scss */
+/* line 1346, ../scss/app_v1.scss */
 #footer #twitter_button:hover {
   background: url("../assets/images/buttons/twitter_highlighted@2x.png");
   background-size: 46px 38px;
 }
-/* line 1361, ../scss/app_v1.scss */
+/* line 1353, ../scss/app_v1.scss */
 #footer #insta_button {
   margin-right: 20px;
   background-repeat: no-repeat;
@@ -10426,17 +10432,17 @@ h3 {
   background-size: 43px 44px;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 1361, ../scss/app_v1.scss */
+  /* line 1353, ../scss/app_v1.scss */
   #footer #insta_button {
     margin-right: 30px;
   }
 }
-/* line 1377, ../scss/app_v1.scss */
+/* line 1369, ../scss/app_v1.scss */
 #footer #insta_button:hover {
   background: url("../assets/images/buttons/instagram_highlighted@2x.png");
   background-size: 43px 44px;
 }
-/* line 1384, ../scss/app_v1.scss */
+/* line 1376, ../scss/app_v1.scss */
 #footer #blog_button {
   background-repeat: no-repeat;
   margin-right: 5px;
@@ -10446,27 +10452,27 @@ h3 {
   background-size: 28px 47px;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 1384, ../scss/app_v1.scss */
+  /* line 1376, ../scss/app_v1.scss */
   #footer #blog_button {
     margin-right: 15px;
   }
 }
-/* line 1400, ../scss/app_v1.scss */
+/* line 1392, ../scss/app_v1.scss */
 #footer #blog_button:hover {
   background-repeat: no-repeat;
   background: url("../assets/images/buttons/blog_highlighted@2x.png");
   background-size: 28px 47px;
 }
-/* line 1409, ../scss/app_v1.scss */
+/* line 1401, ../scss/app_v1.scss */
 #footer a {
   color: #0d8f8e;
   text-decoration: underline;
 }
-/* line 1414, ../scss/app_v1.scss */
+/* line 1406, ../scss/app_v1.scss */
 #footer a:active {
   color: #0d8f8e;
 }
-/* line 1419, ../scss/app_v1.scss */
+/* line 1411, ../scss/app_v1.scss */
 #footer a:hover {
   color: #FFFFFF;
 }

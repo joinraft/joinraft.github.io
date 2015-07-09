@@ -845,7 +845,7 @@ h3
 
 	@media #{$large-up} {
 		padding-top:rem-calc(30px);
-		padding-bottom:rem-calc(100px);
+		padding-bottom:rem-calc(80px);
 	}
 
 	h1{
@@ -888,6 +888,11 @@ h3
 		&:hover{
 			text-decoration: underline;
 		}
+	}
+
+	#appstore-link{
+		opacity: 0.4;
+		font-size: rem-calc(16px);
 	}
 
 	#logo_2{
@@ -934,6 +939,7 @@ h3
 	input.button
 	{
 		margin: 0 auto;
+		margin-bottom: rem-calc(30px);
 		cursor: pointer;
 
 		font-family: 'Avenir-Heavy', 'Open Sans', sans-serif;
@@ -961,20 +967,6 @@ h3
 			background-color:#FFFFFF;
 			color: $raftUser;
 		}
-
-		// @media #{$medium-up} {
-		// 	font-size:rem-calc(24px);
-		// 	width: auto;
-		// 	padding-left: rem-calc(60px);
-		// 	padding-right: rem-calc(60px);
-		// }
-
-		// @media #{$large-up} {
-		// 	font-size:rem-calc(24px);
-		// 	width: auto;
-		// 	padding-left: rem-calc(60px);
-		// 	padding-right: rem-calc(60px);
-		// }
 	}
 
 	background-color:transparent;
