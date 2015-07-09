@@ -53,26 +53,38 @@
       branch.init('key_live_eklzN27gYaTBvpHxmRjK4pcmrvhsGgZX');
       
       function sendSMS(form) {
-          var phone = form.phone.value;
-          var linkData = {
-              tags: [],
-              channel: 'Website',
-              feature: 'TextMeTheApp',
-              data: {
-                  "foo": "bar"
-              }
-          };
-          var options = {};
+
+        var phone = form.phone.value;
+        var linkData = {
+            tags: [],
+            channel: 'Website',
+            feature: 'TextMeTheApp',
+            data: {
+                "foo": "bar"
+            }
+        };
+        var options = {};
+
+        if(phone == ""){
+          alert("You need to enter a phone number.");
+        }
+        else{
+          
+          form.sendbutton.value = "Sending...";
+
           var callback = function(err, result) {
-              if (err) {
-                  alert("Sorry, something went wrong.");
-              }
-              else {
-                  alert("SMS sent!");
-              }
+            if (err) {
+              alert("Sorry, something went wrong.");
+              form.sendbutton.value = "Text me the app";
+            }
+            else {
+              alert("Text sent!");
+              form.sendbutton.value = "Text sent!";
+            }
           };
           branch.sendSMS(phone, linkData, options, callback);
           form.phone.value = "";
+        }
       }
 
     </script>
@@ -95,6 +107,7 @@
             <div class="menu_btn"><a href="http://www.joinraft.com/sv/" title="Swedish version">Svenska</div>
             <div class="menu_btn"><a href="https://www.dropbox.com/sh/r1it7rsxhvk40z7/AAD6iwW4ax9W8_dNlAYLhpIea?dl=0" title="Press kit" target="_blank">Press kit</a></div>
             <div class="menu_btn"><a href="http://www.joinraft.com/faq.html" title="FAQ">FAQ</a></div>
+            <div class="menu_btn"><a href="http://www.joinraft.com/" title="Home">Home</a></div>
           </div>
         </div>
 
@@ -120,7 +133,7 @@
             <form onsubmit="sendSMS(this); return false;">
               <input id="phone" name="phone" type="tel" placeholder="+1(000) 000-0000" />
               <br/>
-              <input id="send-sms-button" type="submit" value="Text me the app" class="button" />
+              <input id="send-sms-button" name="sendbutton" type="submit" value="Text me the app" class="button" />
             </form>
           </div>
         </div>
