@@ -1,8 +1,27 @@
-/* Foundation was made by ZURB, an interaction design and design strategy firm in Campbell, CA */
-/* zurb.com */
-/* humanstxt.org */
+/* TEAM */
+Your title: Raft
+Site: hello@joinraft.com
+Twitter: @joinraft
+Location: Stockholm, Sweden
+
+Your title: Erik Johansson
+Site: erik@joinraft.com
+Twitter: @erik_johansson
+Location: Stockholm, Sweden
+
+Your title: Anders Ekman
+Site: anders@joinraft.com
+Twitter: @anders_ekman
+Location: Stockholm, Sweden
+
+Your title: Fredrik Johansson
+Site: fredrik@joinraft.com
+Twitter: @signar
+Location: Stockholm, Sweden
+
 
 /* SITE */
-  Standards: HTML5, CSS3
-  Components: jQuery, Orbit, Reveal
-  Software: Coda, Textmate, Git
+Last update: 2015/07/09
+Standards: HTML5, CSS3
+Components: Modernizr, jQuery, Foundation, Branch, SASS, Compass
+Software: Sketch, Sublime, Git
