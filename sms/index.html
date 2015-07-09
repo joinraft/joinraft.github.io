@@ -70,15 +70,15 @@
         }
         else{
           
-          form.sendbutton.value = "Sending...";
+          form.sendbutton.value = "SENDING...";
 
           var callback = function(err, result) {
             if (err) {
               alert("Sorry, something went wrong.");
-              form.sendbutton.value = "Text me the app";
+              form.sendbutton.value = "TEXT ME THE APP";
             }
             else {
-              form.sendbutton.value = "Text sent!";
+              form.sendbutton.value = "TEXT SENT!";
             }
           };
           branch.sendSMS(phone, linkData, options, callback);
