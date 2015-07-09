@@ -78,7 +78,6 @@
               form.sendbutton.value = "Text me the app";
             }
             else {
-              alert("Text sent!");
               form.sendbutton.value = "Text sent!";
             }
           };
@@ -123,17 +122,17 @@
         </div>
 
         <div class="row">
-          <div class="large-6 large-offset-3 columns center">
-            <h1>Get Raft on your phone</h1>
+          <div class="large-6 large-offset-3 medium-8 medium-offset-2 columns center">
+            <h1>Send Raft to your phone</h1>
             <p>Just enter your phone number and we will send you a download link to your phone.</p>
           </div>
         </div>
         <div class="row">
-          <div class="large-6 large-offset-3 columns center">
+          <div class="large-6 large-offset-3 medium-8 medium-offset-2 columns center">
             <form onsubmit="sendSMS(this); return false;">
               <input id="phone" name="phone" type="tel" placeholder="+1(000) 000-0000" />
               <br/>
-              <input id="send-sms-button" name="sendbutton" type="submit" value="Text me the app" class="button" />
+              <input id="send-sms-button" name="sendbutton" type="submit" value="TEXT ME THE APP" class="button" />
             </form>
           </div>
         </div>
