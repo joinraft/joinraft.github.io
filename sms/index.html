@@ -1,0 +1,235 @@
+  <!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Raft - Calendar with friends</title>
+    <link rel="icon" type="image/ico" href="http://www.joinraft.com/assets/favicon/favicon.ico"/>
+    <link rel="stylesheet" href="stylesheets/app_v1.css" />
+
+    <link rel="alternate" href="http://www.joinraft.com" hreflang="en-us" />
+    <link rel="alternate" href="http://www.joinraft.com/sv/" hreflang="sv-se" />
+
+    <!-- Meta -->
+    <meta name="description" content="Raft for iPhone is the easiest way to share calendar with your friends and loved ones. Make planning fun and spend more time together.">
+    <meta name="keywords" content="calendar,share,plan,friends,family,partner,family,iphone,ios,app,google calendar,gcal,ical,outlook,sync,fun,live,social,chat,messaging">
+
+    <meta name="twitter:card" content="app">
+    <meta name="twitter:site" content="@joinraft">
+    <meta name="twitter:description" content="The easiest way to share calendar with friends and loved ones.">
+    <meta name="twitter:app:country" content="US">
+    <meta name="twitter:app:name:iphone" content="Raft - Calendar with friends">
+    <meta name="twitter:app:id:iphone" content="949819247">
+    <meta name="twitter:app:url:iphone" content="raft://">
+
+    <meta property="og:title" content="Raft - Calendar with friends"/>
+    <meta property="fb:app_id" content="406893086091235">
+    <meta property="og:description" content="The easiest way to share calendar with your friends"/>
+    <meta property="og:url" content="http://www.joinraft.com"/>
+    <meta property="og:site_name" content="Raft"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:image" content="http://www.joinraft.com/assets/images/fb_share_image.png" />
+    <meta property="fb:admins" content="637611614" />
+    <meta name="apple-itunes-app" content="app-id=949819247">
+    
+    <!-- Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,400,300,700' rel='stylesheet' type='text/css'>
+    <script src="bower_components/modernizr/modernizr.js"></script>
+
+    <script>
+     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+     m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+     })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+     ga('create', 'UA-54812689-1', 'auto');
+     ga('send', 'pageview');
+
+    </script> 
+
+    <script type="text/javascript">
+      (function(b,r,a,n,c,h,_,s,d,k){if(!b[n]||!b[n]._q){for(;s<_.length;)c(h,_[s++]);d=r.createElement(a);d.async=1;d.src="https://cdn.branch.io/branch-v1.6.1.min.js";k=r.getElementsByTagName(a)[0];k.parentNode.insertBefore(d,k);b[n]=h}})(window,document,"script","branch",function(b,r){b[r]=function(){b._q.push([r,arguments])}},{_q:[],_v:1},"init data addListener removeListener setIdentity logout track link sendSMS referrals credits creditHistory applyCode validateCode getCode redeem banner closeBanner".split(" "), 0);
+
+      branch.init('key_test_jniDPWYj7iGsDoTwaKiK4nipuzaxJuai');
+      function sendSMS(form) {
+        branch.sendSMS(
+          phone: form.phone.text,
+          {
+            channel: 'Website',
+            feature: 'Text-Me-The-App',
+            data: {
+              foo: 'bar'
+            }
+          },
+          { make_new_link: false }, // Default: false. If set to true, sendSMS will generate a new link even if one already exists.
+          function(err) { console.log(err); }
+        }
+      });
+
+    </script>
+
+  </head>
+  <body>
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/sv_SE/sdk.js#xfbml=1&appId=406893086091235&version=v2.0";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+    <div id="wrapper">
+      <div class="section" id="info">
+        
+        <div class="row" id="header_menu">
+          <div class="large-12 columns center">
+            <div class="menu_btn"><a href="http://www.joinraft.com/sv/" title="Swedish version">Svenska</div>
+            <div class="menu_btn"><a href="https://www.dropbox.com/sh/r1it7rsxhvk40z7/AAD6iwW4ax9W8_dNlAYLhpIea?dl=0" title="Press kit" target="_blank">Press kit</a></div>
+            <div class="menu_btn"><a href="http://www.joinraft.com/faq.html" title="FAQ">FAQ</a></div>
+          </div>
+        </div>
+
+        
+        <div class="row">
+          <div class="large-12 columns center">
+            <div id="logoWrapper">
+              <div id="logo_2"></div>
+              <div id="loves"></div>
+              <div id="product_hunt"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section" id="sms">
+        <div class="row">
+          <div class="large-12 columns center">
+            <form onsubmit="sendSMS(this); return false;">
+              <input id="phone" name="phone" type="tel" placeholder="(650) 123-4567" />
+              <br/>
+              <input type="submit"/>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <div class="section" id="footer">
+        <div class="row">
+          <div class="large-8 large-offset-2 columns center">
+            <div class="likeWrapper">
+              <div class="fb-like" data-href="http://www.facebook.com/joinraft" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="large-8 large-offset-2 columns center">          
+            <div id="footer_menu">
+              <ul>
+                <li class="footer_btn" id="fb_button"></li>
+                <li class="footer_btn" id="twitter_button"></li>
+                <li class="footer_btn" id="insta_button"></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+            <div class="small-10 small-offset-1 columns center">
+              <p class="small">RAFT IS MADE IN STOCKOLM, SWEDEN BY <a href="mailto:hello@joinraft.com">JOIN RAFT AB</a></p>
+          </div>
+        </div>  
+        <div class="row">
+          <div class="medium-6 medium-offset-3 small-10 small-offset-1 columns center">
+              <p><small class="appleInfo">Apple, the Apple logo, iPhone and iPad are trademarks of Apple Inc., registered in the U.S. and other countries. App Store is a service mark of Apple Inc.</small></p>
+            </div>
+        </div>
+        <div class="row">
+          <div class="small-10 small-offset-1 columns center">
+            <a href="https://mixpanel.com/f/partner">
+            <img id="mixpanel_logo" src="//cdn.mxpnl.com/site_media/images/partner/badge_light@2x.png" alt="Mobile Analytics" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="../bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="../bower_components/foundation/js/foundation.min.js"></script>
+    <script src="../js/app.js"></script>
+  </body>
+</html>
+
+
+<script type="text/javascript">
+
+  $("#logo_2").click(function(){
+    ga('send', 'event', 'button', 'click', 'Home button');
+    window.location = "http://www.joinraft.com/";
+  });
+
+  $("#faq_button").click(function(){
+    ga('send', 'event', 'button', 'click', 'FAQ button');
+    window.location = "http://www.joinraft.com/faq.html";
+  });
+
+  $("#appstore").click(function(){
+    ga('send', 'event', 'button', 'click', 'App Store button');
+
+    var actions_ref = getQueryVariable("ref");
+
+    if(actions_ref == "producthunt"){
+      window.open("https://bnc.lt/l/4xqS-D-_FL");
+    }
+    else{
+      window.open("https://bnc.lt/l/4xqPKOk_Lj");
+    }
+  });
+
+  $("#download_button").click(function(){
+    ga('send', 'event', 'button', 'click', 'Download button');
+    
+    var actions_ref = getQueryVariable("ref");
+    if(actions_ref == "producthunt"){
+      window.open("https://bnc.lt/l/4xqS-D-_FL");
+    }
+    else{
+      window.open("https://bnc.lt/l/4xqPKOk_Lj");
+    }
+  });
+
+  $("#language_button").click(function(){
+    ga('send', 'event', 'button', 'click', 'Swedish button');
+    window.location = "http://www.joinraft.com/sv/";
+  });
+
+  $("#press_button").click(function(){
+    ga('send', 'event', 'button', 'click', 'Press Kit button');
+    window.open("https://www.dropbox.com/sh/r1it7rsxhvk40z7/AAD6iwW4ax9W8_dNlAYLhpIea?dl=0");
+  });
+
+  $("#fb_button").click(function(){
+    ga('send', 'event', 'button', 'click', 'Facebook button');
+    window.open("https://www.facebook.com/joinraft");
+  });
+
+  $("#twitter_button").click(function(){
+    ga('send', 'event', 'button', 'click', 'Twitter button');
+    window.open("http://www.twitter.com/joinraft");
+  });
+
+  $("#insta_button").click(function(){
+    ga('send', 'event', 'button', 'click', 'Instagram button');
+    window.open("http://www.instagram.com/joinraft");
+  });
+
+  $("#blog_button").click(function(){
+    ga('send', 'event', 'button', 'click', 'Blog button');
+    window.open("http://joinraft.tumblr.com");
+  });
+
+  function validateForm()
+  {
+    ga('send', 'event', 'button', 'click', 'Sign up');
+    return true;
+  }
+
+</script>

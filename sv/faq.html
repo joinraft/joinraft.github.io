@@ -47,7 +47,8 @@
 
     </script> 
 
-    <script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script>
+
+    
   </head>
   <body>
     <div id="fb-root"></div>
@@ -207,85 +208,6 @@
 
 
 <script type="text/javascript">
-
-  $("#play_button").click(function(){
-    loadVideo();
-  });
-
-  // youtube
-
-  var tag = document.createElement('script');
-
-  tag.src = "https://www.youtube.com/iframe_api";
-  var firstScriptTag = document.getElementsByTagName('script')[0];
-  firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
-
-  var videoHeight;
-  var player;
-  var videoLoaded = false;
-
-  function onYouTubeIframeAPIReady() {
-  }
-
-  function loadVideo(){
-    videoFullHeight();
-
-    $("#play_button_wrapper").hide().animate();
-
-    if(($('#elementId').length == 0)){
-      $( "#raft_video").append('<div id="player"></div>');
-    }
-
-    player = new YT.Player('player', {
-      height: '100%',
-      width: '100%',
-      videoId: '0UERh6UN510',
-      playerVars:{'theme':'light', 'autoplay':'1', 'modestbranding':'1', 'rel':'0', 'showinfo':'0', 'autohide':'1', 'controls':'0'},
-      events: {
-        'onReady': onPlayerReady,
-        'onStateChange': onPlayerStateChange
-      }
-    });
-  }
-
-  function onPlayerReady(event) {
-    // event.target.playVideo();
-  }
-  function onPlayerStateChange(event) {
-    console.log("player state change");
-
-    if(event.data == YT.PlayerState.PLAYING){
-    }
-    else if(event.data == YT.PlayerState.ENDED){
-      resetIframe();
-      videoNormal();
-    }
-    else if(event.data == YT.PlayerState.PAUSED){
-      
-    }    
-  }
-  function stopVideo() {
-    player.stopVideo();
-  }
-
-  function resetIframe(){
-    $("#play_button_wrapper").show().animate();
-    $("#player").remove();
-  }
-
-  function videoFullHeight()
-  {
-      var ratio = 1920/1080;
-      var width = $( document ).width();
-      videoHeight = $("#raft_video").height();
-      var fullHeight = width/ratio;
-      $( "#raft_video" ).animate({height: fullHeight}, 300);
-  }
-
-  function videoNormal()
-  {
-    $( "#raft_video" ).animate({height: videoHeight}, 500);
-  }
 
   function getQueryVariable(variable)
   {
