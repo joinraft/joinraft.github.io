@@ -57,9 +57,7 @@
           {
             channel: 'Website',
             feature: 'Text-Me-The-App',
-            data: {
-              foo: 'bar'
-            }
+            data: {foo: 'bar'}
           },
           { make_new_link: false }, // Default: false. If set to true, sendSMS will generate a new link even if one already exists.
           function(err) { console.log(err); }
@@ -103,11 +101,13 @@
 
       <div class="section" id="sms">
         <div class="row">
-          <div class="large-12 columns center">
+          <div class="large-8 large-offset-2 columns center">
+            <h1>Send me a link to Raft</h1>
+            <p>By entering your phone number we will send you a one time text message with a link to download the app</p>
             <form onsubmit="sendSMS(this); return false;">
               <input id="phone" name="phone" type="tel" placeholder="(650) 123-4567" />
               <br/>
-              <input type="submit"/>
+              <input id="send-sms-button" type="submit" class="button" />
             </form>
           </div>
         </div>
