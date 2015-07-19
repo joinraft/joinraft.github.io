@@ -9523,7 +9523,7 @@ h3 {
   padding-top: 1.875rem;
   padding-bottom: 0;
   background-color: transparent;
-  background: url(../assets/images/raft_deck_blurred_mobile.png) no-repeat center center fixed;
+  background: url(../assets/images/raft_deck_blurred_mobile.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -9553,7 +9553,7 @@ h3 {
   /* line 468, ../scss/app_v1.scss */
   #info {
     background-color: transparent;
-    background: url(../assets/images/raft_deck_blurred_tablet.png) no-repeat center center fixed;
+    background: url(../assets/images/raft_deck_blurred_tablet.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -9564,7 +9564,7 @@ h3 {
   /* line 468, ../scss/app_v1.scss */
   #info {
     background-color: transparent;
-    background: url(../assets/images/raft_deck_blurred.png) no-repeat center center fixed;
+    background: url(../assets/images/raft_deck_blurred.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
