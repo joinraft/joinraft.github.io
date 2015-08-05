@@ -23,5 +23,5 @@ Location: Stockholm, Sweden
 /* SITE */
 Last update: 2015/07/09
 Standards: HTML5, CSS3
-Components: Modernizr, jQuery, Foundation, Branch, SASS, Compass
+Components: Modernizr, jQuery, Foundation, SASS, Compass, Branch
 Software: Sketch, Sublime, Git

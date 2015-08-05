@@ -1,0 +1,48 @@
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width" />
+    <style type="text/css">
+      body
+      {
+        background-color: #15B6B5;
+      }
+    </style>
+  </head>
+  <body>
+  <script type="text/javascript" src="../bower_components/jquery/dist/jquery.js"></script>
+  <script type="text/javascript">
+
+
+// To avoid the "protocol not supported" alert, fail must open another app.
+var appstorefail = "https://www.facebook.com/dialog/feed?app_id=406893086091235&display=popup&caption=Raft%20-%20Dela%20kalender%20med%20vänner%20och%20familj&link=http://www.joinraft.com/sv/&redirect_uri=http://www.joinraft.com/sv/";
+
+function applink(fail){
+    return function(){
+        var clickedAt = +new Date;
+        // During tests on 3g/3gs this timeout fires immediately if less than 500ms.
+        setTimeout(function(){
+            // To avoid failing on return to MobileSafari, ensure freshness!
+            if (+new Date - clickedAt < 2000){
+                window.location = fail;
+            }
+        }, 500);    
+    };
+}
+
+$(document).ready(function(){
+
+  var IS_IPAD = navigator.userAgent.match(/iPad/i) != null;
+  var IS_IPHONE = (navigator.userAgent.match(/iPhone/i) != null) || (navigator.userAgent.match(/iPod/i) != null);
+  
+  if (IS_IPAD || IS_IPHONE) {
+    window.location = "raft://share" + deeplink;
+    applink(appstorefail)();   
+  }
+  else{
+    window.location = appstorefail;
+  }
+});
+
+</script>
+</body>
+</html>
