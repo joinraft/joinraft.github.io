@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Raft - Calendar with friends</title>
     <link rel="icon" type="image/ico" href="http://www.joinraft.com/assets/favicon/favicon.ico"/>
-    <link rel="stylesheet" href="../stylesheets/app_v1.css" />
+    <link rel="stylesheet" href="../stylesheets/events.css" />
     <link type="text/plain" rel="author" href="http://www.joinraft.com/humans.txt" />
 
     <link rel="alternate" href="http://www.joinraft.com" hreflang="en-us" />
@@ -59,21 +59,23 @@
       js.src = "//connect.facebook.net/sv_SE/sdk.js#xfbml=1&appId=406893086091235&version=v2.0";
       fjs.parentNode.insertBefore(js, fjs);
     }(document, 'script', 'facebook-jssdk'));</script>
-    <div id="wrapper">
-      <div class="section" id="header">
-        
-        <div class="row" style="position:relative;">
 
-          <div class="large-6 large-offset-0 large-pull-0 medium-10 medium-offset-1 small-10 small-offset-1 columns">
-              <div id="counter">
-                20 DAYS UNTIL
-              </div>
-              <div id="title"></div>              
-              <div id="date"></div>
-              <div id="joinButton"></div>
+    <div id="wrapper">
+      <div class="section" id="eventHeader">
+        <div class="row" style="position:relative;">
+          <div class="large-10 large-offset-1 large-pull-0 medium-10 medium-offset-1 small-10 small-offset-1 columns center">
+            
+            <div id="headerContent">
+              <div id="counter">20 DAYS UNTIL</div>
+              <div id="title">Big day in Stockholm</div>              
+              <div id="date">SATURDAY, OCTOBER 11<br>11:00 - 13:00</div>
+              <div id="joinButton">Join the event</div>
+            </div>
+
+            <div id="background"></div>
+
           </div>
         </div>
-      
       </div>
 
       <div class="section" id="content">
@@ -87,20 +89,18 @@
           </div>
           <div class="large-6 columns center"> 
             <h3>GOING</h3>
-            <div class="userItem">
-            
-            </div>
+            <div class="userItem"></div>
           </div>
         </div>
       </div>
 
       <div class="section" id="eventFooter">
-  
         <div class="row">
           <div class="medium-6 medium-offset-3 small-10 small-offset-1 columns center">
-              <p><small class="appleInfo">Apple, the Apple logo, iPhone and iPad are trademarks of Apple Inc., registered in the U.S. and other countries. App Store is a service mark of Apple Inc.</small></p>
-            </div>
+            <p><small class="appleInfo">Apple, the Apple logo, iPhone and iPad are trademarks of Apple Inc., registered in the U.S. and other countries. App Store is a service mark of Apple Inc.</small></p>
+          </div>
         </div>
+
       </div>
     </div>
 
@@ -113,16 +113,4 @@
 
 <script type="text/javascript">
 
-  $("#play_button").click(function(){
-    loadVideo();
-  });
-
-  $("#language_button").click(function(){
-    ga('send', 'event', 'button', 'click', 'Swedish button');
-    window.location = "http://www.joinraft.com/sv/";
-  });
-
-  function loadData(){
-      $("#title").
-  }
 </script>
