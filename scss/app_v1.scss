@@ -44,6 +44,7 @@ html, body {
     margin: 0;
     padding: 0;
     height: 100%;
+
 	font-weight:300;
 	color:#FFFFFF;
 	background-color:$raftUser;
@@ -1264,6 +1265,34 @@ h3
 		background-image:url('../assets/images/testimonial_gp_hover@2x.png');
 	}
 }
+
+#testimonial_proto{
+	background-image:url('../assets/images/testimonial_proto@2x.png');
+
+	&:hover
+	{
+		background-image:url('../assets/images/testimonial_proto_hover@2x.png');
+	}
+}
+
+#testimonial_appadvice{
+	background-image:url('../assets/images/testimonial_appadvice@2x.png');
+
+	&:hover
+	{
+		background-image:url('../assets/images/testimonial_appadvice_hover@2x.png');
+	}
+}
+
+#testimonial_startups{
+	background-image:url('../assets/images/testimonial_startups@2x.png');
+
+	&:hover
+	{
+		background-image:url('../assets/images/testimonial_startups_hover@2x.png');
+	}
+}
+
 
 #footer
 {
