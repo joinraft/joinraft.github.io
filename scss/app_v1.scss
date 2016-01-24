@@ -649,6 +649,25 @@ h3
 	}
 }
 
+#description
+{
+	padding-top:rem-calc(30px);
+	padding-bottom:rem-calc(20px);
+
+	@media #{$medium-up} {
+		padding-top:rem-calc(50px);
+		padding-bottom:rem-calc(40px);
+	}
+
+	p{
+		font-size:rem-calc(18);
+
+		@media #{$medium-up} {
+			font-size:rem-calc(20);
+		}
+	}
+}
+
 #faq_header{
 	padding-top:rem-calc(30px);
 	padding-bottom:rem-calc(20px);
