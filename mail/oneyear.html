@@ -30,14 +30,14 @@
 
 		h2{
 			margin-top: 10px;
-			font-size:24px; 
+			font-size:28px; 
 			font-family:'Avenir-Roman', 'Arial'; 
-			margin-bottom: 0px;
+			margin-bottom: 10px;
 		}
 
 		h3{
 			margin-top: 10px;
-			font-size:24px; 
+			font-size:20px; 
 			font-family:'Avenir-Roman', 'Arial'; 
 			margin-bottom: 0px;
 		}
@@ -64,7 +64,7 @@
 		}
 
 		#contentImage{
-			margin-top: 10px;
+			margin-top: 30px;
 			margin-bottom: 20px;
 		}
 
@@ -74,7 +74,7 @@
 			max-width: 600px;
 			margin: 0 auto;
 			margin-top: 40px;
-			margin-bottom: 40px;
+			margin-bottom: 20px;
 			padding: 30px;
 			padding-top: 30px;
 			padding-left: 50px;
@@ -112,7 +112,7 @@
 			border-radius: 35px; 
 			position:relative; 
 			margin:0 auto; 
-			margin-bottom:20px; 
+			margin-bottom:40px; 
 			display:inline-block; 
 			font-family:'Avenir-Black', 'Arial-Black'; 
 			padding:13px; 
@@ -131,6 +131,7 @@
 			border-radius: 35px; 
 			position:relative; 
 			margin:0 auto; 
+			margin-top:10px; 
 			margin-bottom:20px; 
 			display:inline-block; 
 			font-family:'Avenir-Black', 'Arial-Black'; 
@@ -161,6 +162,12 @@
 	    /* MOBILE VERSION */
 		@media only screen and (max-width: 680px){
 
+			body
+			{
+				background-color: #FFFFFF;
+				margin:0px;
+			}
+
 			h1{
 				text-align: center;
 				font-size: 34px;
@@ -171,7 +178,7 @@
 			}
 
 			h3{
-				font-size: 18px;
+				font-size: 16px;
 			}
 
 			p{
@@ -194,15 +201,13 @@
 
 				margin-left: auto;
 				margin-right: auto;
-
-			/*margin-top: 10px;
-			margin-bottom: 30px;*/
 			}
 
 		   	#wrapper{
-		   		background-color: transparent;
+/*		   		background-color:;*/
 				margin-top: 0px;
-				padding-bottom: 20px;
+				margin-bottom: 20px;
+				padding-bottom: 30px;
 				padding-top: 20px;
 				padding-left: 20px;
 				padding-right: 20px;
@@ -219,40 +224,43 @@
 
 	<div id="wrapper">
 		<div id="cornerLogo"></div>
-
-		<div id="headerImage">
-			<img style="width:100%;" src="http://www.joinraft.com/assets/images/mail/raft-one-year.jpg">
-		</div>
-
 		<div id="textContent">
-			<h3>Hello fellow Rafters!</h3> 
-			<p>One year ago, on January 26 2015, we launched Raft in Sweden. Since then we have found our way to 89 countries around the world. It's been an amazing year us and we hope that Raft has made your year a bit better too.</p>
+			<h2>Today we celebrate 1 year!</h2> 
+			<p>One year ago, on January 26 2015, we launched Raft in Sweden. Since then we have found our way to 89 countries around the world. It's been an amazing year and we hope that Raft has helped many of you.</p>
 
-			<p><b>Here's are some things that we have done during the year to make planning even better</b></p>
-			<ul>
-				<li><b>It helps to make it fun to plan.</b><br>Now you can add GIFs and pictures, and even boring stuff becomes fun to plan.</li>
-				<li><b>Sharing plans make them stick</b><br>Telling your friends about your plans, even outside Raft, makes it more likely you'll reach your goals.</li>
-				<li><b>It's hard to make habits stick</b><br>It often takes 5-7 days for new users to get the hang of the benefits of using Raft.</li>
-				<li><b>People don't like re-adding things.</b><br>This is why we made it possible to see and share existing calendar events in Raft with a simple tap.</li>
-			</ul>
-
-			<h3>Better together</h3>
-			<p>Raft is best when used with others. So tell them about Raft and start planning and looking forward to 2016 together.</p>
-			<br>
+			<h3>Here's what we've learned about making planning fun:</h3>
+			<div id="contentImage" style="margin-top:20px !important;">
+				<img style="width:100%;" src="http://joinraft.com/gifs/raft-search.gif">
+			</div>
+			<p><b>1. An image is worth 1000 words. A GIF millions.</b><br>Needless to say, we made it possible to add GIFs and pictures, and voila, even boring stuff becomes fun to plan.</p>
+			<div id="contentImage">
+				<img style="width:100%;" src="http://joinraft.com/gifs/raft-share.gif">
+			</div>
+			<p><b>2. Sharing plans makes them stick</b><br>Telling your friends about your plans, even outside Raft, makes it more likely you'll reach your goals. Now you can, just tap the "Share" button :)</p>
+			<div id="contentImage">
+				<img style="width:100%;" src="http://joinraft.com/gifs/raft-upcoming.gif">
+			</div>
+			<p><b>3. Having things to look forward to things makes us happier.</b><br>With this in mind we build a beautiful view where all the things you have planned is listed with big beautiful images.</p>
+			<p><b>BUT most importantly: Planning is better together</b><br>
+			Raft is best when used with others. So before you head back into Raft, tell your friends to join you in planning 2016 together.</p>
 		</div>
 
 		<div style="clear:both;"></div>
 		
 		<div style="text-align:center;">
-			<a style="color:#15B6B5; text-decoration:none;" href="https://www.facebook.com/dialog/feed?app_id=406893086091235&display=page&caption=test&link=http://app.joinraft.com/c0Eb/N7IWg0wwqq&redirect_uri=http://www.joinraft.com" target="_blank">
-				<div id="fb_button">Tell your friends</div>
+			<a style="color:#15B6B5; text-decoration:none;" href="https://www.facebook.com/dialog/feed?app_id=406893086091235&display=page&link=http://app.joinraft.com/c0Eb/N7IWg0wwqq&redirect_uri=http://www.joinraft.com" target="_blank">
+				<div id="fb_button">Invite your friends</div>
 			</a>
 		</div>
+
 		<div style="text-align:center;">
-			<a style="color:#15B6B5; text-decoration:none;" href="http://www.joinraft.com/openapp.html?deeplink=calendar" target="_blank">
-				<div id="rsvp_button">+ Add a plan</div>
-			</a>
+			<small style="text-align:center; color:#979797;">And thank you for using Raft</small>
 		</div>
+<!-- 		<div style="text-align:center;">
+			<a style="color:#15B6B5; text-decoration:none;" href="http://www.joinraft.com/openapp.html?deeplink=calendar" target="_blank">
+				<div id="rsvp_button">Plan a surprise party</div>
+			</a>
+		</div> -->
 	</div>
 	<div id="footer">
 		<small>This email has been sent by Join Raft AB.<br>Don't want any more emails? <a href="<< unsub >>" target="_blank">Unsubscribe here</a>.<br>
