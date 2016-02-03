@@ -9523,7 +9523,7 @@ h3 {
   padding-top: 1.875rem;
   padding-bottom: 0;
   background-color: #000000;
-  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) 50%, rgba(0, 0, 0, 0.4)), url("https://media.giphy.com/media/Qa90LuaAr0ynS/giphy.gif") no-repeat center center;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) 50%, rgba(0, 0, 0, 0.4)), url("https://media.giphy.com/media/BYf761fIVv8Hu/giphy.gif") no-repeat center center;
   -webkit-background-size: auto 100%;
   -moz-background-size: auto 100%;
   -o-background-size: auto 100%;
@@ -9553,7 +9553,7 @@ h3 {
   /* line 471, ../scss/app_v1.scss */
   #info {
     background-color: #000000;
-    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) 50%, rgba(0, 0, 0, 0.4)), url("https://media.giphy.com/media/Qa90LuaAr0ynS/giphy.gif") no-repeat center center fixed;
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) 50%, rgba(0, 0, 0, 0.4)), url("https://media.giphy.com/media/BYf761fIVv8Hu/giphy.gif") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -9564,7 +9564,7 @@ h3 {
   /* line 471, ../scss/app_v1.scss */
   #info {
     background-color: #000000;
-    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2) 50%, rgba(0, 0, 0, 0.4)), url("https://media.giphy.com/media/Qa90LuaAr0ynS/giphy.gif") no-repeat center center fixed;
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2) 50%, rgba(0, 0, 0, 0.4)), url("https://media.giphy.com/media/BYf761fIVv8Hu/giphy.gif") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
