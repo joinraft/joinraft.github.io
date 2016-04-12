@@ -470,23 +470,38 @@ h3
 
 #openfailed
 {
-	padding-top:rem-calc(100px);
+	padding-top:rem-calc(140px);
 	padding-bottom:rem-calc(0px);
 	background-color:#000000;
 	background:linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2) 50%, rgba(0, 0, 0, 0.4)), url($fail-gif) no-repeat center center;
-		-webkit-background-size: cover;
-		-moz-background-size: cover;
-		-o-background-size: cover;
-		background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 	height:100%;
 
-	h3{
+	h2{
+		font-size: rem-calc(50px);
 		text-align:center;
 		margin-bottom:20px;
 	}
 
+	h3{
+		font-size: rem-calc(30px);
+		text-align:center;
+		margin-bottom:20px;
+	}
+
+	p{
+		font-size:rem-calc(20);
+	}
+
 	a:hover{
 		color: white;
+	}
+
+	@media #{$medium-up} {
+
 	}
 }
 
