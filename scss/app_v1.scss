@@ -40,6 +40,7 @@
 //   "foundation/components/visibility";
 
 $top-gif: "https://media.giphy.com/media/hoHdXh5FCOaGY/giphy.gif"; //"https://media.giphy.com/media/BYf761fIVv8Hu/giphy.gif"; //https://media.giphy.com/media/xUcmepXMEJWbm/giphy.gif"; //https://media.giphy.com/media/Qa90LuaAr0ynS/giphy.gif"; //"https://media.giphy.com/media/BYf761fIVv8Hu/giphy.gif";
+$fail-gif: "https://media.giphy.com/media/8lUDy1HTU9vRm/giphy.gif"; 
 
 html, body {
     font-family: 'Avenir', 'Open Sans', sans-serif;
@@ -466,6 +467,28 @@ h3
 }
 
 /* SECTIONS */
+
+#openfailed
+{
+	padding-top:rem-calc(100px);
+	padding-bottom:rem-calc(0px);
+	background-color:#000000;
+	background:linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2) 50%, rgba(0, 0, 0, 0.4)), url($fail-gif) no-repeat center center;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+	height:100%;
+
+	h3{
+		text-align:center;
+		margin-bottom:20px;
+	}
+
+	a:hover{
+		color: white;
+	}
+}
 
 #info
 {
