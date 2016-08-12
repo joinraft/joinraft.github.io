@@ -10573,25 +10573,19 @@ h3 {
 }
 /* line 1504, ../scss/app_v1.scss */
 #footer #insta_button {
-  margin-right: 20px;
+  margin-right: 0px;
   background-repeat: no-repeat;
   width: 43px;
   height: 44px;
   background: url("../assets/images/buttons/instagram@2x.png");
   background-size: 43px 44px;
 }
-@media only screen and (min-width: 40.063em) {
-  /* line 1504, ../scss/app_v1.scss */
-  #footer #insta_button {
-    margin-right: 30px;
-  }
-}
-/* line 1520, ../scss/app_v1.scss */
+/* line 1515, ../scss/app_v1.scss */
 #footer #insta_button:hover {
   background: url("../assets/images/buttons/instagram_highlighted@2x.png");
   background-size: 43px 44px;
 }
-/* line 1527, ../scss/app_v1.scss */
+/* line 1522, ../scss/app_v1.scss */
 #footer #blog_button {
   background-repeat: no-repeat;
   margin-right: 5px;
@@ -10601,27 +10595,27 @@ h3 {
   background-size: 28px 47px;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 1527, ../scss/app_v1.scss */
+  /* line 1522, ../scss/app_v1.scss */
   #footer #blog_button {
     margin-right: 15px;
   }
 }
-/* line 1543, ../scss/app_v1.scss */
+/* line 1538, ../scss/app_v1.scss */
 #footer #blog_button:hover {
   background-repeat: no-repeat;
   background: url("../assets/images/buttons/blog_highlighted@2x.png");
   background-size: 28px 47px;
 }
-/* line 1552, ../scss/app_v1.scss */
+/* line 1547, ../scss/app_v1.scss */
 #footer a {
   color: #0d8f8e;
   text-decoration: underline;
 }
-/* line 1557, ../scss/app_v1.scss */
+/* line 1552, ../scss/app_v1.scss */
 #footer a:active {
   color: #0d8f8e;
 }
-/* line 1562, ../scss/app_v1.scss */
+/* line 1557, ../scss/app_v1.scss */
 #footer a:hover {
   color: #FFFFFF;
 }

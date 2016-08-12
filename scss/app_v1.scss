@@ -1502,12 +1502,7 @@ h3
 	
 	#insta_button
 	{
-		margin-right: 20px;
-
-		@media #{$medium-up} {
-			margin-right: 30px;
-		}
-
+		margin-right: 0px;
 		background-repeat:no-repeat;
 
 		width:43px;
