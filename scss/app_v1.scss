@@ -1442,6 +1442,11 @@ h3
 		height: rem-calc(30px);
 	}
 
+	#insta-grid
+	{
+		margin-bottom: 15px;
+	}
+
 	#footer_menu
 	{
 		margin:0 auto;
@@ -1452,6 +1457,11 @@ h3
 	{
 		display: inline-block;
 		cursor:pointer;
+	}
+
+	#footer_list{
+		padding-left: 0px;
+		margin-left: 0px;
 	}
 
 	#fb_button
