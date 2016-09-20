@@ -1065,16 +1065,16 @@ h3
 	background-color:$raftUser;
 
 	padding-top: rem-calc(50px);
-	padding-bottom: rem-calc(40px);
+	padding-bottom: rem-calc(50px);
 
 	@media #{$medium-up} {
-		padding-top: rem-calc(40px);
-		padding-bottom: rem-calc(50px);
+		padding-top: rem-calc(80px);
+		padding-bottom: rem-calc(0px);
 	}
 
 	@media #{$large-up} {
-		padding-top: rem-calc(40px);
-		padding-bottom: rem-calc(50px);
+		padding-top: rem-calc(80px);
+		padding-bottom: rem-calc(0px);
 	}
 
 	a
