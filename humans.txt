@@ -17,11 +17,11 @@ Location: Stockholm, Sweden
 Your title: Fredrik Johansson
 Site: fredrik@joinraft.com
 Twitter: @signar
-Location: Stockholm, Sweden
+Location: Umeå, Sweden
 
 
 /* SITE */
-Last update: 2015/07/09
+Last update: 2017/03/30
 Standards: HTML5, CSS3
 Components: Modernizr, jQuery, Foundation, SASS, Compass, Branch
 Software: Sketch, Sublime, Git
