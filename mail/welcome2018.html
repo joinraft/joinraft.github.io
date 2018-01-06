@@ -9,7 +9,6 @@
 
 		p{
 			font-family:'Avenir-Roman', 'Arial'; 
-			line-height: 1.4;
 			font-size:16px;
 		}
 
@@ -27,7 +26,6 @@
 			font-size:24px; 
 			font-family:'Avenir-Heavy', 'Arial-Black';
 			margin-bottom: 20px;
-			line-height: 1.2;
 			letter-spacing: -0.5;
 		}
 
@@ -43,18 +41,18 @@
 
 		ul{
 			margin-left: 0px;
-			padding-left: 20px;
+			padding-left: 0px;
 		}
 
 		ol{
 			margin-left: 0px;
+			padding-left: 24px;
 		}
 
 		li{
 			font-family:'Avenir-Roman', 'Arial'; 
-			margin-bottom: 15px;
+			margin-bottom: 10px;
 			font-size:16px;
-			letter-spacing: -0.1;
 		}
 
 		.social{
@@ -226,12 +224,10 @@ margin:0px;
 				margin-top: 0px;
 				margin-bottom: 15px;
 				font-size: 18px;
-				line-height: 1.1;
 			}
 
 			p, li{
 				font-size: 15px;
-				line-height: 1.0;
 			}
 
 			small{
@@ -321,22 +317,21 @@ margin:0px;
 				<img src="http://www.joinraft.com/app/welcome-header.jpg">
 			</div>
 			<div id="textContent">
-				<h1>Hi {{ $name }} and thank you for joining Raft!</h1>
-				<h2>Take these two simple steps to improve your experience of Raft and start syncing your life with your family and friends.</h2>
+				<h1>Hello {{$name}} and thank you for joining Raft!</h1>
+				<h2>Here are three easy steps that will improve your experience of Raft and start off your journey towards a life in sync with family and friends.</h2>
 				<ol>
-					<li>Invites your closest friends and partner by using the buttons below.</li>
-					<li>Add a plan you look forward to in 2018 and count down the days.</li>
+					<li>Send personal Raft-invites to family and friends using the buttons below.</li>
+					<li>Plan something you really look forward to and start counting the days.</li>
+					<li>Surprise someone special with an invite to some quality time together.</li>
 				</ol>
-				<p>That's it for now. We hope you'll come to like your new calendar.<br>
-				Have a great first Raft day &amp; happy planning!</p>
 				<div style="clear:both;"></div>
 				<div style="padding-top:10px; text-align:center;">
-					<a style="color:#FFFFFF; text-decoration:none;" href="mailto:?subject=Be my partner on Raft&amp;body=Hi, I just downloaded Raft, a calendar app for couples that makes planning life together easy and fun {{ $partner_referral_link }}" target="_blank">
-						<div id="partner_button">Invite your partner</div>&nbsp;</a><br>
-					<a style="color:#FFFFFF; text-decoration:none;" href="mailto:?subject=Be my friend on Raft&amp;body=Hi, I just downloaded Raft, a smart and fun calendar app for couples and close friends where we can share plans and find time together \{{ $friends_referral_link \}}" target="_blank">
+					<a style="color:#FFFFFF; text-decoration:none;" href="mailto:?subject=Be my friend on Raft&amp;body=Hi, I just downloaded Raft, a smart and fun calendar app for couples and close friends where we can share plans and find time together. Join me! {{$friends_referral_link}}" target="_blank">
 						<div id="friend_button">Invite a close friend</div>&nbsp;</a><br>
-					<a href="https://www.facebook.com/dialog/feed?app_id=406893086091235&display=page&caption=Join%20me%20on%20Raft&link=\{{ $friends_referral_link \}}&redirect_uri=http://www.joinraft.com/invite-redirect" target="_blank">
-						<div id="fb_button">Post invite on Facebook</div></a>
+					<a style="color:#FFFFFF; text-decoration:none;" href="mailto:?subject=Be my partner on Raft&amp;body=Hi, I just downloaded Raft, a calendar app for couples that makes planning life together easy and fun. Join me! {{$partner_referral_link}}" target="_blank">
+						<div id="partner_button">Invite your partner</div>&nbsp;</a><br>
+					<a href="https://www.facebook.com/dialog/feed?app_id=406893086091235&display=page&caption=Join%20me%20on%20Raft&link={{$friends_referral_link}}&redirect_uri=http://www.joinraft.com/invite-redirect" target="_blank">
+						<div id="fb_button">Post on Facebook</div></a>
 				</div>
 			</div>
         </div>
